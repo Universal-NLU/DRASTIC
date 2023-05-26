@@ -1,4 +1,5 @@
-# DRASTIC [![CC BY 4.0][cc-by-shield]][cc-by]
+# DRASTIC 
+[![CC BY 4.0][cc-by-shield]][cc-by]
 Dataset and scripts for the DRASTIC corpus of DRS-annotated texts 
 
 This work is licensed under a
