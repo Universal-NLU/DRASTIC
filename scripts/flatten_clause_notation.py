@@ -90,7 +90,7 @@ def is_equal(drs1,drs2):
     drs2=set([str(i) for i in drs2])
     return drs1==drs2
 
-# Replaces x with y 
+# Replaces x with y
 def replace_in_drs(drs,x,y):
     for i in range(len (drs)):
         for j in range(len(drs[i])):
@@ -135,9 +135,9 @@ def remove_continuation_if_presupposition_exists(drs,comment):
                 if z:
                     drs,comment = remove_statement_from_drs(drs,[x, "CONTINUATION", y],comment)
                     break
-           
+
         if is_equal(original, drs):
-            break 
+            break
     return drs,comment
 
 all_drses= sys.stdin.read()
@@ -147,7 +147,7 @@ all_drses=[i.strip(" ") for i in all_drses.split("\n\n") if i.strip()!=""]
 all_drses=[i.split("\n") for i in all_drses]
 all_drses=[[i for i in j if not i.strip(" ").startswith("%") or i.startswith("%%%")] for j in all_drses]
 headings=[[i for i in j if i.startswith("%")] for j in all_drses]
-comments=[[("%" + i).rsplit("%",1)[1].strip(" ") for i in j if not i.startswith("%") and not i==""] for j in all_drses]
+comments=[[("%" + i).rsplit("%",1)[1].strip(" ") for i in j if not i.startswith("%") and not i=="" and i.find("%")!=-1 ] for j in all_drses]
 #comments=[ [i[0], ""] if i[0]==i[1] else i for i in comments]
 all_drses=[ [j.rsplit("%")[0].strip(" ") for j in i ] for i in all_drses]
 all_drses=[ "\n".join([ j for j in i if j!=""]) for i in all_drses]
@@ -162,7 +162,7 @@ for indice in range(len(all_drses)):
     for i in range(len(DRS_clause)):
         if DRS_clause[i] not in unique_content:
             unique_content.append(DRS_clause[i])
-            new_comment.append(comment[i])
+            new_comment.append("" if comment==[] else comment[i])
     comment=new_comment
     DRS_clause=[i.split(" ") for i in unique_content]
     del unique_content
@@ -178,9 +178,9 @@ for indice in range(len(all_drses)):
     max_length+=1
     DRS_clause=[i + " "*(max_length-len(i)) for i in DRS_clause]
     for i in range(len(DRS_clause)):
-        DRS_clause[i]+= ("% "+comment[i] if comment[i].strip(" ")!=DRS_clause[i].strip(" ") and comment[i]!="" else "")
+        DRS_clause[i]+= ("% "+comment[i] if comment[i].strip(" ")!=DRS_clause[i].strip(" ") and comment[i].strip()!="" else "")
     DRS_clause="\n".join(DRS_clause) + "\n"
-    heading="\n".join([ "".join(i) for i in heading]) 
+    heading="\n".join([ "".join(i) for i in heading])
 
     print(heading)
     print(DRS_clause)
