@@ -1,0 +1,32 @@
+%%% text = Syntactic and metrical units often match in poetry.
+b1 REF s1              % Syntactic [0...9] conll=[1]
+b1 REF x1              % Syntactic [0...9] conll=[1]
+b1 Attribute x1 s1     % Syntactic [0...9] conll=[1]
+b1 syntactic "a.01" s1 % Syntactic [0...9] conll=[1]
+b1 unity "n.02" x1     %
+b1 REF s2              % metrical [14...22] conll=[3]
+b1 REF x2              
+b1 Attribute x2 s2     % metrical [14...22] conll=[3]
+b1 metrical "a.02" s2  % metrical [14...22] conll=[3]
+b1 unit "n.02" x2      % units [23...28] conll=[4]
+b1 REF x5              
+b1 entity "n.01" x5    %
+b1 Sub x5 x1           %
+b1 Sub x5 x2           %
+b1 REF x4              % often [29...34] conll=[5]
+b1 Frequency e1 x4     % often [29...34] conll=[5]
+b1 Quantity x4 "+"     % often [29...34] conll=[5]
+b1 time "n.01" x4      % often [29...34] conll=[5]
+b2 PRESUPPOSITION b1   % match [35...40] conll=[6]
+b2 REF t1              % match [35...40] conll=[6]
+b2 EQU t1 "now"        % match [35...40] conll=[6]
+b2 time "n.08" t1      % match [35...40] conll=[6]
+b1 REF e1              % match [35...40] conll=[6]
+b1 Theme e1 x5         % match [35...40] conll=[6]
+b1 Time e1 t1          % match [35...40] conll=[6]
+b1 match "v.01" e1     % match [35...40] conll=[6]
+b1 Context e1 x3       % in [41...43] conll=[7]
+b1 REF x3              % poetry [44...50] conll=[8]
+b1 poetry "n.01" x3    % poetry [44...50] conll=[8]
+
+

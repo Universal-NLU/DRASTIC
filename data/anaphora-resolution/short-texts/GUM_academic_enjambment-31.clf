@@ -1,0 +1,17 @@
+%%% text = Lexical enjambment: Breaking up a word.
+b1 REF e2               % Lexical [0...7] conll=[1]
+b1 Participant e2 x1    % Lexical [0...7] conll=[1]
+b1 event "v.01" e2      % Lexical [0...7] conll=[1]
+b1 REF s1               % Lexical [0...7] conll=[1]
+b1 REF x1               % Lexical [0...7] conll=[1]
+b1 Attribute x1 s1      % Lexical [0...7] conll=[1]
+b1 lexical "a.01" s1    % Lexical [0...7] conll=[1]
+b1 enjambment "n.01" x1 % enjambment [8...18] conll=[2]
+b1 Sub e1 x1            % : [18...19] conll=[3]
+b1 REF e1               % Breaking [20...28] conll=[4]
+b1 Theme e1 x2          % Breaking [20...28] conll=[4]
+b1 break_up "v.08" e1   % Breaking [20...28] conll=[4]
+b1 REF x2               % a [32...33] conll=[6]
+b1 word "n.01" x2       % word [34...38] conll=[7]
+
+

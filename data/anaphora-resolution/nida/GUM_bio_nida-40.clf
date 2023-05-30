@@ -1,0 +1,42 @@
+%%% text = Such translations then would be concerned with such correspondences as poetry to poetry, sentence to sentence, and concept to concept.
+b2 PRESUPPOSITION b1         %
+b1 REF x2                    % Such [0...4] conll=[1]
+b1 translation "n.01" x2     % translations [5...17] conll=[2]
+b2 REF t1                    % would [23...28] conll=[4]
+b2 time "n.08" t1            % would [23...28] conll=[4]
+b2 TPR "now" t1              % would [23...28] conll=[4]
+b1 Time e1 t1                % would [23...28] conll=[4]
+b1 REF e1                    % concerned [32...41] conll=[6]
+b1 concern "v.01" e1         % concerned [32...41] conll=[6]
+b1 Theme e1 x2               % concerned [32...41] conll=[6]
+b1 Co-Theme e1 x4            % with [42...46] conll=[7]
+b1 REF x4                    % correspondences [52...67] conll=[9]
+b1 correspondence "n.05" x4  % correspondences [52...67] conll=[9]
+b1 Sub x4 x8                 % such [47...51] as [68...70] conll=[8,10]
+b1 Sub x4 x9                 % such [47...51] as [68...70] conll=[8,10]
+b1 Sub x4 x10                % such [47...51] as [68...70] conll=[8,10]
+b2 REF x8                    %
+b2 correspondence "n.05" x8  %
+b2 Theme x8 x1               %
+b2 REF x1                    % poetry [71...77] conll=[11]
+b2 poetry "n.01" x1          % poetry [71...77] conll=[11]
+b2 Co-Theme x8 x11           % to [78...80] conll=[12]
+b2 REF x11                   % poetry [81...87] conll=[13]
+b2 poetry "n.01" x11         % poetry [81...87] conll=[13]
+b2 REF x9                    %
+b2 correspondence "n.05" x9  %
+b2 Theme x9 x3               %
+b2 REF x3                    % sentence [89...97] conll=[15]
+b2 sentence "n.01" x3        % sentence [89...97] conll=[15]
+b2 Co-Theme x9 x6            % to [98...100] conll=[16]
+b2 REF x6                    % sentence [101...109] conll=[17]
+b2 sentence "n.01" x6        % sentence [101...109] conll=[17]
+b2 REF x10                   %
+b2 correspondence "n.05" x10 %
+b2 Theme x10 x5              %
+b2 REF x5                    % concept [115...122] conll=[20]
+b2 concept "n.01" x5         % concept [115...122] conll=[20]
+b2 Co-Theme x10 x7           % to [123...125] conll=[21]
+b2 REF x7                    % concept [126...133] conll=[22]
+b2 concept "n.01" x7         % concept [126...133] conll=[22]
+

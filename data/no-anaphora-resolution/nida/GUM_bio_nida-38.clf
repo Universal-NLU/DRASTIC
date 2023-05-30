@@ -1,0 +1,22 @@
+%%% text = Formal Equivalence (F-E) and Dynamic Equivalence (D-E).
+b2 PRESUPPOSITION b1     %
+b1 REF e1                %
+b1 Participant e1 x1     %
+b1 event "v.01" e1       %
+b2 REF s1                % Formal [0...6] conll=[1]
+b2 formal "a.04" s1      % Formal [0...6] conll=[1]
+b2 Attribute x2 s1       % Formal [0...6] conll=[1]
+b2 REF x2                % Equivalence [7...18] conll=[2]
+b2 equivalence "n.02" x2 % Equivalence [7...18] conll=[2]
+b2 Name x2 "f-e"         % F-E [20...23] conll=[4,5,6]
+b2 REF x1                % and [25...28] conll=[8]
+b2 entity "n.01" x1      % and [25...28] conll=[8]
+b2 Sub x1 x2             % and [25...28] conll=[8]
+b2 Sub x1 x3             % and [25...28] conll=[8]
+b2 REF s2                % Dynamic [29...36] conll=[9]
+b2 dynamic "a.01" s2     % Dynamic [29...36] conll=[9]
+b2 Attribute x3 s2       % Dynamic [29...36] conll=[9]
+b2 REF x3                % Equivalence [37...48] conll=[10]
+b2 equivalence "n.02" x3 % Equivalence [37...48] conll=[10]
+b2 Name x3 "d-e"         % D-E [50...53] conll=[12,13,14]
+

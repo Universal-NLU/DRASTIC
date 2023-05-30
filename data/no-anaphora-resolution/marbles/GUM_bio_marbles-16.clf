@@ -1,0 +1,37 @@
+%%% text = Marbles uploads a new video to her YouTube channel every Wednesday / Thursday.
+b2 PRESUPPOSITION b1         %
+b2 REF x1                    % Marbles [0...7] conll=[1]
+b2 person "n.01" x1          % Marbles [0...7] conll=[1]
+b2 Name x1 "marbles"         % Marbles [0...7] conll=[1]
+b1 REF e1                    % uploads [8...15] conll=[2]
+b1 upload "v.01" e1          % uploads [8...15] conll=[2]
+b1 Agent e1 x1               % uploads [8...15] conll=[2]
+b1 Patient e1 x2             % uploads [8...15] conll=[2]
+b1 Time e1 t1                % uploads [8...15] conll=[2]
+b2 REF t1                    % uploads [8...15] conll=[2]
+b2 EQU t1 "now"              % uploads [8...15] conll=[2]
+b2 time "n.08" t1            % uploads [8...15] conll=[2]
+b1 REF x2                    % a [16...17] conll=[3]
+b1 REF s1                    % new [18...21] conll=[4]
+b1 new "a.02" s1             % new [18...21] conll=[4]
+b1 Attribute x2 s1           % new [18...21] conll=[4]
+b1 video "n.02" x2           % video [22...27] conll=[5]
+b1 Goal e1 x5                % to [28...30] conll=[6]
+b2 REF x4                    % her [31...34] conll=[7]
+b2 female "n.02" x4          % her [31...34] conll=[7]
+b2 Owner x5 x4               % her [31...34] conll=[7]
+b2 REF x7                    % YouTube [35...42] conll=[8]
+b2 website "n.01" x7         % YouTube [35...42] conll=[8]
+b2 Name x7 "youtube"         % YouTube [35...42] conll=[8]
+b2 PartOf x5 x7              % YouTube [35...42] conll=[8]
+b2 REF x5                    % channel [43...50] conll=[9]
+b2 channel "n.07" x5         % channel [43...50] conll=[9]
+b1 NEGATION b3               % every
+b3 REF t8                    %
+b3 time "n.08" t8            %
+b3 NEGATION b4               % every
+b4 Time e1 t8                %
+b5 DayOfWeek t8 "wednesday"  % Wednesday
+b3 DIS b5 b6                 % /
+b6 DayOfWeek t8 "thursday"   % Thursday
+

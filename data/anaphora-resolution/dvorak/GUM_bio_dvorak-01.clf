@@ -1,0 +1,10 @@
+%%% text = Antonín Dvořák
+b1 PRESUPPOSITION b2        %
+b2 REF e1                   %
+b2 Participant e1 x1        %
+b2 event "v.01" e1          %
+b1 REF x1                   % Antonín~Dvořák [0...14] conll=[1,2]
+b1 Name x1 "antonín~dvořák" % Antonín~Dvořák [0...14] conll=[1,2]
+b1 male "n.02" x1           % Antonín~Dvořák [0...14] conll=[1,2]
+
+

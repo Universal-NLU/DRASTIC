@@ -1,0 +1,19 @@
+%%% text = For more information, see "Dynamic and formal equivalence."
+b2 PRESUPPOSITION b1                        %
+b2 REF x1                                   %
+b2 EQU x1 "hearer"                          %
+b2 person "n.01" x1                         %
+b1 Purpose e1 x3                            % For [0...3] conll=[1]
+b1 REF x4                                   % more [4...8] conll=[2]
+b1 more "a.01" x4                           % more [4...8] conll=[2]
+b1 Quantity x3 x4                           % more [4...8] conll=[2]
+b1 REF x3                                   % information [9...20] conll=[3]
+b1 information "n.01" x3                    % information [9...20] conll=[3]
+b1 REF e1                                   % see [22...25] conll=[5]
+b1 see "v.20" e1                            % see [22...25] conll=[5]
+b1 Agent e1 x1                              % see [22...25] conll=[5]
+b1 Topic e1 x2                              % see [22...25] conll=[5]
+b2 REF x2                                   % Dynamic~and~formal~equivalence [27...57] conll=[7,8,9,10]
+b2 Name x2 "dynamic~and~formal~equivalence" % Dynamic~and~formal~equivalence [27...57] conll=[7,8,9,10]
+b2 webpage "n.01" x2                        % Dynamic~and~formal~equivalence [27...57] conll=[7,8,9,10]
+

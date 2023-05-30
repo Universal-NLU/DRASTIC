@@ -1,0 +1,16 @@
+%%% text = to give information on both form and content;
+b1 REF e1                % give [3...7] conll=[13]
+b1 give "v.04" e1        % give [3...7] conll=[13]
+b1 Theme e1 x2           % give [3...7] conll=[13]
+b1 REF x2                % information [8...19] conll=[14]
+b1 information "n.01" x2 % information [8...19] conll=[14]
+b1 Theme x2 x3           % on [20...22] conll=[15]
+b2 REF x4                % form [28...32] conll=[17]
+b2 form "n.10" x4        % form [28...32] conll=[17]
+b2 REF x3                % and [33...36] conll=[18]
+b2 entity "n.01" x3      % and [33...36] conll=[18]
+b2 Sub x3 x4             % and [33...36] conll=[18]
+b2 Sub x3 x5             % and [33...36] conll=[18]
+b2 REF x5                % content [37...44] conll=[19]
+b2 content "n.02" x5     % content [37...44] conll=[19]
+

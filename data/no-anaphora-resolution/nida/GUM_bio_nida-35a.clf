@@ -1,0 +1,11 @@
+%%% text = 3. The type of audience:
+b2 PRESUPPOSITION b1  %
+b1 REF e1             %
+b1 Participant e1 x1  %
+b1 event "v.01" e1    %
+b2 REF x1             % The [0...3] conll=[1,2]
+b2 type "n.01" x1     % type [4...8] conll=[2,3]
+b2 Theme x1 x2        % of [9...11] conll=[3]
+b2 REF x2             % audience [12...20] conll=[4,5]
+b2 audience "n.02" x2 % audience [12...20] conll=[4,5]
+

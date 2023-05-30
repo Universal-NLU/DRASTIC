@@ -1,0 +1,37 @@
+%%% text = Cross-clause enjambment: Between a noun antecedent and the pronoun heading the relative clause that complements the antecedent.
+b1 REF e1                    % 
+b1 Participant e1 x1         %
+b1 event "v.01" e1           %
+b1 REF x1                    % Cross-clause [0...12] conll=[1]
+b1 REF s1                    % Cross-clause [0...12] conll=[1]
+b1 Attribute x1 s1           % Cross-clause [0...12] conll=[1]
+b1 cross-clause "a.01" s1    % Cross-clause [0...12] conll=[1]
+b1 enjambment "n.01" x1      % enjambment [13...23] conll=[2]
+b1 Theme x1 x12              % Between [25...32] conll=[4]
+b1 Co-Theme x1 x4            % Between [25...32] conll=[4]
+b1 REF x2                    % noun [35...39] conll=[6]
+b1 Attribute x12 x2          % noun [35...39] conll=[6]
+b1 noun "n.01" x2            % noun [35...39] conll=[6]
+b1 REF x12                   % antecedent [40...50] conll=[7]
+b1 antecedent "n.04" x12     % antecedent [40...50] conll=[7]
+b3 PRESUPPOSITION b1         % the [55...58] conll=[9]
+b3 REF x4                    % the [55...58] conll=[9]
+b3 pronoun "n.01" x4         % pronoun [59...66] conll=[10]
+b3 REF e3                    % heading [67...74] conll=[11]
+b3 Theme e3 x4               % heading [67...74] conll=[11]
+b3 Co-Theme e3 x5            % heading [67...74] conll=[11]
+b3 head "v.04" e3            % heading [67...74] conll=[11]
+b3 REF x5                    % the [75...78] conll=[12]
+b3 relative_clause "n.01" x5 % relative~clause [79...94] conll=[13,14]
+b3 REF t1                    % complements [100...111] conll=[16]
+b3 time "n.08" t1            % complements [100...111] conll=[16]
+b3 EQU t1 "now"              % complements [100...111] conll=[16]
+b3 REF e2                    % complements [100...111] conll=[16]
+b3 complement "v.01" e2      % complements [100...111] conll=[16]
+b3 Time e2 t1                % complements [100...111] conll=[16]
+b3 Theme e2 x5               % complements [100...111] conll=[16]
+b3 Co-Theme e2 x6            % complements [100...111] conll=[16]
+b3 REF x6                    % the [112...115] conll=[17]
+b3 antecedent "n.04" x6      % antecedent [116...126] conll=[18]
+
+

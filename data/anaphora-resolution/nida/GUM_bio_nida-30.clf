@@ -1,0 +1,15 @@
+%%% text = Hence, there can be no fully exact translations."
+b2 POSSIBILITY b3        % can [13...16] conll=[4]
+b3 REF e1                % be [17...19] conll=[5]
+b3 be "v.04" e1          % be [17...19] conll=[5]
+b3 Theme e1 x2           % be [17...19] conll=[5]
+b1 NEGATION b2           % no [20...22] conll=[6]
+b3 REF x2                % no [20...22] conll=[6]
+b3 REF s2                % fully [23...28] conll=[7]
+b3 fully "r.01" s2       % fully [23...28] conll=[7]
+b3 Attribute s1 s2       % fully [23...28] conll=[7]
+b3 REF s1                % exact [29...34] conll=[8]
+b3 exact "a.01" s1       % exact [29...34] conll=[8]
+b3 Attribute x2 s1       % exact [29...34] conll=[8]
+b3 translation "n.01" x2 % translations [35...47] conll=[9]
+

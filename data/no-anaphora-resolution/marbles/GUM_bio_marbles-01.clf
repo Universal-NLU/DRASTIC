@@ -1,0 +1,9 @@
+%%% text = Jenna Marbles
+b1 REF e1                  %
+b1 Participant e1 x1       %
+b1 event "v.01" e1         %
+b2 PRESUPPOSITION b1       %
+b2 REF x1                  % Jenna~Marbles [0...13] conll=[1,2]
+b2 person "n.01" x1        % Jenna~Marbles [0...13] conll=[1,2]
+b2 Name x1 "jenna~marbles" % Jenna~Marbles [0...13] conll=[1,2]
+

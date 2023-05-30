@@ -1,0 +1,21 @@
+%%% text = The name "Marbles" comes from her dog "Mr. Marbles".
+b2 PRESUPPOSITION b1     % The [0...3] conll=[1]
+b2 REF x1                % The [0...3] conll=[1]
+b2 name "n.01" x1        % name [4...8] conll=[2]
+b2 EQU x1 "marbles"      % Marbles [10...17] conll=[4]
+b1 REF e1                % comes [19...24] conll=[6]
+b1 come "v.05" e1        % comes [19...24] conll=[6]
+b1 Theme e1 x1           % comes [19...24] conll=[6]
+b1 Time e1 t1            % comes [19...24] conll=[6]
+b2 REF t1                % comes [19...24] conll=[6]
+b2 EQU t1 "now"          % comes [19...24] conll=[6]
+b2 time "n.08" t1        % comes [19...24] conll=[6]
+b1 Source e1 x3          % from [25...29] conll=[7]
+b2 REF x2                % her [30...33] conll=[8]
+b2 female "n.02" x2      % her [30...33] conll=[8]
+b2 REF x3                % her [30...33] conll=[8]
+b2 Owner x3 x2           % her [30...33] conll=[8]
+b2 dog "n.01" x3         % dog [34...37] conll=[9]
+b2 Name x3 "mr.~marbles" % Mr.~Marbles [39...50] conll=[11,12]
+
+

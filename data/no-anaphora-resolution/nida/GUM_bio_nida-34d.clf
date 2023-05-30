@@ -1,0 +1,38 @@
+%%% text = for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
+b2 PRESUPPOSITION b1          %
+b5 PRESUPPOSITION b4          %
+b1 REF e2                     % 
+b1 event "v.01" e2            %
+b1 Purpose e2 x1              % for [0...3] conll=[42]
+b1 REF x2                     % imperative [4...14] conll=[43]
+b1 imperative "n.01" x2       % imperative [4...14] conll=[43]
+b1 Attribute x1 x2            % imperative [4...14] conll=[43]
+b1 REF x1                     % purposes [15...23] conll=[44]
+b1 purpose "n.01" x1          % purposes [15...23] conll=[44]
+b1 REF e1                     % aim [29...32] conll=[46]
+b1 aim "v.02" e1              % aim [29...32] conll=[46]
+b2 REF t1                     % aim [29...32] conll=[46]
+b2 time "n.08" t1             % aim [29...32] conll=[46]
+b2 EQU t1 "now"               % aim [29...32] conll=[46]
+b1 Time e1 t1                 % aim [29...32] conll=[46]
+b1 Causer e1 x1               % aim [29...32] conll=[46]
+b1 Theme e1 x8                % at [33...35] conll=[47]
+b1 REF e3                     % understanding [45...58] conll=[50]
+b1 understand "v.01" e3       % understanding [45...58] conll=[50]
+b1 Stimulus e3 x5             % understanding [45...58] conll=[50]
+b2 REF x5                     % the [59...62] conll=[51]
+b2 translation "n.01" x5      % translation [63...74] conll=[52]
+b1 REF x8                     % not [36...39] just [40...44] but [75...78] also [79...83] conll=[48,49,53,54]
+b1 entity "n.01" x8           % not [36...39] just [40...44] but [75...78] also [79...83] conll=[48,49,53,54]
+b1 Sub x8 e3                  % not [36...39] just [40...44] but [75...78] also [79...83] conll=[48,49,53,54]
+b1 Sub x8 e4                  % not [36...39] just [40...44] but [75...78] also [79...83] conll=[48,49,53,54]
+b4 REF e4                     % ensuring [87...95] conll=[56]
+b4 ensure "v.01" e4           % ensuring [87...95] conll=[56]
+b4 Theme e4 x6                % ensuring [87...95] conll=[56]
+b3 NEGATION b4                % no [96...98] conll=[57]
+b4 REF x6                     % no [96...98] conll=[57]
+b4 misunderstanding "n.01" x6 % misunderstanding [99...115] conll=[58]
+b4 Stimulus x6 x7             % of [116...118] conll=[59]
+b5 REF x7                     % the [119...122] conll=[60]
+b5 translation "n.01" x7      % translation [123...134] conll=[61]
+

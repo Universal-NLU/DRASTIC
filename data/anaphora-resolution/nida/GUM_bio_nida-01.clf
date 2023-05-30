@@ -1,0 +1,9 @@
+%%% text = Eugene Nida
+b2 PRESUPPOSITION b1      %
+b1 REF e1                 %
+b1 Participant e1 x1      %
+b1 event "v.01" e1        %
+b2 REF x1                 % Eugene~Nida [0...11] conll=[1,2]
+b2 Name x1 "eugene~nida"  % Eugene~Nida [0...11] conll=[1,2]
+b2 male "n.02" x1         % Eugene~Nida [0...11] conll=[1,2]
+

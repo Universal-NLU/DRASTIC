@@ -1,0 +1,20 @@
+%%% text = The Use of Cognitive Digital Games in School:
+b2 REF e1              %
+b2 Participant e1 x1   %
+b2 event "v.01" e1     %
+b1 REF x1              % The [0...3] conll=[1]
+b1 PRESUPPOSITION b2   % The [0...3] conll=[1]
+b1 use "n.01" x1       % Use [4...7] conll=[2]
+b1 Theme x1 x2         % of [8...10] conll=[3]
+b1 REF s1              % Cognitive [11...20] conll=[4]
+b1 cognitive "a.01" s1 % Cognitive [11...20] conll=[4]
+b1 Attribute x2 s1     % Cognitive [11...20] conll=[4]
+b1 REF s2              % Digital [21...28] conll=[5]
+b1 digital "a.01" s2   % Digital [21...28] conll=[5]
+b1 Attribute x2 s2     % Digital [21...28] conll=[5]
+b1 REF x2              % Games [29...34] conll=[6]
+b1 game "n.01" x2      % Games [29...34] conll=[6]
+b1 Location x1 x4      % in [35...37] conll=[7]
+b1 REF x4              % School [38...44] conll=[8]
+b1 school "n.01" x4    % School [38...44] conll=[8]
+

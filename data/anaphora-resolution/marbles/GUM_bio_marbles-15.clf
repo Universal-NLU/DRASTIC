@@ -1,0 +1,10 @@
+%%% text = YouTube
+b1 REF e1            %
+b1 Participant e1 x1 %
+b1 event "v.01" e1   %
+b2 PRESUPPOSITION b1 % YouTube [0...7] conll=[1]
+b2 REF x1            % YouTube [0...7] conll=[1]
+b2 Name x1 "youtube" % YouTube [0...7] conll=[1]
+b2 website "n.01" x1 % YouTube [0...7] conll=[1]
+
+

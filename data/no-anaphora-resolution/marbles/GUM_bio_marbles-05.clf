@@ -1,0 +1,11 @@
+%%% text = Early life
+b1 REF e1            %
+b1 Participant e1 x1 %
+b1 event "v.01" e1   %
+b2 PRESUPPOSITION b1 %
+b2 REF s1            % Early [0...5] conll=[1]
+b2 Attribute x1 s1   % Early [0...5] conll=[1]
+b2 early "a.02" s1   % Early [0...5] conll=[1]
+b2 REF x1            % life [6...10] conll=[2]
+b2 life "n.03" x1    % life [6...10] conll=[2]
+

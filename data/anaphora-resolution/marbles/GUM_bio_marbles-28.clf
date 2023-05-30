@@ -1,0 +1,22 @@
+%%% text = Marbles appeared as herself in Smosh: The Movie. [18]
+b2 PRESUPPOSITION b1          %
+b2 REF x1                     % Marbles [0...7] conll=[1]
+b2 Name x1 "marbles"          % Marbles [0...7] conll=[1]
+b2 person "n.01" x1           % Marbles [0...7] conll=[1]
+b1 REF e1                     % appeared [8...16] conll=[2]
+b1 appear "v.06" e1           % appeared [8...16] conll=[2]
+b1 Theme e1 x1                % appeared [8...16] conll=[2]
+b1 Time e1 t1                 % appeared [8...16] conll=[2]
+b2 REF t1                     % appeared [8...16] conll=[2]
+b2 TPR t1 "now"               % appeared [8...16] conll=[2]
+b2 time "n.08" t1             % appeared [8...16] conll=[2]
+b1 Attribute e1 x2            % as [17...19] conll=[3]
+b2 REF x2                     % herself [20...27] conll=[4]
+b2 female "n.02" x2           % herself [20...27] conll=[4]
+b2 EQU x2 x1                  % herself [20...27] conll=[4]
+b1 Context e1 x3              % in [28...30] conll=[5]
+b2 REF x3                     % Smosh:~The~Movie [31...47] conll=[6,7,8,9]
+b2 movie "n.01" x3            % Smosh:~The~Movie [31...47] conll=[6,7,8,9]
+b2 Name x3 "smosh:~the~movie" % Smosh:~The~Movie [31...47] conll=[6,7,8,9]
+
+

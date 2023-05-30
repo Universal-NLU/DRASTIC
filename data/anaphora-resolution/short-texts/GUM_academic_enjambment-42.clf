@@ -1,0 +1,40 @@
+%%% text = Our system identifies Quilis’ types, besides Spang’s expansion cases.
+b1 REF x1              % Our [0...3] conll=[1]
+b1 REF x2              % Our [0...3] conll=[1]
+b1 Sub x2 "speaker"    % Our [0...3] conll=[1]
+b1 PRESUPPOSITION b2   % Our [0...3] conll=[1]
+b1 Creator x1 x2       % Our [0...3] conll=[1]
+b1 person "n.01" x2    % Our [0...3] conll=[1]
+b1 system "n.02" x1    % system [4...10] conll=[2]
+b1 REF t1              % identifies [11...21] conll=[3]
+b1 time "n.08" t1      % identifies [11...21] conll=[3]
+b1 EQU t1 "now"        % identifies [11...21] conll=[3]
+b2 REF e1              % identifies [11...21] conll=[3]
+b2 identify "v.01" e1  % identifies [11...21] conll=[3]
+b2 Time e1 t1          % identifies [11...21] conll=[3]
+b2 Agent e1 x1         % identifies [11...21] conll=[3]
+b2 Theme e1 x10        % identifies [11...21] conll=[3]
+b2 entity "n.01" x10   %
+b2 REF x10             %
+b2 Sub x10 x3          %
+b2 Sub x10 x6          %
+b1 REF x4              % Quilis [22...28] conll=[4]
+b1 Name x4 "quilis"    % Quilis [22...28] conll=[4]
+b1 male "n.02" x4      % Quilis [22...28] conll=[4]
+b1 Creator x3 x4       % ' [28...29] conll=[5]
+b1 REF x3              % types [30...35] conll=[6]
+b1 type "n.01" x3      % types [30...35] conll=[6]
+b2 entity "n.01" x10   % besides [37...44] conll=[8]
+b2 Sub x10 x3          % besides [37...44] conll=[8]
+b2 Sub x10 x6          % besides [37...44] conll=[8]
+b1 REF x7              % Spang [45...50] conll=[9]
+b1 Name x7 "spang"     % Spang [45...50] conll=[9]
+b1 male "n.02" x7      % Spang [45...50] conll=[9]
+b1 REF x6              % Spang [45...50] conll=[9]
+b1 Creator x6 x7       % 's [50...52] conll=[10]
+b1 REF x8              % expansion [53...62] conll=[11]
+b1 expansion "n.01" x8 % expansion [53...62] conll=[11]
+b1 Attribute x6 x8     % expansion [53...62] conll=[11]
+b1 case "n.01" x6      % cases [63...68] conll=[12]
+
+

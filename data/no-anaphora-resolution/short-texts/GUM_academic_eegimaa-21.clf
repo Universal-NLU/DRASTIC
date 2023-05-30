@@ -1,0 +1,16 @@
+%%% text = Map of Senegal (courtesy of Google maps)
+b1 REF e1                %
+b1 Participant e1 x5     %
+b1 event "v.01" e1       %
+b1 REF x5                % Map [0...3] conll=[1]
+b1 map "n.01" x5         % Map [0...3] conll=[1]
+b1 Of x5 x1              % of [4...6] conll=[2]
+b2 REF x1                % Senegal [7...14] conll=[3]
+b2 PRESUPPOSITION b1     % Senegal [7...14] conll=[3]
+b2 Name x1 "senegal"     % Senegal [7...14] conll=[3]
+b2 country "n.02" x1     % Senegal [7...14] conll=[3]
+b1 Source x5 x3          % courtesy [16...24] of [25...27] conll=[5,6]
+b2 REF x3                % Google~maps [28...39] conll=[7,8]
+b2 Name x3 "google~maps" % Google~maps [28...39] conll=[7,8]
+b2 website "n.01" x3     % Google~maps [28...39] conll=[7,8]
+

@@ -1,0 +1,8 @@
+%%% text = Theories
+b2 PRESUPPOSITION b1 %
+b1 REF e1            % 
+b1 Participant e1 x1 % 
+b1 event "v.01" e1   % 
+b2 REF x1            % Theories [0...8] conll=[1]
+b2 theory "n.01" x1  % Theories [0...8] conll=[1]
+

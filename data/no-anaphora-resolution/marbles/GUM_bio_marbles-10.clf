@@ -1,0 +1,8 @@
+%%% text = Career
+b1 REF e1            %
+b1 Participant e1 x1 %
+b1 event "v.01" e1   %
+b2 PRESUPPOSITION b1 %
+b2 REF x1            % Career [0...6] conll=[1]
+b2 career "n.02" x1  % Career [0...6] conll=[1]
+

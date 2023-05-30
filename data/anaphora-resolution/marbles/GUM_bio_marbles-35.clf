@@ -1,0 +1,12 @@
+%%% text = Other ventures
+b2 PRESUPPOSITION b1 %
+b1 REF e1            %
+b1 Participant e1 x1 %
+b1 event "v.01" e1   %
+b1 REF x1            % Other [0...5] conll=[1]
+b1 NEQ x1 x2         % Other [0...5] conll=[1]
+b2 REF x2            % Other [0...5] conll=[1]
+b1 venture "n.03" x1 % ventures [6...14] conll=[2]
+b2 venture "n.03" x2 % ventures [6...14] conll=[2]
+
+
