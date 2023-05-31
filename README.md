@@ -29,14 +29,14 @@ If you use this data, please cite the following paper:
 Haug, Dag T. T., Jamie Y. Findlay and Ahmet Yıldırım. 2023. The long and the short of it: DRASTIC, a semantically annotated dataset containing sentences of more natural length. _Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)_. Association for Computational Linguistics.
 
   @inproceedings{haug_etal:drastic,
-      title           = {The long and the short of it: \textsc{drastic}, a semantically annotated dataset containing sentences of more natural length},
-      year            = {2023},
-      author          = {Dag T. T. Haug and Jamie Y. Findlay and Ahmet Y\i{}ld\i{}r\i{}m},
-      booktitle       = {{Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)}},
-      pages           = {},
-      publisher       = {Association for Computational Linguistics},
-      url             = {}
-    }
+    title           = {The long and the short of it: \textsc{drastic}, a semantically annotated dataset containing sentences of more natural length},
+    year            = {2023},
+    author          = {Dag T. T. Haug and Jamie Y. Findlay and Ahmet Y\i{}ld\i{}r\i{}m},
+    booktitle       = {{Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)}},
+    pages           = {},
+    publisher       = {Association for Computational Linguistics},
+    url             = {}
+  }
 
 This data is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
