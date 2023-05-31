@@ -20,7 +20,7 @@ The repository has the following structure:
 └── scripts
 ```
 
-`data` contains two versions of the DRS-annotated texts: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each of these, the texts are divided by sub-corpus, and named for their corresponding GUM sent\_id (for details, see the paper, referenced below).
+`data` contains two versions of the DRS-annotated texts: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each of these, the texts are divided by sub-corpus, and named for their corresponding GUM sent\_ids (for details, see Haug et al. 2023, referenced below).
 
 `scripts` contains a script (`flatten_clause_notation.py`) which will 'flatten' PMB-style DRSs into our simplified format. We also provide a shell script (`flatten_clause_notation_in_batch.sh`) to run this on multiple files at once.
 
