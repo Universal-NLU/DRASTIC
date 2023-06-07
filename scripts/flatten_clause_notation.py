@@ -176,11 +176,13 @@ for indice in range(len(all_drses)):
         if len(i)>max_length:
             max_length=len(i)
     max_length+=1
-    DRS_clause=[i + " "*(max_length-len(i)) for i in DRS_clause]
+    DRS_clause=[i + " "*(max_length-len(i)+1) for i in DRS_clause]
     for i in range(len(DRS_clause)):
         DRS_clause[i]+= ("% "+comment[i] if comment[i].strip(" ")!=DRS_clause[i].strip(" ") and comment[i].strip()!="" else "")
+    DRS_clause=[i.strip(" ") for i in DRS_clause]
     DRS_clause="\n".join(DRS_clause) + "\n"
     heading="\n".join([ "".join(i) for i in heading])
 
-    print(heading)
+    if heading!="":
+        print(heading)
     print(DRS_clause)
