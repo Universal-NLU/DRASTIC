@@ -1,0 +1,25 @@
+# sent_id = GUM_bio_nida-34
+# text = 2. The purpose of the author and of the translator: to give information on both form and content; to aim at full intelligibility of the reader so he / she may understand the full implications of the message; for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
+# s_type = other
+42	for	for	ADP	IN	_	44	case	44:case	Discourse=joint-list_m:82->79:0
+43	imperative	imperative	ADJ	JJ	Degree=Pos	44	amod	44:amod	Entity=(138-abstract-new-cf14-2-sgl
+44	purposes	purpose	NOUN	NNS	Number=Plur	13	conj	13:conj|46:nsubj	_
+45	that	that	PRON	WDT	PronType=Rel	46	nsubj	44:ref	Discourse=elaboration-attribute:83->82:0
+46	aim	aim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	44:acl:relcl	_
+47	at	at	SCONJ	IN	_	50	mark	50:mark	_
+48	not	not	PART	RB	Polarity=Neg	50	advmod	50:advmod	_
+49	just	just	ADV	RB	_	50	advmod	50:advmod	_
+50	understanding	understand	VERB	VBG	VerbForm=Ger	46	advcl	46:advcl:at	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	52:det	Entity=(139-abstract-new-cf3-2-coref
+52	translation	translation	NOUN	NN	Number=Sing	50	obj	50:obj	Entity=139)
+53	but	but	CCONJ	CC	_	56	cc	56:cc	Discourse=joint-list_m:84->83:0
+54	also	also	ADV	RB	_	56	advmod	56:advmod	_
+55	at	at	SCONJ	IN	_	56	mark	56:mark	_
+56	ensuring	ensure	VERB	VBG	VerbForm=Ger	50	conj	46:advcl:at|50:conj:but	_
+57	no	no	DET	DT	Polarity=Neg|PronType=Art	58	det	58:det	Entity=(140-event-new-cf10-2-sgl
+58	misunderstanding	misunderstanding	NOUN	NN	Number=Sing	56	obj	56:obj	_
+59	of	of	ADP	IN	_	61	case	61:case	_
+60	the	the	DET	DT	Definite=Def|PronType=Art	61	det	61:det	Entity=(139-abstract-giv:act-cf3-2-coref
+61	translation	translation	NOUN	NN	Number=Sing	58	nmod	58:nmod:of	Entity=139)140)138)|SpaceAfter=No
+62	.	.	PUNCT	.	_	3	punct	3:punct	_
+

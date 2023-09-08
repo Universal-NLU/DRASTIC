@@ -1,0 +1,15 @@
+# sent_id = GUM_bio_nida-34
+# text = 2. The purpose of the author and of the translator: to give information on both form and content; to aim at full intelligibility of the reader so he / she may understand the full implications of the message; for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
+# s_type = other
+1	2.	2.	X	LS	_	3	dep	3:dep	Bridge=121<130|Discourse=organization-preparation:78->79:1|Entity=(130-abstract-acc:inf-cf6-3-sgl
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
+3	purpose	purpose	NOUN	NN	Number=Sing	0	root	0:root	_
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(131-person-new-cf11-2-sgl
+6	author	author	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=131)
+7	and	and	CCONJ	CC	_	10	cc	10:cc	_
+8	of	of	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(132-person-new-cf12-2-coref
+10	translator	translator	NOUN	NN	Number=Sing	6	conj	3:nmod:of|6:conj:and	Entity=132)130)|SpaceAfter=No
+11	:	:	PUNCT	:	_	13	punct	13:punct	_
+

@@ -1,0 +1,13 @@
+# sent_id = GUM_bio_nida-34
+# text = 2. The purpose of the author and of the translator: to give information on both form and content; to aim at full intelligibility of the reader so he / she may understand the full implications of the message; for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
+# s_type = other
+12	to	to	PART	TO	_	13	mark	13:mark	Discourse=joint-list_m:79->76:2
+13	give	give	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	parataxis	3:parataxis	_
+14	information	information	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(133-abstract-new-cf9-1-sgl)
+15	on	on	ADP	IN	_	17	case	17:case	_
+16	both	both	CCONJ	CC	_	17	cc:preconj	17:cc:preconj	Entity=(134-abstract-acc:aggr-cf7-2,4-coref|SplitAnte=125<134,128<134
+17	form	form	NOUN	NN	Number=Sing	13	obl	13:obl:on	Entity=(128-abstract-giv:act-cf4-1-coref)
+18	and	and	CCONJ	CC	_	19	cc	19:cc	_
+19	content	content	NOUN	NN	Number=Sing	17	conj	13:obl:on|17:conj:and	Entity=(125-abstract-giv:act-cf5-1-coref)134)|SpaceAfter=No
+20	;	;	PUNCT	:	_	22	punct	22:punct	_
+

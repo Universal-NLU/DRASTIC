@@ -1,0 +1,11 @@
+# sent_id = GUM_bio_nida-33
+# text = 1. The nature of the message: in some messages the content is of primary consideration, and in others the form must be given a higher priority.
+# s_type = other
+1	1.	1.	X	LS	_	3	dep	3:dep	Bridge=121<122|Discourse=organization-preparation:75->76:1|Entity=(122-abstract-acc:inf-cf1-3-sgl
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
+3	nature	nature	NOUN	NN	Number=Sing	0	root	0:root	_
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(123-abstract-new-cf5-2-coref
+6	message	message	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=123)122)|SpaceAfter=No
+7	:	:	PUNCT	:	_	16	punct	16:punct	_
+
