@@ -1,0 +1,26 @@
+# sent_id = GUM_bio_dvorak-13
+# text = Brahms recommended Dvořák to his publisher, Simrock, who soon afterward commissioned what became the Slavonic Dances, Op. 46.
+# s_type = decl
+1	Brahms	Brahms	PROPN	NNP	Number=Sing	2	nsubj	_	Discourse=result:36->26|Entity=(person-49)
+2	recommended	recommend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	2	obj	_	Entity=(person-1)
+4	to	to	ADP	IN	_	6	case	_	_
+5	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	Entity=(person-56(person-49)
+6	publisher	publisher	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	Simrock	Simrock	PROPN	NNP	Number=Sing	6	appos	_	Entity=(person-56)|SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	_	_
+10	who	who	PRON	WP	PronType=Rel	13	nsubj	_	Discourse=sequence:37->36
+11	soon	soon	ADV	RB	Degree=Pos	12	advmod	_	_
+12	afterward	afterward	ADV	RB	_	13	advmod	_	_
+13	commissioned	commission	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	_
+14	what	what	PRON	WP	PronType=Int	15	nsubj	_	_
+15	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	Entity=(abstract-57
+17	Slavonic	Slavonic	PROPN	NNP	Number=Sing	18	amod	_	_
+18	Dances	Dance	PROPN	NNPS	Number=Plur	15	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	20	punct	_	_
+20	Op.	Op.	PROPN	NNP	Number=Sing	18	appos	_	_
+21	46	46	NUM	CD	NumType=Card	20	dep	_	Entity=person-56)abstract-57)|SpaceAfter=No
+22	.	.	PUNCT	.	_	2	punct	_	_
+

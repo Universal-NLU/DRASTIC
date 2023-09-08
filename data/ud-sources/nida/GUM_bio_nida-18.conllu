@@ -1,0 +1,17 @@
+# sent_id = GUM_bio_nida-18
+# text = He died in Madrid on August 25, 2011 aged 96.
+# s_type = decl
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-sequence_m:35->8:0|Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	in	in	ADP	IN	_	4	case	4:case	_
+4	Madrid	Madrid	PROPN	NNP	Number=Sing	2	obl	2:obl:in	Entity=(65-place-giv:act-cf2-1-coref-Madrid)
+5	on	on	ADP	IN	_	7	case	7:case	_
+6	August	August	PROPN	NNP	Number=Sing	7	compound	7:compound	Entity=(4-time-giv:inact-cf3-2-coref|XML=<date when:::"2011-08-25">
+7	25	25	NUM	CD	NumForm=Digit|NumType=Card	2	obl	2:obl:on	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	9:punct	_
+9	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	7	nmod:tmod	7:nmod:tmod	Entity=(5-time-giv:inact-cf4-1-coref)4)|XML=</date>
+10	aged	aged	ADJ	JJ	Degree=Pos	2	advcl	2:advcl	_
+11	96	96	NUM	CD	NumForm=Digit|NumType=Card	10	obj	10:obj	Entity=(69-abstract-new-cf5-1-sgl)|SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+

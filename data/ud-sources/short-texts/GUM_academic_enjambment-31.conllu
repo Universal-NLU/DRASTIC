@@ -1,0 +1,13 @@
+# sent_id = GUM_academic_enjambment-31
+# s_type = multiple
+# text = Lexical enjambment: Breaking up a word.
+# newpar = list type:::"unordered" (6 s) | item (2 s)
+1	Lexical	lexical	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=3<140|Discourse=background:78->88:2|Entity=(abstract-140-acc:inf-2-coref|XML=<hi rend:::"bold">
+2	enjambment	enjambment	NOUN	NN	Number=Sing	0	root	0:root	Entity=140)|SpaceAfter=No
+3	:	:	PUNCT	:	_	4	punct	4:punct	XML=</hi>
+4	Breaking	break	VERB	VBG	VerbForm=Ger	2	dep	2:dep	Discourse=elaboration:79->78:0
+5	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-141-new-2-sgl
+7	word	word	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=141)|SpaceAfter=No
+8	.	.	PUNCT	.	_	2	punct	2:punct	_
+

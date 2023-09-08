@@ -1,0 +1,23 @@
+# sent_id = GUM_bio_marbles-7
+# text = Her father is a chemist who holds several patents and she has one older brother. [6]
+# s_type = decl
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	Discourse=elaboration:21->19|Entity=(person-30(person-1)
+2	father	father	NOUN	NN	Number=Sing	5	nsubj	_	Entity=person-30)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(person-30
+5	chemist	chemist	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	Discourse=elaboration:22->21
+7	holds	hold	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	several	several	ADJ	JJ	Degree=Pos	9	amod	_	Entity=(abstract-31
+9	patents	patent	NOUN	NNS	Number=Plur	7	obj	_	Entity=person-30)abstract-31)
+10	and	and	CCONJ	CC	_	12	cc	_	Discourse=joint:23->21
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Entity=(person-1)
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	one	one	NUM	CD	NumType=Card	15	nummod	_	Entity=(person-32
+14	older	old	ADJ	JJR	Degree=Cmp	15	amod	_	_
+15	brother	brother	NOUN	NN	Number=Sing	12	obj	_	Entity=person-32)|SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	_
+17	[	[	PUNCT	-LSB-	_	18	punct	_	Discourse=evidence:24->21|SpaceAfter=No
+18	6	6	NUM	CD	NumType=Card	5	dep	_	Entity=(abstract-33)|SpaceAfter=No
+19	]	]	PUNCT	-RSB-	_	18	punct	_	_
+

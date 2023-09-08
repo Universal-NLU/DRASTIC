@@ -1,0 +1,14 @@
+# sent_id = GUM_bio_marbles-14
+# text = She left Barstool Sports in 2011. [9]
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Discourse=sequence:37->35|Entity=(person-1)
+2	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Barstool	Barstool	PROPN	NNP	Number=Sing	4	compound	_	Entity=(organization-61
+4	Sports	Sports	PROPN	NNP	Number=Sing	2	obj	_	Entity=organization-61)
+5	in	in	ADP	IN	_	6	case	_	_
+6	2011	2011	NUM	CD	NumType=Card	2	obl	_	Entity=(time-63)|SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	_
+8	[	[	PUNCT	-LSB-	_	9	punct	_	Discourse=evidence:38->37|SpaceAfter=No
+9	9	9	NUM	CD	NumType=Card	2	dep	_	Entity=(abstract-64)|SpaceAfter=No
+10	]	]	PUNCT	-RSB-	_	9	punct	_	_
+

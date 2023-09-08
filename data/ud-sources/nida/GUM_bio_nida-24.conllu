@@ -1,0 +1,22 @@
+# sent_id = GUM_bio_nida-24
+# text = His most notable contribution to translation theory is Dynamic Equivalence, also known as Functional Equivalence.
+# s_type = decl
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=joint-list_m:43->38:1|Entity=(6-abstract-giv:inact-cf1-4-coref(1-person-giv:inact-cf2-1-ana-Eugene_Nida)
+2	most	most	ADV	RBS	Degree=Sup	3	advmod	3:advmod	_
+3	notable	notable	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	contribution	contribution	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	_
+5	to	to	ADP	IN	_	7	case	7:case	_
+6	translation	translation	NOUN	NN	Number=Sing	7	compound	7:compound	Entity=(72-abstract-giv:inact-cf3-2-coref(12-abstract-giv:inact-cf4-1-coref)
+7	theory	theory	NOUN	NN	Number=Sing	4	nmod	4:nmod:to	Entity=72)6)
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
+9	Dynamic	Dynamic	ADJ	NNP	Degree=Pos|Number=Sing	10	amod	10:amod	Entity=(6-abstract-giv:act-cf1-1,2-coref
+10	Equivalence	Equivalence	PROPN	NNP	Number=Sing	0	root	0:root	Entity=6)|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	also	also	ADV	RB	_	13	advmod	13:advmod	Discourse=elaboration-attribute:44->43:0
+13	known	know	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	10:acl	_
+14	as	as	ADP	IN	_	16	case	16:case	_
+15	Functional	Functional	ADJ	NNP	Degree=Pos|Number=Sing	16	amod	16:amod	Entity=(6-abstract-giv:act-cf1-1,2-coref
+16	Equivalence	Equivalence	PROPN	NNP	Number=Sing	13	obl	13:obl:as	Entity=6)|SpaceAfter=No
+17	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+

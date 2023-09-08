@@ -1,0 +1,27 @@
+# sent_id = GUM_bio_nida-27
+# text = This is, perhaps, not the best example of the technique, though it is the most well-known.
+# s_type = decl
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	9:nsubj	Discourse=adversative-concession:50->51:0|Entity=(88-abstract-giv:act-cf1*-1-coref)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	perhaps	perhaps	ADV	RB	Degree=Pos	9	advmod	9:advmod	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	not	not	PART	RB	Polarity=Neg	9	advmod	9:advmod	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(90-abstract-new-cf3-3-sgl
+8	best	good	ADJ	JJS	Degree=Sup	9	amod	9:amod	_
+9	example	example	NOUN	NN	Number=Sing	0	root	0:root	_
+10	of	of	ADP	IN	_	12	case	12:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(85-abstract-giv:act-cf2-2-coref
+12	technique	technique	NOUN	NN	Number=Sing	9	nmod	9:nmod:of	Entity=85)90)|SpaceAfter=No
+13	,	,	PUNCT	,	_	14	punct	14:punct	_
+14	though	though	SCONJ	IN	_	21	mark	21:mark	Discourse=evaluation-comment:51->49:0
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj:outer	21:nsubj:outer	Entity=(88-abstract-giv:act-cf1*-1-ana)
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	21:det	_
+18	most	most	ADV	RBS	Degree=Sup	21	advmod	21:advmod	_
+19	well	well	ADV	RB	Degree=Pos	21	advmod	21:advmod	SpaceAfter=No|XML=<w>
+20	-	-	PUNCT	HYPH	_	19	punct	19:punct	SpaceAfter=No
+21	known	know	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	9:advcl:though	SpaceAfter=No|XML=</w>
+22	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+

@@ -1,0 +1,11 @@
+# sent_id = GUM_academic_census-31
+# s_type = decl
+# text = Our study is organized as follows.
+1	Our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=preparation:95->96:2|Entity=(abstract-197-new-2-sgl(person-161-giv:inact-1-ana)
+2	study	study	NOUN	NN	Number=Sing	4	nsubj:pass	4:nsubj:pass	Entity=197)
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+4	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	as	as	SCONJ	IN	_	6	mark	6:mark	_
+6	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	4:advcl:as	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	4:punct	_
+

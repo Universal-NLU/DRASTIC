@@ -1,0 +1,36 @@
+# sent_id = GUM_bio_nida-21
+# text = His Ph.D. dissertation, A Synopsis of English Syntax, was the first full-scale analysis of a major language according to the "immediate-constituent" theory.
+# s_type = decl
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Discourse=elaboration-additional:38->37:0|Entity=(73-abstract-new-cf2-3-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	Ph.D.	Ph.D.	PROPN	NNP	Abbr=Yes|Number=Sing	3	compound	3:compound	Entity=(51-abstract-giv:inact-cf4-1-coref-Doctor_of_Philosophy)
+3	dissertation	dissertation	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=73)|SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	6:punct	_
+5	A	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(73-abstract-giv:act-cf2-2,4,5-appos|XML=<hi rend:::"italic">
+6	Synopsis	Synopsis	PROPN	NNP	Number=Sing	3	appos	3:appos	_
+7	of	of	ADP	IN	_	9	case	9:case	_
+8	English	English	ADJ	NNP	Degree=Pos|Number=Sing	9	amod	9:amod	Entity=(74-abstract-new-cf6-1,2-sgl(75-abstract-new-cf3-1-coref-English_language)
+9	Syntax	Syntax	PROPN	NNP	Number=Sing	6	nmod	6:nmod:of	Entity=74)73)|SpaceAfter=No|XML=</hi>
+10	,	,	PUNCT	,	_	3	punct	3:punct	_
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Entity=(73-abstract-giv:act-cf2-6-coref
+13	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	17:amod	_
+14	full	full	ADJ	JJ	Degree=Pos	16	amod	16:amod	SpaceAfter=No|XML=<w>
+15	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+16	scale	scale	NOUN	NN	Number=Sing	17	compound	17:compound	XML=</w>
+17	analysis	analysis	NOUN	NN	Number=Sing	0	root	0:root	_
+18	of	of	ADP	IN	_	21	case	21:case	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(75-abstract-giv:act-cf3-3-coref-English_language
+20	major	major	ADJ	JJ	Degree=Pos	21	amod	21:amod	_
+21	language	language	NOUN	NN	Number=Sing	17	nmod	17:nmod:of	Entity=75)
+22	according	accord	VERB	VBG	VerbForm=Ger	30	case	30:case	Discourse=mode-manner:39->38:0
+23	to	to	ADP	IN	_	22	fixed	22:fixed	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(76-abstract-new-cf5-7-sgl
+25	"	''	PUNCT	``	_	28	punct	28:punct	SpaceAfter=No|XML=<q>
+26	immediate	immediate	ADJ	JJ	Degree=Pos	28	amod	28:amod	SpaceAfter=No|XML=<w>
+27	-	-	PUNCT	HYPH	_	26	punct	26:punct	SpaceAfter=No
+28	constituent	constituent	NOUN	NN	Number=Sing	30	compound	30:compound	SpaceAfter=No|XML=</w>
+29	"	''	PUNCT	''	_	28	punct	28:punct	XML=</q>
+30	theory	theory	NOUN	NN	Number=Sing	17	nmod	17:nmod:according_to	Entity=76)73)|SpaceAfter=No
+31	.	.	PUNCT	.	_	17	punct	17:punct	_
+
+

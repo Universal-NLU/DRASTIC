@@ -1,0 +1,19 @@
+# sent_id = GUM_bio_nida-4
+# text = Nida was born in Oklahoma City, Oklahoma on November 11, 1914.
+# s_type = decl
+1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj:pass	3:nsubj:pass	Discourse=elaboration-additional:8->2:3|Entity=(1-person-giv:inact-cf1-1-coref-Eugene_Nida)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+4	in	in	ADP	IN	_	5	case	5:case	_
+5	Oklahoma	Oklahoma	PROPN	NNP	Number=Sing	3	obl	3:obl:in	Entity=(14-place-new-cf4-1,2,4-sgl-Oklahoma_City|XML=<ref>
+6	City	City	PROPN	NNP	Number=Sing	5	flat	5:flat	SpaceAfter=No|XML=</ref>
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	Oklahoma	Oklahoma	PROPN	NNP	Number=Sing	5	appos	5:appos	Entity=(15-place-new-cf5-1-sgl-Oklahoma)14)|XML=<ref></ref>
+9	on	on	ADP	IN	_	11	case	11:case	_
+10	November	November	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(2-time-giv:inact-cf2-2-coref|XML=<date when:::"1914-11-11">
+11	11	11	NUM	CD	NumForm=Digit|NumType=Card	3	obl	3:obl:on	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	1914	1914	NUM	CD	NumForm=Digit|NumType=Card	11	nmod:tmod	11:nmod:tmod	Entity=(3-time-giv:inact-cf3-1-coref)2)|SpaceAfter=No|XML=</date>
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+

@@ -1,0 +1,24 @@
+# sent_id = GUM_bio_dvorak-24
+# text = He also wrote his most appreciated piece of chamber music, the American String Quartet, during this time.
+# s_type = decl
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Discourse=joint:63->58|Entity=(person-1)
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(abstract-105(person-1)
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	appreciated	appreciated	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	piece	piece	NOUN	NN	Number=Sing	3	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	chamber	chamber	NOUN	NN	Number=Sing	10	compound	_	Entity=(abstract-92
+10	music	music	NOUN	NN	Number=Sing	7	nmod	_	Entity=abstract-105)abstract-92)|SpaceAfter=No
+11	,	,	PUNCT	,	_	15	punct	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	Entity=(abstract-105
+13	American	American	PROPN	NNP	Number=Sing	15	amod	_	_
+14	String	String	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Quartet	Quartet	PROPN	NNP	Number=Sing	7	appos	_	Entity=abstract-105)|SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17	during	during	ADP	IN	_	19	case	_	_
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	Entity=(time-106
+19	time	time	NOUN	NN	Number=Sing	3	obl	_	Entity=time-106)|SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	_	_
+

@@ -1,0 +1,18 @@
+# sent_id = GUM_bio_marbles-27
+# text = On January 30, 2014, she appeared in season four of Ridiculousness.
+# s_type = decl
+1	On	on	ADP	IN	_	3	case	_	Discourse=sequence:78->74
+2	January	January	PROPN	NNP	Number=Sing	3	compound	_	Entity=(time-125
+3	30	30	NUM	CD	NumType=Card	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	2014	2014	NUM	CD	NumType=Card	3	nmod:tmod	_	Entity=(time-126)time-125)|SpaceAfter=No
+6	,	,	PUNCT	,	_	3	punct	_	_
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Entity=(person-1)
+8	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	season	season	NOUN	NN	Number=Sing	8	obl	_	Entity=(abstract-127
+11	four	four	NUM	CD	NumType=Card	10	nummod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	Ridiculousness	ridiculousness	PROPN	NNP	Number=Sing	10	nmod	_	Entity=(abstract-128)abstract-127)|SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	_	_
+

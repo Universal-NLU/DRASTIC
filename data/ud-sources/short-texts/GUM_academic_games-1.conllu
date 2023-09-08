@@ -1,0 +1,14 @@
+# sent_id = GUM_academic_games-1
+# s_type = frag
+# text = The Use of Cognitive Digital Games in School:
+# newpar = head (2 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:1->52:8|Entity=(event-1-new-2-sgl
+2	Use	use	NOUN	NN	Number=Sing	0	root	0:root	_
+3	of	of	ADP	IN	_	6	case	6:case	_
+4	Cognitive	cognitive	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-2-new-3-coref
+5	Digital	digital	ADJ	JJ	Degree=Pos	6	amod	6:amod	_
+6	Games	game	NOUN	NNS	Number=Plur	2	nmod	2:nmod:of	Entity=2)
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	School	school	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=(place-3-new-1-sgl)1)|SpaceAfter=No
+9	:	:	PUNCT	:	_	2	punct	2:punct	_
+

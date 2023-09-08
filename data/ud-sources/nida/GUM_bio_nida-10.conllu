@@ -1,0 +1,33 @@
+# sent_id = GUM_bio_nida-10
+# text = In 1937, Nida undertook studies at the University of Southern California, where he obtained a master's degree in New Testament Greek in 1939.
+# s_type = decl
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint-sequence_m:19->8:0
+2	1937	1937	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(34-time-new-cf6-1-sgl)|SpaceAfter=No|XML=<date when:::"1937"></date>
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	Nida	Nida	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
+5	undertook	undertake	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+6	studies	study	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=(35-event-new-cf2-1-sgl)
+7	at	at	ADP	IN	_	9	case	9:case	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Entity=(36-organization-new-cf7-4,5,9,15,16-sgl-University_of_Southern_California
+9	University	University	PROPN	NNP	Number=Sing	5	obl	5:obl:at	XML=<ref>
+10	of	of	ADP	IN	_	12	case	12:case	_
+11	Southern	Southern	ADJ	NNP	Degree=Pos|Number=Sing	12	amod	12:amod	Entity=(37-place-new-cf4-1,2-sgl-Southern_California
+12	California	California	PROPN	NNP	Number=Sing	9	nmod	9:nmod:of	Entity=37)|SpaceAfter=No|XML=</ref>
+13	,	,	PUNCT	,	_	16	punct	16:punct	_
+14	where	where	ADV	WRB	PronType=Int	16	advmod	16:advmod	Discourse=elaboration-additional:20->19:0
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+16	obtained	obtain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	5:advcl:where	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	18:det	Entity=(38-abstract-new-cf3-4-sgl
+18-19	master's	_	_	_	_	_	_	_	_
+18	master	master	NOUN	NN	Number=Sing	20	nmod:poss	20:nmod:poss	_
+19	's	's	PART	POS	_	18	case	18:case	_
+20	degree	degree	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=38)
+21	in	in	ADP	IN	_	24	case	24:case	_
+22	New	New	ADJ	NNP	Degree=Pos|Number=Sing	23	amod	23:amod	Entity=(39-abstract-new-cf5-1,2,3-sgl-Koine_Greek(40-abstract-new-cf9-1,2-sgl-New_Testament
+23	Testament	Testament	PROPN	NNP	Number=Sing	24	compound	24:compound	Entity=40)
+24	Greek	Greek	PROPN	NNP	Number=Sing	20	nmod	20:nmod:in	Entity=39)
+25	in	in	ADP	IN	_	26	case	26:case	_
+26	1939	1939	NUM	CD	NumForm=Digit|NumType=Card	16	obl	16:obl:in	Entity=(41-time-new-cf8-1-coref)36)|SpaceAfter=No|XML=<date when:::"1939"></date>
+27	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+

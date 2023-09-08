@@ -1,0 +1,36 @@
+# sent_id = GUM_bio_dvorak-2
+# text = Antonín Leopold Dvořák (/ d(ə)ˈvɔːrʒɑːk, -ʒæk / d(ə)-VOR-zha(h)k; Czech: [ˈantoɲiːn ˈlɛopolt ˈdvor̝aːk]; 8 September 1841 – 1 May 1904) was a Czech composer.
+# s_type = decl
+1	Antonín	Antonín	PROPN	NNP	Number=Sing	31	nsubj	_	Discourse=ROOT:2|Entity=(person-1
+2	Leopold	Leopold	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	1	flat	_	Entity=person-1)
+4	(	(	PUNCT	-LRB-	_	6	punct	_	Discourse=restatement:3->2|SpaceAfter=No
+5	/	/	PUNCT	SYM	_	6	punct	_	_
+6	d(ə)ˈvɔːrʒɑːk	d(ə)ˈvɔːrʒɑːk	PROPN	NNP	Number=Sing	1	appos	_	Entity=(person-1|SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	_	_
+8	-ʒæk	-ʒæk	PROPN	NNP	Number=Sing	6	conj	_	Entity=person-1)
+9	/	/	PUNCT	SYM	_	10	punct	_	_
+10	d(ə)-VOR-zha(h)k	d(ə)-VOR-zha(h)k	PROPN	NNP	Number=Sing	1	appos	_	Entity=(person-1)|SpaceAfter=No
+11	;	;	PUNCT	:	_	15	punct	_	_
+12	Czech	Czech	PROPN	NNP	Number=Sing	15	dep	_	Discourse=preparation:4->5|Entity=(abstract-2)|SpaceAfter=No
+13	:	:	PUNCT	:	_	12	punct	_	_
+14	[	[	PUNCT	-LSB-	_	15	punct	_	Discourse=elaboration:5->2|SpaceAfter=No
+15	ˈantoɲiːn	ˈantoɲiːn	PROPN	NNP	Number=Sing	1	parataxis	_	Entity=(person-1
+16	ˈlɛopolt	ˈlɛopolt	PROPN	NNP	Number=Sing	15	flat	_	_
+17	ˈdvor̝aːk	ˈdvor̝aːk	PROPN	NNP	Number=Sing	15	flat	_	Entity=person-1)|SpaceAfter=No
+18	]	]	PUNCT	-RSB-	_	15	punct	_	SpaceAfter=No
+19	;	;	PUNCT	:	_	20	punct	_	_
+20	8	8	NUM	CD	NumType=Card	15	nmod:tmod	_	Discourse=joint:6->5|Entity=(time-3
+21	September	September	PROPN	NNP	Number=Sing	20	compound	_	Entity=(time-4
+22	1841	1841	NUM	CD	NumType=Card	20	nmod:tmod	_	Entity=(time-5)time-3)time-4)
+23	–	-	SYM	SYM	_	24	case	_	_
+24	1	1	NUM	CD	NumType=Card	20	nmod	_	Entity=(time-6
+25	May	May	PROPN	NNP	Number=Sing	24	compound	_	Entity=(time-7
+26	1904	1904	NUM	CD	NumType=Card	24	nmod:tmod	_	Entity=(time-8)time-6)time-7)|SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	15	punct	_	_
+28	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	cop	_	Discourse=same-unit:7->2
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	Entity=(person-1
+30	Czech	Czech	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	composer	composer	NOUN	NN	Number=Sing	0	root	_	Entity=person-1)|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	punct	_	_
+

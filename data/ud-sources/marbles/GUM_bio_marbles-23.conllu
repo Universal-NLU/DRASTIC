@@ -1,0 +1,30 @@
+# sent_id = GUM_bio_marbles-23
+# text = As of January 2019, Marbles's YouTube channel had about 19 million subscribers and 2.9 billion video views. [15] [16]
+# s_type = decl
+1	As	as	ADP	IN	_	3	case	_	Discourse=joint:71->40
+2	of	of	ADP	IN	_	1	fixed	_	_
+3	January	January	PROPN	NNP	Number=Sing	10	obl	_	Entity=(time-104
+4	2019	2019	NUM	CD	NumType=Card	3	nmod:tmod	_	Entity=(time-105)time-104)|SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
+6	Marbles	Marbles	PROPN	NNP	Number=Sing	9	nmod:poss	_	Entity=(abstract-66(person-1|SpaceAfter=No
+7	's	's	PART	POS	_	6	case	_	Entity=person-1)
+8	YouTube	YouTube	PROPN	NNP	Number=Sing	9	compound	_	Entity=(organization-7)
+9	channel	channel	NOUN	NN	Number=Sing	10	nsubj	_	Entity=abstract-66)
+10	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	about	about	ADV	RB	_	13	advmod	_	Entity=(person-106
+12	19	19	NUM	CD	NumType=Card	13	nummod	_	_
+13	million	million	NUM	CD	NumType=Card	14	compound	_	_
+14	subscribers	subscriber	NOUN	NNS	Number=Plur	10	obj	_	Entity=person-106)
+15	and	and	CCONJ	CC	_	19	cc	_	_
+16	2.9	2.9	NUM	CD	NumType=Card	17	nummod	_	Entity=(event-107
+17	billion	billion	NUM	CD	NumType=Card	19	compound	_	_
+18	video	video	ADJ	JJ	Degree=Pos	19	compound	_	_
+19	views	view	NOUN	NNS	Number=Plur	14	conj	_	Entity=event-107)|SpaceAfter=No
+20	.	.	PUNCT	.	_	10	punct	_	_
+21	[	[	PUNCT	-LSB-	_	22	punct	_	Discourse=evidence:72->71|SpaceAfter=No
+22	15	15	NUM	CD	NumType=Card	10	dep	_	Entity=(abstract-108)|SpaceAfter=No
+23	]	]	PUNCT	-RSB-	_	22	punct	_	_
+24	[	[	PUNCT	-LSB-	_	25	punct	_	Discourse=joint:73->72|SpaceAfter=No
+25	16	16	NUM	CD	NumType=Card	10	dep	_	Entity=(abstract-109)|SpaceAfter=No
+26	]	]	PUNCT	-RSB-	_	25	punct	_	_
+

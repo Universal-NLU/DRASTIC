@@ -1,0 +1,18 @@
+# sent_id = GUM_bio_marbles-36
+# text = Marbles released a brand of dog toys called Kermie Worm & Mr. Marbles.
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	_	Discourse=sequence:104->19|Entity=(person-1)
+2	released	release	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	Entity=(abstract-153
+4	brand	brand	NOUN	NN	Number=Sing	2	obj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	dog	dog	NOUN	NN	Number=Sing	7	amod	_	Entity=(object-154
+7	toys	toy	NOUN	NNS	Number=Plur	4	nmod	_	Entity=object-154)
+8	called	call	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	Discourse=elaboration:105->104
+9	Kermie	Kermie	PROPN	NNP	Number=Sing	8	obj	_	Entity=(abstract-155(animal-156
+10	Worm	Worm	PROPN	NNP	Number=Sing	9	flat	_	Entity=animal-156)
+11	&	&	CCONJ	CC	_	12	cc	_	_
+12	Mr.	Mr.	PROPN	NNP	Number=Sing	8	conj	_	Entity=(animal-103
+13	Marbles	Marbles	PROPN	NNP	Number=Sing	12	flat	_	Entity=abstract-153)abstract-155)animal-103)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+

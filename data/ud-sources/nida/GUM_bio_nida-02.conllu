@@ -1,0 +1,45 @@
+# sent_id = GUM_bio_nida-2
+# text = Eugene A. Nida (November 11, 1914 – August 25, 2011) was a linguist who developed the dynamic-equivalence Bible-translation theory and one of the founders of the modern discipline of Translation Studies.
+# s_type = decl
+1	Eugene	Eugene	PROPN	NNP	Number=Sing	17	nsubj	17:nsubj	Discourse=ROOT:2:0|Entity=(1-person-giv:act-cf1*-1,2,3-coref-Eugene_Nida|XML=<hi rend:::"bold">
+2	A.	A.	PROPN	NNP	Number=Sing	1	flat	1:flat	_
+3	Nida	Nida	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)|XML=</hi>
+4	(	(	PUNCT	-LRB-	_	6	punct	6:punct	Discourse=elaboration-additional:3->2:0|SpaceAfter=No
+5	November	November	PROPN	NNP	Number=Sing	6	compound	6:compound	Entity=(2-time-new-cf6-2-coref|XML=<date when:::"1914-11-11">
+6	11	11	NUM	CD	NumForm=Digit|NumType=Card	1	nmod:tmod	1:nmod:tmod	SpaceAfter=No
+7	,	,	PUNCT	,	_	8	punct	8:punct	_
+8	1914	1914	NUM	CD	NumForm=Digit|NumType=Card	6	nmod:tmod	6:nmod:tmod	Entity=(3-time-new-cf7-1-coref)2)|XML=</date>
+9	–	-	SYM	SYM	_	11	case	11:case	_
+10	August	August	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(4-time-new-cf8-2-coref|XML=<date when:::"2011-08-25">
+11	25	25	NUM	CD	NumForm=Digit|NumType=Card	6	nmod	6:nmod:to	SpaceAfter=No
+12	,	,	PUNCT	,	_	13	punct	13:punct	_
+13	2011	2011	NUM	CD	NumForm=Digit|NumType=Card	11	nmod:tmod	11:nmod:tmod	Entity=(5-time-new-cf9-1-coref)4)|SpaceAfter=No|XML=</date>
+14	)	)	PUNCT	-RRB-	_	6	punct	6:punct	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	17:cop	Discourse=same-unit_m:4->2:1
+16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(1-person-giv:act-cf1*-2-pred-Eugene_Nida
+17	linguist	linguist	NOUN	NN	Number=Sing	0	root	0:root|19:nsubj	XML=<ref></ref>
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	17:ref	Discourse=elaboration-attribute:5->4:0
+19	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(6-abstract-new-cf2-8-coref
+21	dynamic	dynamic	ADJ	JJ	Degree=Pos	23	amod	23:amod	SpaceAfter=No|XML=<ref><w>
+22	-	-	PUNCT	HYPH	_	21	punct	21:punct	SpaceAfter=No
+23	equivalence	equivalence	NOUN	NN	Number=Sing	27	compound	27:compound	XML=</w></ref>
+24	Bible	Bible	PROPN	NNP	Number=Sing	26	compound	26:compound	Entity=(7-abstract-new-cf12-3-coref(8-abstract-new-cf10-1-coref-Bible)|SpaceAfter=No|XML=<ref><w>
+25	-	-	PUNCT	HYPH	_	24	punct	24:punct	SpaceAfter=No
+26	translation	translation	NOUN	NN	Number=Sing	27	compound	27:compound	Entity=7)|XML=</w></ref>
+27	theory	theory	NOUN	NN	Number=Sing	19	obj	19:obj	Entity=6)1)
+28	and	and	CCONJ	CC	_	29	cc	29:cc	Discourse=joint-list_m:6->2:2
+29	one	one	NUM	CD	NumForm=Word|NumType=Card	19	conj	17:acl:relcl|19:conj:and	Entity=(1-person-giv:act-cf1*-1,10-coref-Eugene_Nida
+30	of	of	ADP	IN	_	32	case	32:case	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Entity=(9-person-new-cf3-2,8-sgl
+32	founders	founder	NOUN	NNS	Number=Plur	29	nmod	29:nmod:of	_
+33	of	of	ADP	IN	_	36	case	36:case	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(10-abstract-new-cf4-3,5-sgl
+35	modern	modern	ADJ	JJ	Degree=Pos	36	amod	36:amod	_
+36	discipline	discipline	NOUN	NN	Number=Sing	32	nmod	32:nmod:of	_
+37	of	of	ADP	IN	_	39	case	39:case	_
+38	Translation	Translation	PROPN	NNP	Number=Sing	39	compound	39:compound	Entity=(11-event-new-cf5-1,2-sgl-Translation_studies(12-abstract-new-cf11-1-coref)
+39	Studies	Study	PROPN	NNPS	Number=Plur	36	nmod	36:nmod:of	Entity=11)10)9)1)|SpaceAfter=No
+40	.	.	PUNCT	.	_	17	punct	17:punct	_
+
+

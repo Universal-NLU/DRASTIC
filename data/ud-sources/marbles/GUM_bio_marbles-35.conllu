@@ -1,0 +1,6 @@
+# sent_id = GUM_bio_marbles-35
+# text = Other ventures
+# s_type = frag
+1	Other	other	ADJ	JJ	Degree=Pos	2	amod	_	Discourse=preparation:103->104|Entity=(abstract-152
+2	ventures	venture	NOUN	NNS	Number=Plur	0	root	_	Entity=abstract-152)
+

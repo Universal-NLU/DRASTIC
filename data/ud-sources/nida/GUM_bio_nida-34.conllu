@@ -1,0 +1,67 @@
+# sent_id = GUM_bio_nida-34
+# text = 2. The purpose of the author and of the translator: to give information on both form and content; to aim at full intelligibility of the reader so he / she may understand the full implications of the message; for imperative purposes that aim at not just understanding the translation but also at ensuring no misunderstanding of the translation.
+# s_type = other
+1	2.	2.	X	LS	_	3	dep	3:dep	Bridge=121<130|Discourse=organization-preparation:78->79:1|Entity=(130-abstract-acc:inf-cf6-3-sgl
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
+3	purpose	purpose	NOUN	NN	Number=Sing	0	root	0:root	_
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(131-person-new-cf11-2-sgl
+6	author	author	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=131)
+7	and	and	CCONJ	CC	_	10	cc	10:cc	_
+8	of	of	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(132-person-new-cf12-2-coref
+10	translator	translator	NOUN	NN	Number=Sing	6	conj	3:nmod:of|6:conj:and	Entity=132)130)|SpaceAfter=No
+11	:	:	PUNCT	:	_	13	punct	13:punct	_
+12	to	to	PART	TO	_	13	mark	13:mark	Discourse=joint-list_m:79->76:2
+13	give	give	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	parataxis	3:parataxis	_
+14	information	information	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(133-abstract-new-cf9-1-sgl)
+15	on	on	ADP	IN	_	17	case	17:case	_
+16	both	both	CCONJ	CC	_	17	cc:preconj	17:cc:preconj	Entity=(134-abstract-acc:aggr-cf7-2,4-coref|SplitAnte=125<134,128<134
+17	form	form	NOUN	NN	Number=Sing	13	obl	13:obl:on	Entity=(128-abstract-giv:act-cf4-1-coref)
+18	and	and	CCONJ	CC	_	19	cc	19:cc	_
+19	content	content	NOUN	NN	Number=Sing	17	conj	13:obl:on|17:conj:and	Entity=(125-abstract-giv:act-cf5-1-coref)134)|SpaceAfter=No
+20	;	;	PUNCT	:	_	22	punct	22:punct	_
+21	to	to	PART	TO	_	22	mark	22:mark	Discourse=joint-list_m:80->79:0
+22	aim	aim	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	13	conj	13:conj	_
+23	at	at	ADP	IN	_	25	case	25:case	_
+24	full	full	ADJ	JJ	Degree=Pos	25	amod	25:amod	Entity=(135-abstract-new-cf13-2-sgl
+25	intelligibility	intelligibility	NOUN	NN	Number=Sing	22	obl	22:obl:at	_
+26	of	of	ADP	IN	_	28	case	28:case	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	28:det	Entity=(136-person-new-cf1-2-coref
+28	reader	reader	NOUN	NN	Number=Sing	25	nmod	25:nmod:of	Entity=136)135)
+29	so	so	SCONJ	IN	_	34	mark	34:mark	Discourse=purpose-goal:81->80:0
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	34:nsubj	Entity=(136-person-giv:act-cf1-1-ana)
+31	/	/	SYM	SYM	_	32	cc	32:cc	_
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	conj	30:conj:slash|34:nsubj	Entity=(136-person-giv:act-cf1-1-ana)
+33	may	may	AUX	MD	VerbForm=Fin	34	aux	34:aux	_
+34	understand	understand	VERB	VB	VerbForm=Inf	22	advcl	22:advcl:so	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	37	det	37:det	Entity=(137-abstract-new-cf8-3-sgl
+36	full	full	ADJ	JJ	Degree=Pos	37	amod	37:amod	_
+37	implications	implication	NOUN	NNS	Number=Plur	34	obj	34:obj	_
+38	of	of	ADP	IN	_	40	case	40:case	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	40:det	Entity=(123-abstract-giv:act-cf2*-2-coref
+40	message	message	NOUN	NN	Number=Sing	37	nmod	37:nmod:of	Entity=123)137)|SpaceAfter=No
+41	;	;	PUNCT	:	_	44	punct	44:punct	_
+42	for	for	ADP	IN	_	44	case	44:case	Discourse=joint-list_m:82->79:0
+43	imperative	imperative	ADJ	JJ	Degree=Pos	44	amod	44:amod	Entity=(138-abstract-new-cf14-2-sgl
+44	purposes	purpose	NOUN	NNS	Number=Plur	13	conj	13:conj|46:nsubj	_
+45	that	that	PRON	WDT	PronType=Rel	46	nsubj	44:ref	Discourse=elaboration-attribute:83->82:0
+46	aim	aim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	44:acl:relcl	_
+47	at	at	SCONJ	IN	_	50	mark	50:mark	_
+48	not	not	PART	RB	Polarity=Neg	50	advmod	50:advmod	_
+49	just	just	ADV	RB	_	50	advmod	50:advmod	_
+50	understanding	understand	VERB	VBG	VerbForm=Ger	46	advcl	46:advcl:at	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	52:det	Entity=(139-abstract-new-cf3-2-coref
+52	translation	translation	NOUN	NN	Number=Sing	50	obj	50:obj	Entity=139)
+53	but	but	CCONJ	CC	_	56	cc	56:cc	Discourse=joint-list_m:84->83:0
+54	also	also	ADV	RB	_	56	advmod	56:advmod	_
+55	at	at	SCONJ	IN	_	56	mark	56:mark	_
+56	ensuring	ensure	VERB	VBG	VerbForm=Ger	50	conj	46:advcl:at|50:conj:but	_
+57	no	no	DET	DT	Polarity=Neg|PronType=Art	58	det	58:det	Entity=(140-event-new-cf10-2-sgl
+58	misunderstanding	misunderstanding	NOUN	NN	Number=Sing	56	obj	56:obj	_
+59	of	of	ADP	IN	_	61	case	61:case	_
+60	the	the	DET	DT	Definite=Def|PronType=Art	61	det	61:det	Entity=(139-abstract-giv:act-cf3-2-coref
+61	translation	translation	NOUN	NN	Number=Sing	58	nmod	58:nmod:of	Entity=139)140)138)|SpaceAfter=No
+62	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+

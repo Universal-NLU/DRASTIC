@@ -1,0 +1,33 @@
+# sent_id = GUM_bio_marbles-32
+# text = Marbles does a weekly podcast with her boyfriend Julien Solomita called "The Jenna Julien Podcast" (formerly called "The Jenna and Julien Podcast").
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	_	Discourse=joint:94->40|Entity=(person-1)
+2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(abstract-137
+4	weekly	weekly	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	podcast	podcast	NOUN	NN	Number=Sing	2	obj	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Entity=(person-138(person-1)
+8	boyfriend	boyfriend	NOUN	NN	Number=Sing	5	nmod	_	Entity=person-138)
+9	Julien	Julien	PROPN	NNP	Number=Sing	8	appos	_	Entity=(person-138
+10	Solomita	Solomita	PROPN	NNP	Number=Sing	9	flat	_	Entity=person-138)
+11	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl	_	Discourse=elaboration:95->94
+12	"	''	PUNCT	``	_	16	punct	_	SpaceAfter=No
+13	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	Entity=(abstract-139
+14	Jenna	Jenna	PROPN	NNP	Number=Sing	15	compound	_	Entity=(person-1)
+15	Julien	Julien	PROPN	NNP	Number=Sing	16	compound	_	Entity=(person-138)
+16	Podcast	Podcast	PROPN	NNP	Number=Sing	11	xcomp	_	Entity=abstract-139)|SpaceAfter=No
+17	"	''	PUNCT	''	_	16	punct	_	_
+18	(	(	PUNCT	-LRB-	_	20	punct	_	Discourse=elaboration:96->94|SpaceAfter=No
+19	formerly	formerly	ADV	RB	_	20	advmod	_	_
+20	called	call	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+21	"	''	PUNCT	``	_	26	punct	_	SpaceAfter=No
+22	The	the	DET	DT	Definite=Def|PronType=Art	26	det	_	Entity=(abstract-140
+23	Jenna	Jenna	PROPN	NNP	Number=Sing	26	compound	_	Entity=(person-141(person-1)
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	Julien	Julien	PROPN	NNP	Number=Sing	23	conj	_	Entity=(person-138)person-141)
+26	Podcast	Podcast	PROPN	NNP	Number=Sing	20	xcomp	_	Entity=abstract-140)|SpaceAfter=No
+27	"	''	PUNCT	''	_	26	punct	_	SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	20	punct	_	Entity=abstract-137)|SpaceAfter=No
+29	.	.	PUNCT	.	_	2	punct	_	_
+

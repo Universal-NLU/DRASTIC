@@ -1,0 +1,17 @@
+# sent_id = GUM_academic_enjambment-24
+# s_type = decl
+# text = Finally, findings on enjambment in our diachronic sonnet corpus are discussed.
+1	Finally	finally	ADV	RB	Degree=Pos	12	advmod	12:advmod	Discourse=sequence_m:58->54:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	findings	finding	NOUN	NNS	Number=Plur	12	nsubj:pass	12:nsubj:pass	Entity=(abstract-107-new-1-sgl
+4	on	on	ADP	IN	_	5	case	5:case	_
+5	enjambment	enjambment	NOUN	NN	Number=Sing	3	nmod	3:nmod:on	Entity=(abstract-3-giv:inact-1-coref)
+6	in	in	ADP	IN	_	10	case	10:case	_
+7	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(abstract-75-giv:act-4-coref(person-71-giv:act-1-ana)
+8	diachronic	diachronic	ADJ	JJ	Degree=Pos	10	amod	10:amod	_
+9	sonnet	sonnet	NOUN	NN	Number=Sing	10	compound	10:compound	_
+10	corpus	corpus	NOUN	NN	Number=Sing	5	nmod	5:nmod:in	Entity=75)107)
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
+12	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+13	.	.	PUNCT	.	_	12	punct	12:punct	_
+

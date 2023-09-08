@@ -1,0 +1,12 @@
+# sent_id = GUM_bio_dvorak-18
+# text = His Seventh Symphony was written for London.
+# s_type = decl
+1	His	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	Discourse=elaboration:49->45|Entity=(person-1)
+2	Seventh	Seventh	PROPN	NNP	Number=Sing	3	amod	_	Entity=(abstract-80
+3	Symphony	Symphony	PROPN	NNP	Number=Sing	5	nsubj:pass	_	Entity=abstract-80)
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	written	write	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	London	London	PROPN	NNP	Number=Sing	5	obl	_	Entity=(place-70)|SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	_
+

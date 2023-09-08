@@ -1,0 +1,22 @@
+# sent_id = GUM_academic_art-12
+# s_type = decl
+# text = This paper describes a collaborative pilot project focusing on a unique collection of 17th Century Zurbarán paintings.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	Discourse=background:17->23:5|Entity=(abstract-41-acc:com-2-coref
+2	paper	paper	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=41)
+3	describes	describe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-42-new-4-coref
+5	collaborative	collaborative	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+6	pilot	pilot	NOUN	NN	Number=Sing	7	compound	7:compound	_
+7	project	project	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=42)
+8	focusing	focus	VERB	VBG	VerbForm=Ger	7	acl	7:acl	Discourse=elaboration:18->17:0
+9	on	on	ADP	IN	_	12	case	12:case	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(object-43-new-3-coref
+11	unique	unique	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+12	collection	collection	NOUN	NN	Number=Sing	8	obl	8:obl:on	_
+13	of	of	ADP	IN	_	17	case	17:case	_
+14	17th	17th	ADJ	JJ	Degree=Pos|NumType=Ord	15	amod	15:amod	Entity=(object-44-new-4-coref(time-45-new-2-sgl|XML=<date from:::"1600-01-01" to:::"1699-12-31">
+15	Century	century	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=45)|XML=</date>
+16	Zurbarán	Zurbarán	PROPN	NNP	Number=Sing	17	compound	17:compound	Entity=(person-46-new-1-coref-Francisco_de_Zurbarán)
+17	paintings	painting	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	Entity=44)43)|SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+

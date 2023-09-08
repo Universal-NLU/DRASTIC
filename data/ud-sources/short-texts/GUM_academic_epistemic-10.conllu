@@ -1,0 +1,19 @@
+# sent_id = GUM_academic_epistemic-10
+# s_type = decl
+# text = There are some egregious examples of this practice in the field of health care.
+1	There	there	PRON	EX	_	2	expl	2:expl	Discourse=elaboration:38->30:4
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	some	some	DET	DT	_	5	det	5:det	Entity=(abstract-45-new-9-sgl
+4	egregious	egregious	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	examples	example	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj	_
+6	of	of	ADP	IN	_	8	case	8:case	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(event-37-giv:act-2-coref
+8	practice	practice	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=37)
+9	in	in	ADP	IN	_	11	case	11:case	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Entity=(abstract-46-new-2-sgl
+11	field	field	NOUN	NN	Number=Sing	2	obl	2:obl:in	_
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	health	health	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-47-new-2-coref
+14	care	care	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=47)46)45)|SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+

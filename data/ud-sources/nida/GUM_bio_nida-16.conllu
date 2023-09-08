@@ -1,0 +1,22 @@
+# sent_id = GUM_bio_nida-16
+# text = In 1997, he married María Elena Fernandez-Miranda, a lawyer and diplomatic attache.
+# s_type = decl
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=joint-sequence_m:31->8:0
+2	1997	1997	NUM	CD	NumForm=Digit|NumType=Card	5	obl	5:obl:in	Entity=(56-time-new-cf3-1-sgl)|SpaceAfter=No|XML=<date when:::"1997"></date>
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+5	married	marry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+6	María	María	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(57-person-new-cf2-1,2,3,5-coref
+7	Elena	Elena	PROPN	NNP	Number=Sing	6	flat	6:flat	_
+8	Fernandez	Fernandez	PROPN	NNP	Number=Sing	6	flat	6:flat	SpaceAfter=No|XML=<w>
+9	-	-	PUNCT	HYPH	_	10	punct	10:punct	SpaceAfter=No
+10	Miranda	Miranda	PROPN	NNP	Number=Sing	8	flat	8:flat	Entity=57)|SpaceAfter=No|XML=</w>
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(57-person-giv:act-cf2-2,5-appos
+13	lawyer	lawyer	NOUN	NN	Number=Sing	6	appos	6:appos	_
+14	and	and	CCONJ	CC	_	16	cc	16:cc	_
+15	diplomatic	diplomatic	ADJ	JJ	Degree=Pos	16	amod	16:amod	_
+16	attache	attache	X	FW	_	13	conj	6:appos|13:conj:and	Entity=57)|SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+

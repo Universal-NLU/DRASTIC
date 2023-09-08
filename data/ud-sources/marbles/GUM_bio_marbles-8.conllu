@@ -1,0 +1,16 @@
+# sent_id = GUM_bio_marbles-8
+# text = She then moved to Boston, where she attended Suffolk University.
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Discourse=sequence:25->19|Entity=(person-1)
+2	then	then	ADV	RB	PronType=Dem	3	advmod	_	_
+3	moved	move	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	5	case	_	_
+5	Boston	Boston	PROPN	NNP	Number=Sing	3	obl	_	Entity=(place-34|SpaceAfter=No
+6	,	,	PUNCT	,	_	9	punct	_	_
+7	where	where	SCONJ	WRB	PronType=Rel	9	mark	_	Discourse=elaboration:26->25
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Entity=(person-1)
+9	attended	attend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+10	Suffolk	Suffolk	PROPN	NNP	Number=Sing	11	compound	_	Entity=(organization-35(place-36)
+11	University	University	PROPN	NNP	Number=Sing	9	obj	_	Entity=place-34)organization-35)|SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	_	_
+

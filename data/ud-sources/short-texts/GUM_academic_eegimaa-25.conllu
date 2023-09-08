@@ -1,0 +1,17 @@
+# sent_id = GUM_academic_eegimaa-25
+# s_type = decl
+# text = The Ethnologue language codes are provided for language varieties that have them.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=joint_m:68->66:1|Entity=(abstract-114-new-4-coref
+2	Ethnologue	Ethnologue	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(organization-6-giv:inact-1-coref-Ethnologue)
+3	language	language	NOUN	NN	Number=Sing	4	compound	4:compound	_
+4	codes	code	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=114)
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	6:aux:pass	_
+6	provided	provide	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+7	for	for	ADP	IN	_	9	case	9:case	_
+8	language	language	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-115-new-2-sgl
+9	varieties	variety	NOUN	NNS	Number=Plur	6	obl	6:obl:for|11:nsubj	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	9:ref	Discourse=elaboration:69->68:0
+11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	11:obj	Entity=(abstract-114-giv:act-1-ana)115)|SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	6:punct	_
+

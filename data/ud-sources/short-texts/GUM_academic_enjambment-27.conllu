@@ -1,0 +1,14 @@
+# sent_id = GUM_academic_enjambment-27
+# s_type = decl
+# text = Syntactic and metrical units often match in poetry.
+# newpar = p (2 s)
+1	Syntactic	Syntactic	ADJ	JJ	Degree=Pos	4	amod	4:amod	Discourse=concession:63->64:1|Entity=(abstract-114-new-6-disc(abstract-115-new-4-sgl
+2	and	and	CCONJ	CC	_	3	cc	3:cc	_
+3	metrical	metrical	ADJ	JJ	Degree=Pos	1	conj	1:conj:and|4:amod	_
+4	units	unit	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=115)
+5	often	often	ADV	RB	Degree=Pos	6	advmod	6:advmod	_
+6	match	match	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	poetry	poetry	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=(abstract-20-giv:inact-1-coref)114)|SpaceAfter=No
+9	.	.	PUNCT	.	_	6	punct	6:punct	_
+

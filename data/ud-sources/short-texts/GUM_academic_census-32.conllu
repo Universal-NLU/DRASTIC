@@ -1,0 +1,17 @@
+# sent_id = GUM_academic_census-32
+# s_type = decl
+# text = We begin by detailing the design and implementation of our web crawler framework.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:96->68:5|Entity=(person-161-giv:act-1-ana)
+2	begin	begin	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	by	by	SCONJ	IN	_	4	mark	4:mark	Discourse=means:97->96:0
+4	detailing	detail	VERB	VBG	VerbForm=Ger	2	advcl	2:advcl:by	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-198-new-2,4-sgl
+6	design	design	NOUN	NN	Number=Sing	4	obj	4:obj	_
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	implementation	implementation	NOUN	NN	Number=Sing	6	conj	4:obj|6:conj:and	_
+9	of	of	ADP	IN	_	13	case	13:case	_
+10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	13:nmod:poss	Entity=(abstract-199-new-4-sgl(person-161-giv:act-1-ana)
+11	web	web	NOUN	NN	Number=Sing	12	compound	12:compound	Entity=(abstract-163-giv:inact-2-coref(abstract-164-giv:inact-1-coref-World_Wide_Web)
+12	crawler	crawler	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=163)
+13	framework	framework	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=199)198)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_

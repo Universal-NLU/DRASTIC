@@ -1,0 +1,17 @@
+# sent_id = GUM_bio_nida-25
+# text = For more information, see "Dynamic and formal equivalence."
+# s_type = imp
+1	For	for	ADP	IN	_	3	case	3:case	Discourse=elaboration-additional:45->43:1
+2	more	more	ADJ	JJR	Degree=Cmp	3	amod	3:amod	Entity=(83-abstract-new-cf2-2-sgl
+3	information	information	NOUN	NN	Number=Sing	5	obl	5:obl:for	Entity=83)|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	see	see	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	_
+6	"	''	PUNCT	``	_	10	punct	10:punct	SpaceAfter=No|XML=<q>
+7	Dynamic	dynamic	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(84-abstract-new-cf1-4-sgl|XML=<ref>
+8	and	and	CCONJ	CC	_	9	cc	9:cc	_
+9	formal	formal	ADJ	JJ	Degree=Pos	7	conj	7:conj:and|10:amod	_
+10	equivalence	equivalence	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=84)|SpaceAfter=No|XML=</ref>
+11	.	.	PUNCT	.	_	10	punct	10:punct	SpaceAfter=No
+12	"	''	PUNCT	''	_	10	punct	10:punct	XML=</q>
+
+

@@ -1,0 +1,18 @@
+# sent_id = GUM_bio_marbles-22
+# text = The name "Marbles" comes from her dog "Mr. Marbles".
+# s_type = decl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Discourse=joint:70->63|Entity=(abstract-6
+2	name	name	NOUN	NN	Number=Sing	6	nsubj	_	Entity=abstract-6)
+3	"	''	PUNCT	``	_	4	punct	_	SpaceAfter=No
+4	Marbles	Marbles	PROPN	NNP	Number=Sing	2	appos	_	Entity=(abstract-6)|SpaceAfter=No
+5	"	''	PUNCT	''	_	4	punct	_	_
+6	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	from	from	ADP	IN	_	9	case	_	_
+8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=(animal-103(person-1)
+9	dog	dog	NOUN	NN	Number=Sing	6	obl	_	Entity=animal-103)
+10	"	''	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	Mr.	Mr.	PROPN	NNP	Number=Sing	9	appos	_	Entity=(animal-103
+12	Marbles	Marbles	PROPN	NNP	Number=Sing	11	flat	_	Entity=animal-103)|SpaceAfter=No
+13	"	''	PUNCT	''	_	11	punct	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	_	_
+

@@ -1,0 +1,25 @@
+# sent_id = GUM_academic_census-30
+# s_type = decl
+# text = In short, many important research questions will benefit from the availability of accurate and frequently-recollected census data.
+1	In	in	ADP	IN	_	2	case	2:case	Discourse=evaluation:94->68:4
+2	short	short	ADJ	JJ	Degree=Pos	9	obl	9:obl:in	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	2:punct	_
+4	many	many	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-193-new-4-sgl
+5	important	important	ADJ	JJ	Degree=Pos	7	amod	7:amod	_
+6	research	research	NOUN	NN	Number=Sing	7	compound	7:compound	_
+7	questions	question	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	Entity=193)
+8	will	will	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	9	aux	9:aux	_
+9	benefit	benefit	VERB	VB	VerbForm=Inf	0	root	0:root	_
+10	from	from	ADP	IN	_	12	case	12:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(abstract-194-new-2-sgl
+12	availability	availability	NOUN	NN	Number=Sing	9	obl	9:obl:from	_
+13	of	of	ADP	IN	_	20	case	20:case	_
+14	accurate	accurate	ADJ	JJ	Degree=Pos	20	amod	20:amod	Entity=(abstract-195-new-7-sgl
+15	and	and	CCONJ	CC	_	18	cc	18:cc	_
+16	frequently	frequently	ADV	RB	Degree=Pos	18	advmod	18:advmod	SpaceAfter=No|XML=<w>
+17	-	-	PUNCT	HYPH	_	16	punct	16:punct	SpaceAfter=No
+18	recollected	recollect	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	14:conj:and|20:amod	XML=</w>
+19	census	census	NOUN	NN	Number=Sing	20	compound	20:compound	Entity=(event-196-new-1-sgl)
+20	data	datum	NOUN	NNS	Number=Plur	12	nmod	12:nmod:of	Entity=195)194)|SpaceAfter=No
+21	.	.	PUNCT	.	_	9	punct	9:punct	_
+

@@ -1,0 +1,45 @@
+# sent_id = GUM_bio_dvorak-12
+# text = The prize was awarded to Dvořák in 1874 [a] and again in 1876 and in 1877, when Brahms and the prominent critic Eduard Hanslick, also a member of the jury, made themselves known to him.
+# s_type = decl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Discourse=sequence:31->26|Entity=(abstract-43
+2	prize	prize	NOUN	NN	Number=Sing	4	nsubj:pass	_	Entity=abstract-43)
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	awarded	award	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	obl	_	Entity=(person-1)
+7	in	in	ADP	IN	_	8	case	_	_
+8	1874	1874	NUM	CD	NumType=Card	4	obl	_	Entity=(time-41)
+9	[	[	PUNCT	-LSB-	_	10	punct	_	Discourse=elaboration:32->31|SpaceAfter=No
+10	a	a	NOUN	NN	Number=Sing	4	dep	_	Entity=(abstract-51)|SpaceAfter=No
+11	]	]	PUNCT	-RSB-	_	10	punct	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	Discourse=sequence:33->31
+13	again	again	ADV	RB	_	15	advmod	_	_
+14	in	in	ADP	IN	_	15	case	_	_
+15	1876	1876	NUM	CD	NumType=Card	7	conj	_	Entity=(time-52)
+16	and	and	CCONJ	CC	_	18	cc	_	Discourse=sequence:34->31
+17	in	in	ADP	IN	_	18	case	_	_
+18	1877	1877	NUM	CD	NumType=Card	7	conj	_	Entity=(time-53)|SpaceAfter=No
+19	,	,	PUNCT	,	_	36	punct	_	_
+20	when	when	SCONJ	WRB	PronType=Int	36	mark	_	Discourse=circumstance:35->34
+21	Brahms	Brahms	PROPN	NNP	Number=Sing	36	nsubj	_	Entity=(person-54(person-49)
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	Entity=(person-55
+24	prominent	prominent	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	critic	critic	NOUN	NN	Number=Sing	21	conj	_	_
+26	Eduard	Eduard	PROPN	NNP	Number=Sing	25	flat	_	_
+27	Hanslick	Hanslick	PROPN	NNP	Number=Sing	25	flat	_	Entity=person-54)person-55)|SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	also	also	ADV	RB	_	31	advmod	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	Entity=(person-55
+31	member	member	NOUN	NN	Number=Sing	25	appos	_	_
+32	of	of	ADP	IN	_	34	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	Entity=(organization-50
+34	jury	jury	NOUN	NN	Number=Sing	31	nmod	_	Entity=person-55)organization-50)|SpaceAfter=No
+35	,	,	PUNCT	,	_	21	punct	_	_
+36	made	make	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	_
+37	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	Entity=(person-54)
+38	known	know	VERB	VBN	Tense=Past|VerbForm=Part	36	xcomp	_	_
+39	to	to	ADP	IN	_	40	case	_	_
+40	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	_	Entity=(person-1)|SpaceAfter=No
+41	.	.	PUNCT	.	_	4	punct	_	_
+

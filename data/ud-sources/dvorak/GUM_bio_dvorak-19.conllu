@@ -1,0 +1,23 @@
+# sent_id = GUM_bio_dvorak-19
+# text = Visiting Russia in March 1890, he conducted concerts of his own music in Moscow and Saint Petersburg. [3]
+# s_type = decl
+1	Visiting	visit	VERB	VBG	VerbForm=Ger	8	advcl	_	Discourse=circumstance:50->51
+2	Russia	Russia	PROPN	NNP	Number=Sing	1	obj	_	Entity=(place-81)
+3	in	in	ADP	IN	_	4	case	_	_
+4	March	March	PROPN	NNP	Number=Sing	1	obl	_	Entity=(time-82
+5	1890	1890	NUM	CD	NumType=Card	4	nmod:tmod	_	Entity=(time-83)time-82)|SpaceAfter=No
+6	,	,	PUNCT	,	_	1	punct	_	_
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Discourse=sequence:51->17|Entity=(person-1)
+8	conducted	conduct	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	concerts	concert	NOUN	NNS	Number=Plur	8	obj	_	Entity=(event-84
+10	of	of	ADP	IN	_	13	case	_	_
+11	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	Entity=(abstract-28(person-1)
+12	own	own	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	music	music	NOUN	NN	Number=Sing	9	nmod	_	Entity=abstract-28)
+14	in	in	ADP	IN	_	15	case	_	_
+15	Moscow	Moscow	PROPN	NNP	Number=Sing	8	obl	_	Entity=(place-85)
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	Saint	Saint	PROPN	NNP	Number=Sing	15	conj	_	Entity=(place-86
+18	Petersburg	Petersburg	PROPN	NNP	Number=Sing	17	flat	_	Entity=event-84)place-86)|SpaceAfter=No
+19	.	.	PUNCT	.	_	8	punct	_	_
+

@@ -1,0 +1,13 @@
+# sent_id = GUM_academic_eegimaa-21
+# s_type = frag
+# text = Map of Senegal (courtesy of Google maps)
+1	Map	map	NOUN	NN	Number=Sing	0	root	0:root	Discourse=background:62->42:3|Entity=(abstract-50-giv:act-1-coref
+2	of	of	ADP	IN	_	3	case	3:case	_
+3	Senegal	Senegal	PROPN	NNP	Number=Sing	1	nmod	1:nmod:of	Entity=(place-52-giv:inact-1-coref-Senegal)50)
+4	(	(	PUNCT	-LRB-	_	5	punct	5:punct	Discourse=attribution:63->62:0|SpaceAfter=No
+5	courtesy	courtesy	NOUN	NN	Number=Sing	1	parataxis	1:parataxis	_
+6	of	of	ADP	IN	_	8	case	8:case	_
+7	Google	Google	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(organization-110-new-2-sgl-Google_Maps(organization-111-new-1-sgl-Google)
+8	maps	map	NOUN	NNS	Number=Plur	5	nmod	5:nmod:of	Entity=110)|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	5	punct	5:punct	_
+

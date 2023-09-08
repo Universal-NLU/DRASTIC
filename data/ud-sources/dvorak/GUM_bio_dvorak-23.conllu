@@ -1,0 +1,51 @@
+# sent_id = GUM_bio_dvorak-23
+# text = While in the United States, Dvořák wrote his two most successful orchestral works: the Symphony From the New World, which spread his reputation worldwide, [4] and his Cello Concerto, one of the most highly regarded of all cello concerti.
+# s_type = decl
+1	While	while	SCONJ	IN	_	5	mark	_	Discourse=circumstance:57->58
+2	in	in	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	Entity=(place-74
+4	United	United	PROPN	NNP	Number=Sing	5	amod	_	_
+5	States	States	PROPN	NNPS	Number=Plur	8	advcl	_	Entity=place-74)|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Dvořák	Dvořák	PROPN	NNP	Number=Sing	8	nsubj	_	Discourse=elaboration:58->55|Entity=(person-1)
+8	wrote	write	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	Entity=(abstract-97(person-1)
+10	two	two	NUM	CD	NumType=Card	14	nummod	_	_
+11	most	most	ADV	RBS	_	12	advmod	_	_
+12	successful	successful	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	orchestral	orchestral	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	works	work	NOUN	NNS	Number=Plur	8	obj	_	Entity=abstract-97)|SpaceAfter=No
+15	:	:	PUNCT	:	_	17	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	Discourse=elaboration:59->58|Entity=(abstract-97(abstract-98
+17	Symphony	Symphony	PROPN	NNP	Number=Sing	14	appos	_	_
+18	From	from	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	Entity=(place-99
+20	New	New	PROPN	NNP	Number=Sing	21	amod	_	_
+21	World	World	PROPN	NNP	Number=Sing	17	nmod	_	Entity=place-99)|SpaceAfter=No
+22	,	,	PUNCT	,	_	24	punct	_	_
+23	which	which	PRON	WDT	PronType=Rel	24	nsubj	_	Discourse=elaboration:60->59
+24	spread	spread	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+25	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	Entity=(abstract-100(person-1)
+26	reputation	reputation	NOUN	NN	Number=Sing	24	obj	_	Entity=abstract-100)
+27	worldwide	worldwide	ADV	RB	_	24	advmod	_	Entity=abstract-98)|SpaceAfter=No
+28	,	,	PUNCT	,	_	17	punct	_	_
+29	[	[	PUNCT	-LSB-	_	30	punct	_	Discourse=evidence:61->59|SpaceAfter=No
+30	4	4	NUM	CD	NumType=Card	8	dislocated	_	Entity=(abstract-101)|SpaceAfter=No
+31	]	]	PUNCT	-RSB-	_	30	punct	_	_
+32	and	and	CCONJ	CC	_	35	cc	_	Discourse=same-unit:62->59
+33	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	_	Entity=(abstract-102(person-1)
+34	Cello	Cello	PROPN	NNP	Number=Sing	35	compound	_	_
+35	Concerto	Concerto	PROPN	NNP	Number=Sing	17	conj	_	Entity=abstract-97)abstract-102)|SpaceAfter=No
+36	,	,	PUNCT	,	_	37	punct	_	_
+37	one	one	NUM	CD	NumType=Card	35	appos	_	Entity=(abstract-102
+38	of	of	ADP	IN	_	42	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	Entity=(abstract-103
+40	most	most	ADV	RBS	_	42	advmod	_	_
+41	highly	highly	ADV	RB	_	42	advmod	_	_
+42	regarded	regard	VERB	VBN	Tense=Past|VerbForm=Part	37	nmod	_	_
+43	of	of	ADP	IN	_	46	case	_	_
+44	all	all	DET	DT	_	46	det	_	Entity=(abstract-104
+45	cello	cello	NOUN	NN	Number=Sing	46	compound	_	_
+46	concerti	concerto	NOUN	NNS	Number=Plur	42	obl	_	Entity=abstract-102)abstract-103)abstract-104)|SpaceAfter=No
+47	.	.	PUNCT	.	_	8	punct	_	_
+

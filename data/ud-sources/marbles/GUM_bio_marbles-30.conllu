@@ -1,0 +1,35 @@
+# sent_id = GUM_bio_marbles-30
+# text = She was the first ever YouTube star to be immortalized at Madame Tussauds New York and her figure is the first selfie-taking wax figure at this location. [19]
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Discourse=elaboration:83->82|Entity=(person-1)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	Entity=(person-1
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	_
+5	ever	ever	ADV	RB	_	4	advmod	_	_
+6	YouTube	YouTube	PROPN	NNP	Number=Sing	7	compound	_	Entity=(organization-7)
+7	star	star	NOUN	NN	Number=Sing	0	root	_	_
+8	to	to	PART	TO	_	10	mark	_	Discourse=elaboration:84->83
+9	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	_
+10	immortalized	immortalize	VERB	VBN	Polarity=Neg|Tense=Past|VerbForm=Part	7	acl	_	_
+11	at	at	ADP	IN	_	12	case	_	_
+12	Madame	Madame	PROPN	NNP	Number=Sing	10	obl	_	Entity=(place-20(person-21
+13	Tussauds	Tussauds	PROPN	NNP	Number=Sing	12	flat	_	Entity=person-21)
+14	New	New	PROPN	NNP	Number=Sing	15	compound	_	Entity=(place-22
+15	York	York	PROPN	NNP	Number=Sing	12	compound	_	Entity=person-1)place-20)place-22)
+16	and	and	CCONJ	CC	_	24	cc	_	Discourse=joint:85->83
+17	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	_	Entity=(object-18(person-1)
+18	figure	figure	NOUN	NN	Number=Sing	24	nsubj	_	Entity=object-18)
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	Entity=(object-18
+21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	24	amod	_	_
+22	selfie-taking	selfie-taking	ADJ	JJ	Degree=Pos	24	amod	_	_
+23	wax	wax	NOUN	NN	Number=Sing	24	compound	_	Entity=(substance-19)
+24	figure	figure	NOUN	NN	Number=Sing	7	conj	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	this	this	DET	DT	Number=Sing|PronType=Dem	27	det	_	Entity=(place-20
+27	location	location	NOUN	NN	Number=Sing	24	nmod	_	Entity=object-18)place-20)|SpaceAfter=No
+28	.	.	PUNCT	.	_	7	punct	_	_
+29	[	[	PUNCT	-LSB-	_	30	punct	_	Discourse=evidence:86->83|SpaceAfter=No
+30	19	19	NUM	CD	NumType=Card	7	dep	_	Entity=(abstract-132)|SpaceAfter=No
+31	]	]	PUNCT	-RSB-	_	30	punct	_	_
+

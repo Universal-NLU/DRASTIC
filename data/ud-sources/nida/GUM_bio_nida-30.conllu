@@ -1,0 +1,16 @@
+# sent_id = GUM_bio_nida-30
+# text = Hence, there can be no fully exact translations."
+# s_type = decl
+1	Hence	hence	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=adversative-contrast_m:69->52:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	there	there	PRON	EX	PronType=Dem	5	expl	5:expl	_
+4	can	can	AUX	MD	Number=Plur|Person=3|VerbForm=Fin	5	aux	5:aux	_
+5	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	no	no	DET	DT	Polarity=Neg|PronType=Art	9	det	9:det	_
+7	fully	fully	ADV	RB	Degree=Pos	8	advmod	8:advmod	_
+8	exact	exact	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(114-abstract-new-cf1-2-sgl
+9	translations	translation	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=114)|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	5:punct	SpaceAfter=No
+11	"	''	PUNCT	''	_	5	punct	5:punct	_
+
+

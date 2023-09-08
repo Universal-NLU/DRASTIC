@@ -1,0 +1,18 @@
+# sent_id = GUM_academic_enjambment-16
+# s_type = wh
+# text = What is the interest of such large-scale automatic analyses of enjambment?
+1	What	what	PRON	WP	PronType=Int	4	nsubj	4:nsubj	Discourse=question:37->38:2
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(abstract-80-new-2-sgl
+4	interest	interest	NOUN	NN	Number=Sing	0	root	0:root	_
+5	of	of	ADP	IN	_	11	case	11:case	_
+6	such	such	ADJ	JJ	Degree=Pos	11	amod	11:amod	Entity=(abstract-81-new-6-sgl
+7	large	large	ADJ	JJ	Degree=Pos	9	amod	9:amod	SpaceAfter=No|XML=<w>
+8	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
+9	scale	scale	NOUN	NN	Number=Sing	11	compound	11:compound	XML=</w>
+10	automatic	automatic	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
+11	analyses	analysis	NOUN	NNS	Number=Plur	4	nmod	4:nmod:of	_
+12	of	of	ADP	IN	_	13	case	13:case	_
+13	enjambment	enjambment	NOUN	NN	Number=Sing	11	nmod	11:nmod:of	Entity=(abstract-3-giv:act-1-coref)81)80)|SpaceAfter=No
+14	?	?	PUNCT	.	_	4	punct	4:punct	_
+

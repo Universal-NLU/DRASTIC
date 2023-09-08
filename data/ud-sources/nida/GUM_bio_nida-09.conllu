@@ -1,0 +1,31 @@
+# sent_id = GUM_bio_nida-9
+# text = Sometime in this period, Nida became a founding charter member of Wycliffe Bible Translators, a related organization to the Summer Institute of Linguistics.
+# s_type = decl
+1	Sometime	sometime	ADV	RB	_	7	advmod	7:advmod	Discourse=elaboration-additional:18->16:1
+2	in	in	ADP	IN	_	4	case	4:case	XML=<date notBefore:::"1936" notAfter:::"1937">
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(24-time-giv:act-cf2-2-coref
+4	period	period	NOUN	NN	Number=Sing	1	nmod	1:nmod:in	Entity=24)|SpaceAfter=No|XML=</date>
+5	,	,	PUNCT	,	_	1	punct	1:punct	_
+6	Nida	Nida	PROPN	NNP	Number=Sing	7	nsubj	7:nsubj|11:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
+7	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	11:det	Entity=(1-person-giv:act-cf1*-4,6,7-coref-Eugene_Nida
+9	founding	found	VERB	VBG	VerbForm=Ger	11	amod	11:amod	_
+10	charter	charter	NOUN	NN	Number=Sing	11	compound	11:compound	_
+11	member	member	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	_
+12	of	of	ADP	IN	_	15	case	15:case	_
+13	Wycliffe	Wycliffe	PROPN	NNP	Number=Sing	15	compound	15:compound	Bridge=22<31|Entity=(31-organization-acc:inf-cf3-1,2,3-coref-Wycliffe_Global_Alliance|XML=<ref>
+14	Bible	Bible	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=(8-abstract-giv:inact-cf4-1-coref-Bible)
+15	Translators	Translator	PROPN	NNPS	Number=Plur	11	nmod	11:nmod:of	Entity=31)1)|SpaceAfter=No|XML=</ref>
+16	,	,	PUNCT	,	_	19	punct	19:punct	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	19:det	Entity=(31-organization-giv:act-cf3-3,6,9-appos-Wycliffe_Global_Alliance
+18	related	related	ADJ	JJ	Degree=Pos	19	amod	19:amod	_
+19	organization	organization	NOUN	NN	Number=Sing	15	appos	15:appos	_
+20	to	to	ADP	IN	_	23	case	23:case	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	23:det	Entity=(32-organization-new-cf5-2,3,5-sgl-SIL_International
+22	Summer	Summer	PROPN	NNP	Number=Sing	23	compound	23:compound	XML=<ref>
+23	Institute	Institute	PROPN	NNP	Number=Sing	19	nmod	19:nmod:to	_
+24	of	of	ADP	IN	_	25	case	25:case	_
+25	Linguistics	Linguistics	PROPN	NNP	Number=Sing	23	nmod	23:nmod:of	Entity=(33-abstract-new-cf6-1-coref-Linguistics)32)31)|SpaceAfter=No|XML=</ref>
+26	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+

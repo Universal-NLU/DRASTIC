@@ -1,0 +1,45 @@
+# sent_id = GUM_bio_marbles-31
+# text = Marbles has also professionalized her business affairs by expanding her business and bringing in people to help, including, a personal assistant, a business manager, and her mother (the chief executive officer). [8]
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	4	nsubj	_	Discourse=joint:87->40|Entity=(person-1)
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	professionalized	professionalized	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	Entity=(abstract-133(person-1)
+6	business	business	NOUN	NN	Number=Sing	7	compound	_	_
+7	affairs	affair	NOUN	NNS	Number=Plur	4	obj	_	Entity=abstract-133)
+8	by	by	SCONJ	IN	_	9	mark	_	Discourse=means:88->87
+9	expanding	expand	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+10	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	Entity=(abstract-133(person-1)
+11	business	business	NOUN	NN	Number=Sing	9	obj	_	Entity=abstract-133)
+12	and	and	CCONJ	CC	_	13	cc	_	Discourse=joint:89->88
+13	bringing	bring	VERB	VBG	VerbForm=Ger	9	conj	_	_
+14	in	in	ADP	RP	_	13	compound:prt	_	_
+15	people	people	NOUN	NNS	Number=Plur	13	obj	_	Entity=(person-134)
+16	to	to	PART	TO	_	17	mark	_	Discourse=purpose:90->89
+17	help	help	VERB	VB	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	including	include	VERB	VBG	VerbForm=Ger	13	advcl	_	Discourse=elaboration:91->89|SpaceAfter=No
+20	,	,	PUNCT	,	_	23	punct	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	Entity=(person-135
+22	personal	personal	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	assistant	assistant	NOUN	NN	Number=Sing	19	obj	_	Entity=person-135)|SpaceAfter=No
+24	,	,	PUNCT	,	_	27	punct	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	Entity=(person-136
+26	business	business	NOUN	NN	Number=Sing	27	compound	_	_
+27	manager	manager	NOUN	NN	Number=Sing	23	conj	_	Entity=person-136)|SpaceAfter=No
+28	,	,	PUNCT	,	_	31	punct	_	_
+29	and	and	CCONJ	CC	_	31	cc	_	_
+30	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	Entity=(person-96(person-1)
+31	mother	mother	NOUN	NN	Number=Sing	27	conj	_	Entity=person-96)
+32	(	(	PUNCT	-LRB-	_	36	punct	_	Discourse=elaboration:92->91|SpaceAfter=No
+33	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	Entity=(person-96
+34	chief	chief	ADJ	JJ	Degree=Pos	36	amod	_	_
+35	executive	executive	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	officer	officer	NOUN	NN	Number=Sing	31	compound	_	Entity=person-96)|SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	36	punct	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	4	punct	_	_
+39	[	[	PUNCT	-LSB-	_	40	punct	_	Discourse=evidence:93->87|SpaceAfter=No
+40	8	8	NUM	CD	NumType=Card	4	dep	_	Entity=(abstract-60)|SpaceAfter=No
+41	]	]	PUNCT	-RSB-	_	40	punct	_	_
+

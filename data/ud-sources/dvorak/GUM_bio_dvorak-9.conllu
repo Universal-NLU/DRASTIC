@@ -1,0 +1,43 @@
+# sent_id = GUM_bio_dvorak-9
+# text = Seeking recognition beyond the Prague area, he submitted a score of his First Symphony to a prize competition in Germany, but did not win, and the unreturned manuscript was lost until rediscovered many decades later.
+# s_type = decl
+1	Seeking	seek	VERB	VBG	VerbForm=Ger	9	advcl	_	Discourse=cause:21->22
+2	recognition	recognition	NOUN	NN	Number=Sing	1	obj	_	Entity=(abstract-34
+3	beyond	beyond	ADP	IN	_	6	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	Entity=(place-35
+5	Prague	Prague	PROPN	NNP	Number=Sing	6	compound	_	Entity=(place-29)
+6	area	area	NOUN	NN	Number=Sing	1	obl	_	Entity=abstract-34)place-35)|SpaceAfter=No
+7	,	,	PUNCT	,	_	1	punct	_	_
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Discourse=sequence:22->17|Entity=(person-1)
+9	submitted	submit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	Entity=(object-36
+11	score	score	NOUN	NN	Number=Sing	9	obj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	Entity=(person-1)
+14	First	First	PROPN	NNP	Number=Sing	15	amod	_	_
+15	Symphony	Symphony	PROPN	NNP	Number=Sing	11	nmod	_	Entity=object-36)
+16	to	to	ADP	IN	_	19	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	Entity=(event-37
+18	prize	prize	NOUN	NN	Number=Sing	19	compound	_	Entity=(abstract-38)
+19	competition	competition	NOUN	NN	Number=Sing	9	obl	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	Germany	Germany	PROPN	NNP	Number=Sing	19	nmod	_	Entity=(place-39)event-37)|SpaceAfter=No
+22	,	,	PUNCT	,	_	26	punct	_	_
+23	but	but	CCONJ	CC	_	26	cc	_	Discourse=contrast:23->22
+24	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+25	not	not	PART	RB	Polarity=Neg	26	advmod	_	_
+26	win	win	VERB	VB	VerbForm=Inf	9	conj	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	33	punct	_	_
+28	and	and	CCONJ	CC	_	33	cc	_	Discourse=elaboration:24->22
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	Entity=(object-36
+30	unreturned	unreturned	ADJ	JJ	Degree=Pos|Polarity=Neg	31	amod	_	_
+31	manuscript	manuscript	NOUN	NN	Number=Sing	33	nsubj:pass	_	Entity=object-36)
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	33	aux:pass	_	_
+33	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+34	until	until	SCONJ	IN	_	35	mark	_	Discourse=sequence:25->24
+35	rediscovered	rediscover	VERB	VBN	Tense=Past|VerbForm=Part	33	advcl	_	_
+36	many	many	ADJ	JJ	Degree=Pos	37	amod	_	Entity=(time-40
+37	decades	decade	NOUN	NNS	Number=Plur	38	nmod:npmod	_	_
+38	later	late	ADV	RBR	Degree=Cmp	35	advmod	_	Entity=time-40)|SpaceAfter=No
+39	.	.	PUNCT	.	_	9	punct	_	_
+

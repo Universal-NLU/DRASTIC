@@ -1,0 +1,15 @@
+# sent_id = GUM_bio_dvorak-27
+# text = By far the most successful of the operas is Rusalka.
+# s_type = decl
+1	By	by	ADP	IN	_	2	case	_	Discourse=elaboration:68->65
+2	far	far	ADV	RB	Degree=Pos	10	nmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	Entity=(abstract-121
+4	most	most	ADV	RBS	_	5	advmod	_	_
+5	successful	successful	ADJ	JJ	Degree=Pos	10	nsubj	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	Entity=(abstract-122
+8	operas	opera	NOUN	NNS	Number=Plur	5	obl	_	Entity=abstract-121)abstract-122)
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	Rusalka	Rusalka	PROPN	NNP	Number=Sing	0	root	_	Entity=(abstract-121)|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	_
+

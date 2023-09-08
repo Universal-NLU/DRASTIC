@@ -1,0 +1,29 @@
+# sent_id = GUM_bio_dvorak-4
+# text = Following Smetana's nationalist example, Dvořák frequently employed aspects, specifically rhythms, of the folk music of Moravia and his native Bohemia.
+# s_type = decl
+1	Following	follow	VERB	VBG	VerbForm=Ger	5	case	_	Discourse=cause:10->11
+2	Smetana	Smetana	PROPN	NNP	Number=Sing	5	nmod:poss	_	Entity=(abstract-12(person-9|SpaceAfter=No
+3	's	's	PART	POS	_	2	case	_	Entity=person-9)
+4	nationalist	nationalist	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	example	example	NOUN	NN	Number=Sing	9	obl	_	Entity=abstract-12)|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
+7	Dvořák	Dvořák	PROPN	NNP	Number=Sing	9	nsubj	_	Discourse=joint:11->8|Entity=(person-1)
+8	frequently	frequently	ADV	RB	_	9	advmod	_	_
+9	employed	employ	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	aspects	aspect	NOUN	NNS	Number=Plur	9	obj	_	Entity=(abstract-13|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	specifically	specifically	ADV	RB	_	13	advmod	_	_
+13	rhythms	rhythm	NOUN	NNS	Number=Plur	10	appos	_	Entity=(abstract-14)|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	Entity=(abstract-15
+17	folk	folk	NOUN	NN	Number=Sing	18	compound	_	_
+18	music	music	NOUN	NN	Number=Sing	10	nmod	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	Moravia	Moravia	PROPN	NNP	Number=Sing	18	nmod	_	Entity=(place-16)
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	his	his	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	Entity=(place-17(person-1)
+23	native	native	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	Bohemia	Bohemia	PROPN	NNP	Number=Sing	20	conj	_	Entity=abstract-13)abstract-15)place-17)|SpaceAfter=No
+25	.	.	PUNCT	.	_	9	punct	_	_
+

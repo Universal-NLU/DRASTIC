@@ -1,0 +1,21 @@
+# sent_id = GUM_bio_nida-39
+# text = F-E focuses attention on the message itself, in both form and content.
+# s_type = decl
+1	F	F	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj	Discourse=elaboration-additional:97->93:4|Entity=(153-abstract-giv:act-cf1*-1,3-coref|SpaceAfter=No|XML=<w>
+2	-	-	PUNCT	HYPH	_	3	punct	3:punct	SpaceAfter=No
+3	E	E	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=153)|XML=</w>
+4	focuses	focus	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	attention	attention	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=(154-abstract-new-cf6-1-sgl)
+6	on	on	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(123-abstract-giv:inact-cf2-2-coref
+8	message	message	NOUN	NN	Number=Sing	4	obl	4:obl:on	_
+9	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	8	nmod:npmod	8:nmod:npmod	Entity=123)|SpaceAfter=No
+10	,	,	PUNCT	,	_	13	punct	13:punct	_
+11	in	in	ADP	IN	_	13	case	13:case	_
+12	both	both	CCONJ	CC	_	13	cc:preconj	13:cc:preconj	Entity=(134-abstract-giv:inact-cf3-2,4-coref
+13	form	form	NOUN	NN	Number=Sing	4	obl	4:obl:in	Entity=(128-abstract-giv:inact-cf4-1-coref)
+14	and	and	CCONJ	CC	_	15	cc	15:cc	_
+15	content	content	NOUN	NN	Number=Sing	13	conj	4:obl:in|13:conj:and	Entity=(125-abstract-giv:inact-cf5-1-coref)134)|SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+

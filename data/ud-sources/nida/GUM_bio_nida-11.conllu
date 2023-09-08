@@ -1,0 +1,29 @@
+# sent_id = GUM_bio_nida-11
+# text = In that same year he became interim pastor of Calvary Church of Santa Ana, California following the resignation of its founding pastor.
+# s_type = decl
+1	In	in	ADP	IN	_	4	case	4:case	Discourse=elaboration-additional:21->19:1
+2	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	4:det	Entity=(41-time-giv:act-cf3-3-coref|XML=<date when:::"1939">
+3	same	same	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	year	year	NOUN	NN	Number=Sing	6	obl	6:obl:in	Entity=41)|XML=</date>
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj|8:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+6	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+7	interim	interim	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=(1-person-giv:act-cf1*-2,4,7,8,10-coref-Eugene_Nida
+8	pastor	pastor	NOUN	NN	Number=Sing	6	xcomp	6:xcomp	_
+9	of	of	ADP	IN	_	11	case	11:case	_
+10	Calvary	Calvary	PROPN	NNP	Number=Sing	11	compound	11:compound	Entity=(42-organization-new-cf2-1,2,4,5,7-coref-Calvary_Church_of_Santa_Ana
+11	Church	Church	PROPN	NNP	Number=Sing	8	nmod	8:nmod:of	_
+12	of	of	ADP	IN	_	14	case	14:case	_
+13	Santa	Santa	PROPN	NNP	Number=Sing	14	compound	14:compound	Entity=(43-place-new-cf6-1,2,4-sgl-Santa_Ana%2C_California|XML=<ref>
+14	Ana	Ana	PROPN	NNP	Number=Sing	11	nmod	11:nmod:of	SpaceAfter=No
+15	,	,	PUNCT	,	_	16	punct	16:punct	_
+16	California	California	PROPN	NNP	Number=Sing	14	appos	14:appos	Entity=(20-place-giv:inact-cf4-1-coref-California)43)42)1)|XML=</ref>
+17	following	follow	VERB	VBG	VerbForm=Ger	6	advcl	6:advcl	Discourse=context-circumstance:22->21:0
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(44-event-new-cf5-2-sgl
+19	resignation	resignation	NOUN	NN	Number=Sing	17	obj	17:obj	_
+20	of	of	ADP	IN	_	23	case	23:case	_
+21	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(45-person-new-cf7-3-sgl(42-organization-giv:act-cf2-1-ana-Calvary_Church_of_Santa_Ana)
+22	founding	found	VERB	VBG	VerbForm=Ger	23	amod	23:amod	_
+23	pastor	pastor	NOUN	NN	Number=Sing	19	nmod	19:nmod:of	Entity=45)44)|SpaceAfter=No
+24	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+

@@ -1,0 +1,42 @@
+# sent_id = GUM_bio_nida-36
+# text = Nida brings in the reminder that while there are no such things as "identical equivalents" in translating, what one must in translating seek to do is find the "closest natural equivalent".
+# s_type = decl
+1	Nida	Nida	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=attribution-positive:87->88:1|Entity=(1-person-giv:inact-cf2-1-coref-Eugene_Nida)
+2	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	in	in	ADP	RP	_	2	compound:prt	2:compound:prt	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(146-abstract-new-cf4-2-sgl
+5	reminder	reminder	NOUN	NN	Number=Sing	2	obj	2:obj	_
+6	that	that	SCONJ	IN	_	30	mark	30:mark	Discourse=context-background:88->93:3
+7	while	while	SCONJ	IN	_	9	mark	9:mark	Discourse=adversative-concession:89->90:0
+8	there	there	PRON	EX	PronType=Dem	9	expl	9:expl	_
+9	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	advcl	30:advcl:while	_
+10	no	no	DET	DT	Polarity=Neg|PronType=Art	12	det	12:det	Entity=(147-abstract-new-cf3-3-sgl
+11	such	such	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+12	things	thing	NOUN	NNS	Number=Plur	9	nsubj	9:nsubj	_
+13	as	as	ADP	IN	_	16	case	16:case	_
+14	"	''	PUNCT	``	_	16	punct	16:punct	SpaceAfter=No|XML=<q>
+15	identical	identical	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(148-abstract-new-cf6-2-sgl
+16	equivalents	equivalent	NOUN	NNS	Number=Plur	12	nmod	12:nmod:as	Entity=148)|SpaceAfter=No
+17	"	''	PUNCT	''	_	16	punct	16:punct	XML=</q>
+18	in	in	SCONJ	IN	_	19	mark	19:mark	_
+19	translating	translate	VERB	VBG	VerbForm=Ger	16	acl	16:acl:in	Entity=147)|SpaceAfter=No
+20	,	,	PUNCT	,	_	9	punct	9:punct	_
+21	what	what	PRON	WP	PronType=Rel	30	nsubj:outer	30:nsubj:outer	Discourse=same-unit_m:90->88:0
+22	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	26	nsubj	26:nsubj|28:nsubj:xsubj	Entity=(132-person-giv:inact-cf1-1-ana)
+23	must	must	AUX	MD	VerbForm=Fin	26	aux	26:aux	_
+24	in	in	SCONJ	IN	_	25	mark	25:mark	_
+25	translating	translate	VERB	VBG	VerbForm=Ger	28	advcl	28:advcl:in	_
+26	seek	seek	VERB	VB	VerbForm=Inf	21	acl:relcl	21:acl:relcl	_
+27	to	to	PART	TO	_	28	mark	28:mark	_
+28	do	do	VERB	VB	VerbForm=Inf	26	xcomp	26:xcomp	_
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	30:cop	_
+30	find	find	VERB	VB	VerbForm=Inf	5	acl	5:acl:that	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	35	det	35:det	Entity=(149-abstract-new-cf5-5-sgl
+32	"	''	PUNCT	``	_	35	punct	35:punct	SpaceAfter=No|XML=<q>
+33	closest	close	ADJ	JJS	Degree=Sup	35	amod	35:amod	_
+34	natural	natural	ADJ	JJ	Degree=Pos	35	amod	35:amod	_
+35	equivalent	equivalent	NOUN	NN	Number=Sing	30	obj	30:obj	SpaceAfter=No
+36	"	''	PUNCT	''	_	35	punct	35:punct	Entity=149)146)|SpaceAfter=No|XML=</q>
+37	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+

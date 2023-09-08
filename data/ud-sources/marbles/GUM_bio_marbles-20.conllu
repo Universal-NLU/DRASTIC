@@ -1,0 +1,34 @@
+# sent_id = GUM_bio_marbles-20
+# text = The pseudonym "Jenna Marbles "comes from her mother's complaint that "Mourey", their legal surname, pulled up only Jenna's videos on Google.
+# s_type = decl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Discourse=joint:63->40|Entity=(abstract-6
+2	pseudonym	pseudonym	NOUN	NN	Number=Sing	7	nsubj	_	Entity=abstract-6)
+3	"	''	PUNCT	``	_	4	punct	_	SpaceAfter=No
+4	Jenna	Jenna	PROPN	NNP	Number=Sing	2	appos	_	Entity=(abstract-6
+5	Marbles	Marbles	PROPN	NNP	Number=Sing	4	flat	_	Entity=abstract-6)
+6	"	''	PUNCT	``	_	4	punct	_	SpaceAfter=No
+7	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	from	from	ADP	IN	_	12	case	_	_
+9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	Entity=(event-95(person-96(person-1)
+10	mother	mother	NOUN	NN	Number=Sing	12	nmod:poss	_	SpaceAfter=No
+11	's	's	PART	POS	_	10	case	_	Entity=person-96)
+12	complaint	complaint	NOUN	NN	Number=Sing	7	obl	_	_
+13	that	that	SCONJ	IN	_	22	mark	_	Discourse=elaboration:64->63
+14	"	''	PUNCT	``	_	15	punct	_	SpaceAfter=No
+15	Mourey	Mourey	PROPN	NNP	Number=Sing	22	nsubj	_	Entity=(abstract-97)|SpaceAfter=No
+16	"	''	PUNCT	''	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	Entity=(abstract-97(abstract-98)
+19	legal	legal	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	surname	surname	NOUN	NN	Number=Sing	15	appos	_	Entity=abstract-97)|SpaceAfter=No
+21	,	,	PUNCT	,	_	15	punct	_	_
+22	pulled	pull	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	_
+23	up	up	ADP	RP	_	22	compound:prt	_	_
+24	only	only	ADV	RB	_	22	advmod	_	Entity=(abstract-99
+25	Jenna	Jenna	PROPN	NNP	Number=Sing	27	nmod:poss	_	Entity=(person-1|SpaceAfter=No
+26	's	's	PART	POS	_	25	case	_	Entity=person-1)
+27	videos	video	NOUN	NNS	Number=Plur	22	obj	_	Entity=abstract-99)
+28	on	on	ADP	IN	_	29	case	_	_
+29	Google	Google	PROPN	NNP	Number=Sing	27	nmod	_	Entity=(abstract-100)event-95)|SpaceAfter=No
+30	.	.	PUNCT	.	_	7	punct	_	_
+

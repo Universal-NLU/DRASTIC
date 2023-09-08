@@ -1,0 +1,26 @@
+# sent_id = GUM_bio_nida-32
+# text = Nida then sets forth the differences in translation, as he would account for it, within three basic factors:
+# s_type = decl
+1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=organization-preparation:72->76:3|Entity=(1-person-giv:inact-cf1-1-coref-Eugene_Nida)
+2	then	then	ADV	RB	PronType=Dem	3	advmod	3:advmod	_
+3	sets	set	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	forth	forth	ADP	RP	_	3	compound:prt	3:compound:prt	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(120-abstract-new-cf2-2-coref
+6	differences	difference	NOUN	NNS	Number=Plur	3	obj	3:obj	_
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	translation	translation	NOUN	NN	Number=Sing	6	nmod	6:nmod:in	Entity=(12-abstract-giv:inact-cf3-1-coref)120)|SpaceAfter=No
+9	,	,	PUNCT	,	_	13	punct	13:punct	_
+10	as	as	SCONJ	IN	_	13	mark	13:mark	Discourse=mode-manner:73->72:0
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Entity=(1-person-giv:act-cf1-1-ana-Eugene_Nida)
+12	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	_
+13	account	account	VERB	VB	VerbForm=Inf	3	advcl	3:advcl:as	_
+14	for	for	ADP	IN	_	15	case	15:case	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	13:obl:for	Entity=(120-abstract-giv:act-cf2-1-ana)|SpaceAfter=No
+16	,	,	PUNCT	,	_	20	punct	20:punct	_
+17	within	within	ADP	IN	_	20	case	20:case	Discourse=same-unit_m:74->72:1
+18	three	three	NUM	CD	NumForm=Word|NumType=Card	20	nummod	20:nummod	Entity=(121-abstract-new-cf4-3-coref
+19	basic	basic	ADJ	JJ	Degree=Pos	20	amod	20:amod	_
+20	factors	factor	NOUN	NNS	Number=Plur	13	obl	13:obl:within	Entity=121)|SpaceAfter=No
+21	:	:	PUNCT	:	_	3	punct	3:punct	_
+
+

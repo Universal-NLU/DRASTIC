@@ -1,0 +1,17 @@
+# sent_id = GUM_academic_eegimaa-36
+# s_type = decl
+# text = These names are given either in Eegimaa or in a different language.
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=elaboration:109->106:2|Entity=(abstract-155-giv:act-2-coref
+2	names	name	NOUN	NNS	Number=Plur	4	nsubj:pass	4:nsubj:pass	Entity=155)
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	_
+4	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+5	either	either	CCONJ	CC	_	7	cc:preconj	7:cc:preconj	_
+6	in	in	ADP	IN	_	7	case	7:case	_
+7	Eegimaa	Eegimaa	PROPN	NNP	Number=Sing	4	obl	4:obl:in	Entity=(abstract-1-giv:act-1-coref-Bandial_language)
+8	or	or	CCONJ	CC	_	12	cc	12:cc	_
+9	in	in	ADP	IN	_	12	case	12:case	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	12:det	Entity=(abstract-159-new-3-sgl
+11	different	different	ADJ	JJ	Degree=Pos	12	amod	12:amod	_
+12	language	language	NOUN	NN	Number=Sing	6	conj	6:conj:or|7:case	Entity=159)|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+

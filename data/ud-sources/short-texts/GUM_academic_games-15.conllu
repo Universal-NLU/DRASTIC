@@ -1,0 +1,13 @@
+# sent_id = GUM_academic_games-15
+# s_type = decl
+# text = The study combines qualitative and quantitative approaches.
+# newpar = p (3 s)
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:51->52:4|Entity=(abstract-23-giv:inact-2-coref
+2	study	study	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=23)
+3	combines	combine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	qualitative	qualitative	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(abstract-144-new-4-sgl
+5	and	and	CCONJ	CC	_	6	cc	6:cc	_
+6	quantitative	quantitative	ADJ	JJ	Degree=Pos	4	conj	4:conj:and|7:amod	_
+7	approaches	approach	NOUN	NNS	Number=Plur	3	obj	3:obj	Entity=144)|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+

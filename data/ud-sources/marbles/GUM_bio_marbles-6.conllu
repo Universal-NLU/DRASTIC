@@ -1,0 +1,25 @@
+# sent_id = GUM_bio_marbles-6
+# text = Marbles was born and raised in Rochester, New York, where she graduated from Brighton High School in 2004.
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj:pass	_	Discourse=elaboration:19->2|Entity=(person-1)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	_
+6	in	in	ADP	IN	_	7	case	_	_
+7	Rochester	Rochester	PROPN	NNP	Number=Sing	3	obl	_	Entity=(place-25|SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	_	_
+9	New	New	PROPN	NNP	Number=Sing	10	compound	_	Entity=(place-26
+10	York	York	PROPN	NNP	Number=Sing	7	appos	_	Entity=place-26)|SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	where	where	SCONJ	WRB	PronType=Rel	14	mark	_	Discourse=elaboration:20->19
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(person-1)
+14	graduated	graduate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+15	from	from	ADP	IN	_	18	case	_	_
+16	Brighton	Brighton	PROPN	NNP	Number=Sing	18	compound	_	Entity=(organization-27(place-28)
+17	High	High	PROPN	NNP	Number=Sing	18	compound	_	_
+18	School	School	PROPN	NNP	Number=Sing	14	obl	_	Entity=organization-27)
+19	in	in	ADP	IN	_	20	case	_	_
+20	2004	2004	NUM	CD	NumType=Card	14	obl	_	Entity=(time-29)place-25)|SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	_	_
+

@@ -1,0 +1,39 @@
+# sent_id = GUM_bio_dvorak-5
+# text = Dvořák's own style has been described as "the fullest recreation of a national idiom with that of the symphonic tradition, absorbing folk influences and finding effective ways of using them". [1]
+# s_type = decl
+1	Dvořák	Dvořák	PROPN	NNP	Number=Sing	4	nmod:poss	_	Discourse=evaluation:12->11|Entity=(abstract-18(person-1|SpaceAfter=No
+2	's	's	PART	POS	_	1	case	_	Entity=person-1)
+3	own	own	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	style	style	NOUN	NN	Number=Sing	7	nsubj:pass	_	Entity=abstract-18)
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	described	describe	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	as	as	ADP	IN	_	12	case	_	_
+9	"	''	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	Entity=(abstract-18
+11	fullest	full	ADJ	JJS	Degree=Sup	12	amod	_	_
+12	recreation	recreation	NOUN	NN	Number=Sing	7	obl	_	_
+13	of	of	ADP	IN	_	16	case	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	national	national	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	idiom	idiom	NOUN	NN	Number=Sing	12	nmod	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	12	nmod	_	Entity=(abstract-19
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	Entity=(abstract-20
+21	symphonic	symphonic	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	tradition	tradition	NOUN	NN	Number=Sing	18	nmod	_	Entity=abstract-18)abstract-19)abstract-20)|SpaceAfter=No
+23	,	,	PUNCT	,	_	24	punct	_	_
+24	absorbing	absorb	VERB	VBG	VerbForm=Ger	12	acl	_	Discourse=elaboration:13->12
+25	folk	folk	NOUN	NN	Number=Sing	26	compound	_	Entity=(abstract-21
+26	influences	influence	NOUN	NNS	Number=Plur	24	obj	_	Entity=abstract-21)
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	finding	find	VERB	VBG	VerbForm=Ger	24	conj	_	_
+29	effective	effective	ADJ	JJ	Degree=Pos	30	amod	_	Entity=(abstract-22
+30	ways	way	NOUN	NNS	Number=Plur	28	obj	_	_
+31	of	of	SCONJ	IN	_	32	mark	_	Discourse=elaboration:14->13
+32	using	use	VERB	VBG	VerbForm=Ger	30	acl	_	_
+33	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	32	obj	_	Entity=(abstract-21)abstract-22)|SpaceAfter=No
+34	"	''	PUNCT	''	_	12	punct	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	7	punct	_	_
+

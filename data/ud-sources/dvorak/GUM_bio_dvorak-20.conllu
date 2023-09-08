@@ -1,0 +1,17 @@
+# sent_id = GUM_bio_dvorak-20
+# text = In 1891 Dvořák was appointed as a professor at the Prague Conservatory.
+# s_type = decl
+1	In	in	ADP	IN	_	2	case	_	Discourse=sequence:53->17
+2	1891	1891	NUM	CD	NumType=Card	5	obl	_	Entity=(time-88)
+3	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj:pass	_	Entity=(person-1)
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	appointed	appoint	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	as	as	ADP	IN	_	8	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	Entity=(person-1
+8	professor	professor	NOUN	NN	Number=Sing	5	obl	_	_
+9	at	at	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	Entity=(organization-89
+11	Prague	Prague	PROPN	NNP	Number=Sing	12	compound	_	Entity=(place-29)
+12	Conservatory	Conservatory	PROPN	NNP	Number=Sing	8	nmod	_	Entity=person-1)organization-89)|SpaceAfter=No
+13	.	.	PUNCT	.	_	5	punct	_	_
+

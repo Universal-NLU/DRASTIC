@@ -1,0 +1,28 @@
+# sent_id = GUM_bio_nida-40
+# text = Such translations then would be concerned with such correspondences as poetry to poetry, sentence to sentence, and concept to concept.
+# s_type = sub
+1	Such	such	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=elaboration-additional:98->97:0|Entity=(155-abstract-new-cf1-2-sgl
+2	translations	translation	NOUN	NNS	Number=Plur	6	nsubj:pass	6:nsubj:pass	Entity=155)
+3	then	then	ADV	RB	PronType=Dem	6	advmod	6:advmod	_
+4	would	would	AUX	MD	VerbForm=Fin	6	aux	6:aux	_
+5	be	be	AUX	VB	VerbForm=Inf	6	aux:pass	6:aux:pass	_
+6	concerned	concern	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+7	with	with	ADP	IN	_	9	case	9:case	_
+8	such	such	ADJ	JJ	Degree=Pos	9	amod	9:amod	Entity=(156-abstract-new-cf2-2-coref
+9	correspondences	correspondence	NOUN	NNS	Number=Plur	6	obl	6:obl:with	XML=<ref></ref>
+10	as	as	ADP	IN	_	11	case	11:case	_
+11	poetry	poetry	NOUN	NN	Number=Sing	9	nmod	9:nmod:as	Entity=(157-abstract-new-cf3-1-sgl)|XML=<ref></ref>
+12	to	to	ADP	IN	_	13	case	13:case	_
+13	poetry	poetry	NOUN	NN	Number=Sing	11	nmod	11:nmod:to	Entity=(158-abstract-new-cf4-1-sgl)|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	15:punct	_
+15	sentence	sentence	NOUN	NN	Number=Sing	11	conj	9:nmod:as|11:conj:and	Entity=(159-abstract-new-cf5-1-sgl)|XML=<ref></ref>
+16	to	to	ADP	IN	_	17	case	17:case	_
+17	sentence	sentence	NOUN	NN	Number=Sing	15	nmod	15:nmod:to	Entity=(160-abstract-new-cf6-1-sgl)|SpaceAfter=No
+18	,	,	PUNCT	,	_	20	punct	20:punct	_
+19	and	and	CCONJ	CC	_	20	cc	20:cc	_
+20	concept	concept	NOUN	NN	Number=Sing	11	conj	9:nmod:as|11:conj:and	Entity=(161-abstract-new-cf7-1-sgl)|XML=<ref></ref>
+21	to	to	ADP	IN	_	22	case	22:case	_
+22	concept	concept	NOUN	NN	Number=Sing	20	nmod	20:nmod:to	Entity=(162-abstract-new-cf8-1-sgl)156)|SpaceAfter=No
+23	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+

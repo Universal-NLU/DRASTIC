@@ -1,0 +1,23 @@
+# sent_id = GUM_academic_eegimaa-34
+# s_type = decl
+# text = Eegimaa is an endangered language whose transmission to new generations has been declining significantly in the last decades.
+1	Eegimaa	Eegimaa	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj	Discourse=joint_m:103->75:3|Entity=(abstract-1-giv:act-1-coref-Bandial_language)
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Entity=(abstract-1-giv:act-3-coref-Bandial_language
+4	endangered	endangered	ADJ	JJ	Degree=Pos	5	amod	5:amod	_
+5	language	language	NOUN	NN	Number=Sing	0	root	0:root	_
+6	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	7	nmod:poss	7:nmod:poss	Discourse=elaboration:104->103:0
+7	transmission	transmission	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_
+8	to	to	ADP	IN	_	10	case	10:case	_
+9	new	new	ADJ	JJ	Degree=Pos	10	amod	10:amod	Entity=(abstract-152-new-2-sgl
+10	generations	generation	NOUN	NNS	Number=Plur	7	nmod	7:nmod:to	Entity=152)1)
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	aux	13:aux	_
+13	declining	decline	VERB	VBG	Tense=Pres|VerbForm=Part	5	acl:relcl	5:acl:relcl	_
+14	significantly	significantly	ADV	RB	Degree=Pos	13	advmod	13:advmod	_
+15	in	in	ADP	IN	_	18	case	18:case	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(time-153-new-3-sgl
+17	last	last	ADJ	JJ	Degree=Pos	18	amod	18:amod	_
+18	decades	decade	NOUN	NNS	Number=Plur	13	obl	13:obl:in	Entity=153)|SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	5:punct	_
+

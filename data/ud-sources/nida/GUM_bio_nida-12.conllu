@@ -1,0 +1,28 @@
+# sent_id = GUM_bio_nida-12
+# text = Despite his conservative background, in later years Nida became increasingly ecumenical and New Evangelical (clarification needed) in his approach.
+# s_type = decl
+1	Despite	despite	ADP	IN	_	4	case	4:case	Discourse=adversative-concession:23->24:2
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(46-abstract-new-cf2-3-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+3	conservative	conservative	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	background	background	NOUN	NN	Number=Sing	10	obl	10:obl:despite	Entity=46)|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	4:punct	_
+6	in	in	ADP	IN	_	8	case	8:case	Discourse=joint-sequence_m:24->8:0
+7	later	late	ADJ	JJR	Degree=Cmp	8	amod	8:amod	Entity=(47-time-new-cf3-2-sgl
+8	years	year	NOUN	NNS	Number=Plur	10	obl	10:obl:in	Entity=47)
+9	Nida	Nida	PROPN	NNP	Number=Sing	10	nsubj	10:nsubj|12:nsubj:xsubj|15:nsubj:xsubj	Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
+10	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+11	increasingly	increasingly	ADV	RB	Degree=Pos	12	advmod	12:advmod	_
+12	ecumenical	ecumenical	ADJ	JJ	Degree=Pos	10	xcomp	10:xcomp	XML=<ref></ref>
+13	and	and	CCONJ	CC	_	15	cc	15:cc	_
+14	New	New	PROPN	NNP	Number=Sing	15	compound	15:compound	_
+15	Evangelical	Evangelical	PROPN	NNP	Number=Sing	12	conj	10:xcomp|12:conj:and	_
+16	(	(	PUNCT	-LRB-	_	17	punct	17:punct	Discourse=adversative-concession:25->24:0|SpaceAfter=No
+17	clarification	clarification	NOUN	NN	Number=Sing	15	dep	15:dep	Entity=(48-abstract-new-cf4-1-sgl)
+18	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	17:acl	SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	17	punct	17:punct	_
+20	in	in	ADP	IN	_	22	case	22:case	Discourse=same-unit_m:26->24:1
+21	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	22:nmod:poss	Entity=(49-abstract-new-cf5-2-sgl(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+22	approach	approach	NOUN	NN	Number=Sing	12	obl	12:obl:in	Entity=49)|SpaceAfter=No
+23	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+

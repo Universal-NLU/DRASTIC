@@ -1,0 +1,6 @@
+# sent_id = GUM_bio_marbles-41
+# text = Personal life
+# s_type = frag
+1	Personal	personal	ADJ	JJ	Degree=Pos	2	amod	_	Discourse=preparation:118->119|Entity=(abstract-176
+2	life	life	NOUN	NN	Number=Sing	0	root	_	Entity=abstract-176)
+

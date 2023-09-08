@@ -1,0 +1,20 @@
+# sent_id = GUM_bio_dvorak-3
+# text = After Bedřich Smetana, he was the next Czech Romantic-era composer to achieve worldwide recognition.
+# s_type = decl
+1	After	after	ADP	IN	_	2	case	_	Discourse=elaboration:8->2
+2	Bedřich	Bedřich	PROPN	NNP	Number=Sing	11	nmod	_	Entity=(person-9
+3	Smetana	Smetana	PROPN	NNP	Number=Sing	2	flat	_	Entity=person-9)|SpaceAfter=No
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Entity=(person-1)
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	Entity=(person-1
+8	next	next	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	Czech	Czech	ADJ	JJ	Degree=Pos	11	amod	_	_
+10	Romantic-era	Romantic-era	ADJ	JJ	Degree=Pos	11	amod	_	Entity=(time-10)
+11	composer	composer	NOUN	NN	Number=Sing	0	root	_	Entity=person-1)
+12	to	to	PART	TO	_	13	mark	_	Discourse=elaboration:9->8
+13	achieve	achieve	VERB	VB	VerbForm=Inf	11	acl	_	_
+14	worldwide	worldwide	ADJ	JJ	Degree=Pos	15	amod	_	Entity=(abstract-11
+15	recognition	recognition	NOUN	NN	Number=Sing	13	obj	_	Entity=abstract-11)|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	_	_
+

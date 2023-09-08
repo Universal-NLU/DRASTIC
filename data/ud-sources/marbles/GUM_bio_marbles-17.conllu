@@ -1,0 +1,41 @@
+# sent_id = GUM_bio_marbles-17
+# text = One video, released in 2010 and entitled "How To Trick People Into Thinking You 're Good Looking" was viewed over 5.3 million times in its first week. [10] [11]
+# s_type = decl
+1	One	One	NUM	CD	NumType=Card	2	nummod	_	Discourse=elaboration:41->40|Entity=(abstract-68
+2	video	video	NOUN	NN	Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	4	punct	_	_
+4	released	release	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	Discourse=elaboration:42->41
+5	in	in	ADP	IN	_	6	case	_	_
+6	2010	2010	NUM	CD	NumType=Card	4	obl	_	Entity=(time-48)
+7	and	and	CCONJ	CC	_	8	cc	_	Discourse=joint:43->42
+8	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+9	"	''	PUNCT	``	_	12	punct	_	SpaceAfter=No
+10	How	how	SCONJ	WRB	PronType=Int	12	mark	_	Entity=(abstract-69
+11	To	to	PART	TO	_	12	mark	_	_
+12	Trick	trick	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+13	People	people	NOUN	NNS	Number=Plur	12	obj	_	Entity=(person-70)
+14	Into	into	SCONJ	IN	_	15	mark	_	Discourse=attribution:44->45
+15	Thinking	think	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+16	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	Discourse=result:45->43|Entity=(person-71)
+17	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	Good	good	ADJ	JJ	Degree=Pos	19	compound	_	_
+19	Looking	looking	ADJ	JJ	Degree=Pos	15	ccomp	_	Entity=abstract-69)|SpaceAfter=No
+20	"	''	PUNCT	''	_	12	punct	_	Entity=abstract-68)
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	Discourse=same-unit:46->41
+22	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+23	over	over	ADV	IN	_	25	advmod	_	Entity=(event-72
+24	5.3	5.3	NUM	CD	NumType=Card	25	nummod	_	_
+25	million	million	NUM	CD	NumType=Card	26	compound	_	_
+26	times	time	NOUN	NNS	Number=Plur	22	obl:tmod	_	Entity=event-72)
+27	in	in	ADP	IN	_	30	case	_	_
+28	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	nmod:poss	_	Entity=(time-73(abstract-68)
+29	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	30	amod	_	_
+30	week	week	NOUN	NN	Number=Sing	22	obl	_	Entity=time-73)|SpaceAfter=No
+31	.	.	PUNCT	.	_	22	punct	_	_
+32	[	[	PUNCT	-LSB-	_	33	punct	_	Discourse=evidence:47->41|SpaceAfter=No
+33	10	10	NUM	CD	NumType=Card	22	dep	_	Entity=(abstract-74)|SpaceAfter=No
+34	]	]	PUNCT	-RSB-	_	33	punct	_	_
+35	[	[	PUNCT	-LSB-	_	36	punct	_	Discourse=joint:48->47|SpaceAfter=No
+36	11	11	NUM	CD	NumType=Card	22	dep	_	Entity=(abstract-75)|SpaceAfter=No
+37	]	]	PUNCT	-RSB-	_	36	punct	_	_
+

@@ -1,0 +1,22 @@
+# sent_id = GUM_bio_marbles-34
+# text = They sometimes feature other YouTubers as guests on their podcast, including Shane Dawson. [20]
+# s_type = decl
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Discourse=joint:100->97|Entity=(person-141)
+2	sometimes	sometimes	ADV	RB	_	3	advmod	_	_
+3	feature	feature	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	Entity=(person-149
+5	YouTubers	YouTuber	PROPN	NNPS	Number=Plur	3	obj	_	Entity=person-149)
+6	as	as	ADP	IN	_	7	case	_	_
+7	guests	guest	NOUN	NNS	Number=Plur	5	nmod	_	Entity=(person-149)
+8	on	on	ADP	IN	_	10	case	_	_
+9	their	their	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	Entity=(abstract-137(person-141)
+10	podcast	podcast	NOUN	NN	Number=Sing	3	obl	_	Entity=abstract-137)|SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	including	include	VERB	VBG	VerbForm=Ger	3	advcl	_	Discourse=elaboration:101->100
+13	Shane	Shane	PROPN	NNP	Number=Sing	12	obj	_	Entity=(person-150
+14	Dawson	Dawson	PROPN	NNP	Number=Sing	13	flat	_	Entity=person-150)|SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	_	_
+16	[	[	PUNCT	-LSB-	_	17	punct	_	Discourse=evidence:102->100|SpaceAfter=No
+17	20	20	NUM	CD	NumType=Card	3	dep	_	Entity=(abstract-151)|SpaceAfter=No
+18	]	]	PUNCT	-RSB-	_	17	punct	_	_
+

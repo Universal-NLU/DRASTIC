@@ -1,0 +1,21 @@
+# sent_id = GUM_bio_nida-38
+# text = Formal Equivalence (F-E) and Dynamic Equivalence (D-E).
+# s_type = frag
+1	Formal	Formal	ADJ	NNP	Degree=Pos|Number=Sing	2	amod	2:amod	Discourse=joint-other_m:93->52:2|Entity=(151-abstract-giv:act-cf1*-1,2,4,6,10-coref(153-abstract-new-cf2-1,2-coref
+2	Equivalence	Equivalence	PROPN	NNP	Number=Sing	0	root	0:root	Entity=153)
+3	(	(	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=restatement-partial:94->93:0|SpaceAfter=No
+4	F	F	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(153-abstract-giv:act-cf2-1,3-appos|SpaceAfter=No|XML=<w>
+5	-	-	PUNCT	HYPH	_	6	punct	6:punct	SpaceAfter=No
+6	E	E	PROPN	NNP	Number=Sing	4	flat	4:flat	Entity=153)|SpaceAfter=No|XML=</w>
+7	)	)	PUNCT	-RRB-	_	4	punct	4:punct	_
+8	and	and	CCONJ	CC	_	10	cc	10:cc	Discourse=same-unit_m:95->93:1
+9	Dynamic	Dynamic	ADJ	NNP	Degree=Pos|Number=Sing	10	amod	10:amod	Entity=(6-abstract-giv:inact-cf3-1,2-coref
+10	Equivalence	Equivalence	PROPN	NNP	Number=Sing	2	conj	2:conj:and	Entity=6)
+11	(	(	PUNCT	-LRB-	_	12	punct	12:punct	Discourse=restatement-partial:96->95:0|SpaceAfter=No
+12	D	D	PROPN	NNP	Number=Sing	10	appos	10:appos	Entity=(6-abstract-giv:act-cf3-1,3-appos|SpaceAfter=No|XML=<w>
+13	-	-	PUNCT	HYPH	_	14	punct	14:punct	SpaceAfter=No
+14	E	E	PROPN	NNP	Number=Sing	12	flat	12:flat	Entity=6)|SpaceAfter=No|XML=</w>
+15	)	)	PUNCT	-RRB-	_	12	punct	12:punct	Entity=151)|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+

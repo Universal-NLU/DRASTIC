@@ -1,0 +1,7 @@
+# sent_id = GUM_bio_nida-1
+# text = Eugene Nida
+# s_type = frag
+1	Eugene	Eugene	PROPN	NNP	Number=Sing	0	root	0:root	Discourse=organization-heading:1->2:4|Entity=(1-person-new-cf1-1,2-coref-Eugene_Nida
+2	Nida	Nida	PROPN	NNP	Number=Sing	1	flat	1:flat	Entity=1)
+
+

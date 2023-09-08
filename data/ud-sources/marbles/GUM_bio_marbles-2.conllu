@@ -1,0 +1,41 @@
+# sent_id = GUM_bio_marbles-2
+# text = Jenna Nicole Mourey (born September 15, 1986 [1] [2]), better known by her pseudonym Jenna Marbles, is an American YouTube personality, vlogger, comedian and actress.
+# s_type = decl
+1	Jenna	Jenna	PROPN	NNP	Number=Sing	30	nsubj	_	Discourse=ROOT:2|Entity=(person-1
+2	Nicole	Nicole	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Mourey	Mourey	PROPN	NNP	Number=Sing	1	flat	_	_
+4	(	(	PUNCT	-LRB-	_	5	punct	_	Discourse=elaboration:3->2|SpaceAfter=No
+5	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+6	September	September	PROPN	NNP	Number=Sing	7	compound	_	Entity=(time-2
+7	15	15	NUM	CD	NumType=Card	5	obl:tmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	1986	1986	NUM	CD	NumType=Card	7	nmod:tmod	_	Entity=(time-3)time-2)
+10	[	[	PUNCT	-LSB-	_	11	punct	_	Discourse=evidence:4->3|SpaceAfter=No
+11	1	1	NUM	CD	NumType=Card	5	dep	_	Entity=(abstract-4)|SpaceAfter=No
+12	]	]	PUNCT	-RSB-	_	11	punct	_	_
+13	[	[	PUNCT	-LSB-	_	14	punct	_	Discourse=joint:5->4|SpaceAfter=No
+14	2	2	NUM	CD	NumType=Card	5	dep	_	Entity=(abstract-5)|SpaceAfter=No
+15	]	]	PUNCT	-RSB-	_	14	punct	_	SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	5	punct	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	better	well	ADV	RBR	Degree=Cmp	19	advmod	_	Discourse=elaboration:6->2
+19	known	know	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	_
+20	by	by	ADP	IN	_	22	case	_	_
+21	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	Entity=(abstract-6(person-1)
+22	pseudonym	pseudonym	NOUN	NN	Number=Sing	19	obl	_	_
+23	Jenna	Jenna	PROPN	NNP	Number=Sing	22	appos	_	_
+24	Marbles	Marbles	PROPN	NNP	Number=Sing	23	flat	_	Entity=person-1)abstract-6)|SpaceAfter=No
+25	,	,	PUNCT	,	_	1	punct	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	Discourse=same-unit:7->2
+27	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	Entity=(person-1
+28	American	American	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	YouTube	YouTube	PROPN	NNP	Number=Sing	30	compound	_	Entity=(organization-7)
+30	personality	personality	NOUN	NN	Number=Sing	0	root	_	Entity=person-1)|SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	_	_
+32	vlogger	vlogger	NOUN	NN	Number=Sing	30	conj	_	Entity=(person-1)|SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	comedian	comedian	NOUN	NN	Number=Sing	30	conj	_	Entity=(person-1)
+35	and	and	CCONJ	CC	_	36	cc	_	_
+36	actress	actress	NOUN	NN	Number=Sing	30	conj	_	Entity=(person-1)|SpaceAfter=No
+37	.	.	PUNCT	.	_	30	punct	_	_
+

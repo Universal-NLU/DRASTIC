@@ -1,0 +1,42 @@
+# sent_id = GUM_bio_nida-17
+# text = Nida retired in the early 1980s, although he continued to give lectures in universities all around the world, and lived in Alpine, Arizona, USA; Madrid, Spain and Brussels, Belgium.
+# s_type = decl
+1	Nida	Nida	PROPN	NNP	Number=Sing	2	nsubj	2:nsubj	Discourse=joint-sequence_m:32->8:0|Entity=(1-person-giv:act-cf1*-1-coref-Eugene_Nida)
+2	retired	retire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	in	in	ADP	IN	_	6	case	6:case	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(58-time-new-cf4-3-sgl
+5	early	early	ADJ	JJ	Degree=Pos	6	amod	6:amod	XML=<date from:::"1980-01-01" to:::"1985-12-31">
+6	1980s	1980s	NOUN	NNS	Number=Plur	2	obl	2:obl:in	Entity=58)|SpaceAfter=No|XML=</date>
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	although	although	SCONJ	IN	_	10	mark	10:mark	Discourse=adversative-concession:33->32:0
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|12:nsubj:xsubj|22:nsubj	Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+10	continued	continue	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	2:advcl:although	_
+11	to	to	PART	TO	_	12	mark	12:mark	_
+12	give	give	VERB	VB	VerbForm=Inf	10	xcomp	10:xcomp	_
+13	lectures	lecture	NOUN	NNS	Number=Plur	12	obj	12:obj	Entity=(59-event-new-cf3-1-sgl)
+14	in	in	ADP	IN	_	15	case	15:case	_
+15	universities	university	NOUN	NNS	Number=Plur	12	obl	12:obl:in	Entity=(60-organization-new-cf12-1-sgl
+16	all	all	ADV	RB	Degree=Pos	19	advmod	19:advmod	_
+17	around	around	ADP	IN	_	19	case	19:case	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(61-place-acc:com-cf2-2-sgl
+19	world	world	NOUN	NN	Number=Sing	15	nmod	15:nmod:around	Entity=61)60)|SpaceAfter=No
+20	,	,	PUNCT	,	_	22	punct	22:punct	_
+21	and	and	CCONJ	CC	_	22	cc	22:cc	Discourse=joint-list_m:34->33:0
+22	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	2:advcl:although|10:conj:and	_
+23	in	in	ADP	IN	_	24	case	24:case	_
+24	Alpine	Alpine	PROPN	NNP	Number=Sing	22	obl	22:obl:in	Entity=(62-place-new-cf5-1,3,5-sgl-Alpine%2C_Arizona|SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	26:punct	_
+26	Arizona	Arizona	PROPN	NNP	Number=Sing	24	appos	24:appos	Entity=(63-place-new-cf6-1-sgl-Arizona)|SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	28:punct	_
+28	USA	USA	PROPN	NNP	Abbr=Yes|Number=Sing	24	appos	24:appos	Entity=(64-place-new-cf7-1-sgl-United_States)62)|SpaceAfter=No
+29	;	;	PUNCT	:	_	30	punct	30:punct	_
+30	Madrid	Madrid	PROPN	NNP	Number=Sing	24	conj	22:obl:in|24:conj:and	Entity=(65-place-new-cf8-1,3-coref-Madrid|SpaceAfter=No
+31	,	,	PUNCT	,	_	32	punct	32:punct	_
+32	Spain	Spain	PROPN	NNP	Number=Sing	30	appos	30:appos	Entity=(66-place-new-cf9-1-sgl-Spain)65)
+33	and	and	CCONJ	CC	_	34	cc	34:cc	_
+34	Brussels	Brussels	PROPN	NNP	Number=Sing	24	conj	22:obl:in|24:conj:and	Entity=(67-place-new-cf10-1,3-sgl-Brussels|SpaceAfter=No|XML=<ref></ref>
+35	,	,	PUNCT	,	_	36	punct	36:punct	_
+36	Belgium	Belgium	PROPN	NNP	Number=Sing	34	appos	34:appos	Entity=(68-place-new-cf11-1-sgl-Belgium)67)|SpaceAfter=No|XML=<ref></ref>
+37	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+

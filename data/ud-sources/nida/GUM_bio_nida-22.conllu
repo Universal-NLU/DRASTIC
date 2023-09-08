@@ -1,0 +1,24 @@
+# sent_id = GUM_bio_nida-22
+# text = His textbook Morphology: The Descriptive Analysis of Words was one of the major works of American Structuralism.
+# s_type = decl
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=joint-list_m:40->38:1|Entity=(77-abstract-new-cf3-2-coref(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	textbook	textbook	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	Entity=77)
+3	Morphology	Morphology	PROPN	NNP	Number=Sing	2	appos	2:appos	Entity=(77-abstract-giv:act-cf3-1,4,5,7-appos(78-abstract-new-cf2-1-coref-Morphology_%28linguistics%29)|SpaceAfter=No|XML=<hi rend:::"italic">
+4	:	:	PUNCT	:	_	7	punct	7:punct	_
+5	The	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(78-abstract-giv:act-cf2-2,3,5-coref-Morphology_%28linguistics%29
+6	Descriptive	Descriptive	PROPN	NNP	Number=Sing	7	compound	7:compound	_
+7	Analysis	Analysis	PROPN	NNP	Number=Sing	3	dep	3:dep	_
+8	of	of	ADP	IN	_	9	case	9:case	_
+9	Words	Word	PROPN	NNPS	Number=Plur	7	nmod	7:nmod:of	Entity=(79-abstract-new-cf4-1-coref)78)77)|XML=</hi>
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	0:root	Entity=(77-abstract-giv:act-cf3-1-coref
+12	of	of	ADP	IN	_	15	case	15:case	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_
+14	major	major	ADJ	JJ	Degree=Pos	15	amod	15:amod	_
+15	works	work	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	_
+16	of	of	ADP	IN	_	18	case	18:case	_
+17	American	American	ADJ	JJ	Degree=Pos	18	amod	18:amod	Entity=(80-abstract-new-cf5-2-sgl
+18	Structuralism	Structuralism	PROPN	NNP	Number=Sing	15	nmod	15:nmod:of	Entity=80)77)|SpaceAfter=No|XML=<ref></ref>
+19	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+

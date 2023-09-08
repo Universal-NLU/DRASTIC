@@ -1,0 +1,24 @@
+# sent_id = GUM_academic_enjambment-35
+# s_type = frag
+# text = Cross-clause enjambment: Between a noun antecedent and the pronoun heading the relative clause that complements the antecedent.
+# newpar = item (2 s)
+1	Cross-clause	Cross-clause	ADJ	JJ	Degree=Pos	2	amod	2:amod	Bridge=3<152|Discourse=joint_m:84->78:2|Entity=(abstract-152-acc:inf-2-coref|XML=<hi rend:::"bold">
+2	enjambment	enjambment	NOUN	NN	Number=Sing	0	root	0:root	Entity=152)|SpaceAfter=No
+3	:	:	PUNCT	:	_	7	punct	7:punct	XML=</hi>
+4	Between	between	ADP	IN	_	7	case	7:case	Discourse=elaboration:85->84:0
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(abstract-153-new-3-coref
+6	noun	noun	NOUN	NN	Number=Sing	7	compound	7:compound	_
+7	antecedent	antecedent	NOUN	NN	Number=Sing	2	dep	2:dep	Entity=153)
+8	and	and	CCONJ	CC	_	10	cc	10:cc	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Entity=(abstract-154-new-2-sgl
+10	pronoun	pronoun	NOUN	NN	Number=Sing	7	conj	2:dep|7:conj:and	_
+11	heading	head	VERB	VBG	VerbForm=Ger	10	acl	10:acl	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(abstract-155-new-3-sgl
+13	relative	relative	ADJ	JJ	Degree=Pos	14	amod	14:amod	_
+14	clause	clause	NOUN	NN	Number=Sing	11	obj	11:obj|16:nsubj	_
+15	that	that	PRON	WDT	PronType=Rel	16	nsubj	14:ref	Discourse=elaboration:86->85:0
+16	complements	complement	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(abstract-153-giv:act-2-coref
+18	antecedent	antecedent	NOUN	NN	Number=Sing	16	obj	16:obj	Entity=153)155)154)|SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	2:punct	_
+

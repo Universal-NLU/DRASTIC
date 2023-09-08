@@ -1,0 +1,36 @@
+# sent_id = GUM_bio_nida-26
+# text = Nida also developed the componential analysis technique, which split words into their components to help determine equivalence in translation (e.g. "bachelor" = male + unmarried).
+# s_type = decl
+1	Nida	Nida	PROPN	NNP	Number=Sing	3	nsubj	3:nsubj	Discourse=joint-other_m:46->38:2|Entity=(1-person-giv:inact-cf2-1-coref-Eugene_Nida)
+2	also	also	ADV	RB	_	3	advmod	3:advmod	_
+3	developed	develop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(85-abstract-new-cf5-4-coref
+5	componential	componential	ADJ	JJ	Degree=Pos	7	amod	7:amod	XML=<ref>
+6	analysis	analysis	NOUN	NN	Number=Sing	7	compound	7:compound	XML=</ref>
+7	technique	technique	NOUN	NN	Number=Sing	3	obj	3:obj|10:nsubj	SpaceAfter=No
+8	,	,	PUNCT	,	_	10	punct	10:punct	_
+9	which	which	PRON	WDT	PronType=Rel	10	nsubj	7:ref	Discourse=elaboration-attribute:47->46:0
+10	split	split	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
+11	words	word	NOUN	NNS	Number=Plur	10	obj	10:obj	Entity=(79-abstract-giv:inact-cf1-1-coref)
+12	into	into	ADP	IN	_	14	case	14:case	_
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	14:nmod:poss	Entity=(86-abstract-new-cf7-2-sgl(79-abstract-giv:act-cf1-1-ana)
+14	components	component	NOUN	NNS	Number=Plur	10	obl	10:obl:into	Entity=86)
+15	to	to	PART	TO	_	16	mark	16:mark	Discourse=purpose-goal:48->47:0
+16	help	help	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:to	_
+17	determine	determine	VERB	VB	VerbForm=Inf	16	xcomp	16:xcomp	_
+18	equivalence	equivalence	NOUN	NN	Number=Sing	17	obj	17:obj	Entity=(87-abstract-new-cf6-1-sgl
+19	in	in	ADP	IN	_	20	case	20:case	_
+20	translation	translation	NOUN	NN	Number=Sing	18	nmod	18:nmod:in	Entity=(12-abstract-giv:inact-cf3-1-coref)87)
+21	(	(	PUNCT	-LRB-	_	26	punct	26:punct	Discourse=elaboration-additional:49->47:1|SpaceAfter=No
+22	e.g.	e.g.	ADV	FW	Abbr=Yes	26	advmod	26:advmod	_
+23	"	''	PUNCT	``	_	24	punct	24:punct	Entity=(88-abstract-new-cf8-4-disc|SpaceAfter=No|XML=<q>
+24	bachelor	bachelor	NOUN	NN	Number=Sing	26	nsubj	26:nsubj|29:nsubj:xsubj	Entity=(89-person-new-cf4-1-sgl)|SpaceAfter=No|XML=<ref></ref>
+25	"	''	PUNCT	''	_	24	punct	24:punct	XML=</q>
+26	=	=	SYM	SYM	_	18	appos	18:appos	_
+27	male	male	NOUN	NN	Number=Sing	26	xcomp	26:xcomp	_
+28	+	+	SYM	SYM	_	29	cc	29:cc	_
+29	unmarried	unmarried	ADJ	JJ	Degree=Pos|Polarity=Neg	27	conj	26:xcomp|27:conj:plus	Entity=88)|SpaceAfter=No
+30	)	)	PUNCT	-RRB-	_	26	punct	26:punct	Entity=85)|SpaceAfter=No
+31	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+

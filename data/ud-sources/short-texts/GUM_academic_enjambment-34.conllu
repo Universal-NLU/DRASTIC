@@ -1,0 +1,18 @@
+# sent_id = GUM_academic_enjambment-34
+# s_type = decl
+# text = We translated "phrase-bounded enjambment" from "encabalgamiento sirremático".
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:83->81:1|Entity=(person-71-giv:inact-1-ana)
+2	translated	translate	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	"	''	PUNCT	``	_	7	punct	7:punct	SpaceAfter=No|XML=<q>
+4	phrase	phrase	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(abstract-143-giv:act-4-coref|SpaceAfter=No|XML=<w>
+5	-	-	PUNCT	HYPH	_	4	punct	4:punct	SpaceAfter=No
+6	bounded	bound	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	7:amod	XML=</w>
+7	enjambment	enjambment	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=143)|SpaceAfter=No
+8	"	''	PUNCT	''	_	7	punct	7:punct	XML=</q>
+9	from	from	ADP	IN	_	11	case	11:case	_
+10	"	''	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No|XML=<q>
+11	encabalgamiento	encabalgamiento	X	FW	_	2	obl	2:obl:from	Entity=(abstract-143-giv:act-1,2-coref
+12	sirremático	sirremático	X	FW	_	11	flat	11:flat	Entity=143)|SpaceAfter=No
+13	"	''	PUNCT	''	_	11	punct	11:punct	SpaceAfter=No|XML=</q>
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+

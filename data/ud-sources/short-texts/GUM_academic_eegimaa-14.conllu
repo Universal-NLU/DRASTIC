@@ -1,0 +1,23 @@
+# sent_id = GUM_academic_eegimaa-14
+# s_type = decl
+# text = Some of these communities will be referred to in our discussion of death prevention names in § 6.
+1	Some	some	DET	DT	_	7	nsubj:pass	7:nsubj:pass	Bridge=86<87|Discourse=elaboration:41->38:2|Entity=(organization-87-acc:inf-1-sgl
+2	of	of	ADP	IN	_	4	case	4:case	_
+3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	4:det	_
+4	communities	community	NOUN	NNS	Number=Plur	1	nmod	1:nmod:of	Entity=87)
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	7:aux	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	7:aux:pass	_
+7	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+8	to	to	ADP	IN	_	7	obl	7:obl	_
+9	in	in	ADP	IN	_	11	case	11:case	_
+10	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(abstract-88-new-2-sgl(person-11-giv:inact-1-ana)
+11	discussion	discussion	NOUN	NN	Number=Sing	7	obl	7:obl:in	_
+12	of	of	ADP	IN	_	15	case	15:case	_
+13	death	death	NOUN	NN	Number=Sing	14	compound	14:compound	Entity=(abstract-89-new-3-sgl(event-18-giv:inact-1-coref)
+14	prevention	prevention	NOUN	NN	Number=Sing	15	compound	15:compound	_
+15	names	name	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=89)88)
+16	in	in	ADP	IN	_	17	case	17:case	_
+17	§	§	SYM	SYM	_	7	obl	7:obl:in	Entity=(abstract-15-giv:inact-1-coref
+18	6	6	NUM	CD	NumForm=Digit|NumType=Card	17	dep	17:dep	Entity=15)|SpaceAfter=No
+19	.	.	PUNCT	.	_	7	punct	7:punct	_
+

@@ -1,0 +1,19 @@
+# sent_id = GUM_academic_enjambment-36
+# s_type = decl
+# text = We translated "cross-clause enjambment" from Quilis’s "encabalgamiento oracional".
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=background:87->84:1|Entity=(person-71-giv:inact-1-ana)
+2	translated	translate	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	"	''	PUNCT	``	_	5	punct	5:punct	SpaceAfter=No|XML=<q>
+4	cross-clause	cross-clause	ADJ	JJ	Degree=Pos	5	amod	5:amod	Entity=(abstract-152-giv:act-2-coref
+5	enjambment	enjambment	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=152)|SpaceAfter=No
+6	"	''	PUNCT	''	_	5	punct	5:punct	XML=</q>
+7	from	from	ADP	IN	_	11	case	11:case	_
+8-9	Quilis’s	_	_	_	_	_	_	_	_
+8	Quilis	Quilis	PROPN	NNP	Number=Sing	11	nmod:poss	11:nmod:poss	Entity=(abstract-152-giv:act-4,5-coref(person-135-giv:inact-1-coref
+9	’s	's	PART	POS	_	8	case	8:case	Entity=135)
+10	"	''	PUNCT	``	_	11	punct	11:punct	SpaceAfter=No|XML=<q>
+11	encabalgamiento	encabalgamiento	X	FW	_	5	nmod	5:nmod:from	_
+12	oracional	oracional	X	FW	_	11	flat	11:flat	Entity=152)|SpaceAfter=No
+13	"	''	PUNCT	''	_	11	punct	11:punct	SpaceAfter=No|XML=</q>
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+

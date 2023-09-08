@@ -1,0 +1,36 @@
+# sent_id = GUM_bio_nida-42
+# text = The principles governing an F-E translation would then be: reproduction of grammatical units; consistency in word usage; and meanings in terms of the source context.
+# s_type = sub
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=organization-preparation:103->106:0|Entity=(166-abstract-new-cf2-2,7-coref
+2	principles	principle	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj|18:nsubj|24:nsubj	_
+3	governing	govern	VERB	VBG	VerbForm=Ger	2	acl	2:acl	Discourse=elaboration-attribute:104->103:0
+4	an	a	DET	DT	Definite=Ind|PronType=Art	8	det	8:det	Entity=(164-abstract-giv:act-cf1*-4,5-coref
+5	F	F	PROPN	NNP	Number=Sing	8	compound	8:compound	Entity=(153-abstract-giv:inact-cf4-1,3-coref|SpaceAfter=No|XML=<w>
+6	-	-	PUNCT	HYPH	_	7	punct	7:punct	SpaceAfter=No
+7	E	E	PROPN	NNP	Number=Sing	5	flat	5:flat	Entity=153)|XML=</w>
+8	translation	translation	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=164)166)
+9	would	would	AUX	MD	VerbForm=Fin	13	aux	13:aux	Discourse=same-unit_m:105->103:1
+10	then	then	ADV	RB	PronType=Dem	13	advmod	13:advmod	_
+11	be	be	AUX	VB	VerbForm=Inf	13	cop	13:cop	SpaceAfter=No
+12	:	:	PUNCT	:	_	11	punct	11:punct	_
+13	reproduction	reproduction	NOUN	NN	Number=Sing	0	root	0:root	Discourse=joint-list_m:106->97:2|Entity=(166-abstract-giv:act-cf2-1,6,12-pred(167-abstract-new-cf5-1-sgl
+14	of	of	ADP	IN	_	16	case	16:case	_
+15	grammatical	grammatical	ADJ	JJ	Degree=Pos	16	amod	16:amod	Entity=(168-abstract-new-cf6-2-sgl
+16	units	unit	NOUN	NNS	Number=Plur	13	nmod	13:nmod:of	Entity=168)167)|SpaceAfter=No
+17	;	;	PUNCT	:	_	18	punct	18:punct	_
+18	consistency	consistency	NOUN	NN	Number=Sing	13	conj	13:conj:and	Entity=(169-abstract-new-cf7-1-sgl
+19	in	in	ADP	IN	_	21	case	21:case	_
+20	word	word	NOUN	NN	Number=Sing	21	compound	21:compound	Entity=(170-event-new-cf8-2-sgl(171-abstract-new-cf10-1-sgl)
+21	usage	usage	NOUN	NN	Number=Sing	18	nmod	18:nmod:in	Entity=170)169)|SpaceAfter=No
+22	;	;	PUNCT	:	_	24	punct	24:punct	_
+23	and	and	CCONJ	CC	_	24	cc	24:cc	_
+24	meanings	meaning	NOUN	NNS	Number=Plur	13	conj	13:conj:and	Entity=(172-abstract-new-cf9-1-sgl
+25	in	in	ADP	IN	_	26	case	26:case	_
+26	terms	term	NOUN	NNS	Number=Plur	24	nmod	24:nmod:in	_
+27	of	of	ADP	IN	_	30	case	30:case	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	Entity=(95-abstract-giv:inact-cf3-3-coref
+29	source	source	NOUN	NN	Number=Sing	30	compound	30:compound	Entity=(173-abstract-new-cf11-1-sgl)
+30	context	context	NOUN	NN	Number=Sing	26	nmod	26:nmod:of	Entity=95)172)166)|SpaceAfter=No|XML=<ref></ref>
+31	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+

@@ -1,0 +1,22 @@
+# sent_id = GUM_bio_marbles-26
+# text = She played Miley Cyrus in a "Wrecking Ball" - inspired segment of YouTube Rewind 2013.
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Discourse=sequence:77->74|Entity=(person-1)
+2	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Miley	Miley	PROPN	NNP	Number=Sing	2	obj	_	Entity=(person-120
+4	Cyrus	Cyrus	PROPN	NNP	Number=Sing	3	flat	_	Entity=person-120)
+5	in	in	ADP	IN	_	13	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	Entity=(abstract-121
+7	"	''	PUNCT	``	_	9	punct	_	SpaceAfter=No
+8	Wrecking	Wrecking	PROPN	NNP	Number=Sing	9	compound	_	Entity=(abstract-122
+9	Ball	Ball	PROPN	NNP	Number=Sing	12	compound	_	Entity=abstract-122)|SpaceAfter=No
+10	"	''	PUNCT	''	_	9	punct	_	_
+11	-	-	PUNCT	:	_	9	punct	_	_
+12	inspired	inspire	VERB	VBN	Tense=Past|VerbForm=Part	13	amod	_	_
+13	segment	segment	NOUN	NN	Number=Sing	2	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	YouTube	YouTube	PROPN	NNP	Number=Sing	16	compound	_	Entity=(abstract-123(organization-7)
+16	Rewind	Rewind	PROPN	NNP	Number=Sing	13	nmod	_	_
+17	2013	2013	NUM	CD	NumType=Card	16	nmod:tmod	_	Entity=(time-124)abstract-121)abstract-123)|SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	_	_
+

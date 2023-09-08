@@ -1,0 +1,20 @@
+# sent_id = GUM_academic_eegimaa-8
+# s_type = decl
+# text = The map in Figure 1, taken from Ethnologue, presents the languages of Senegal.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=preparation:21->27:2|Entity=(abstract-49-new-2-coref
+2	map	map	NOUN	NN	Number=Sing	11	nsubj	11:nsubj	_
+3	in	in	ADP	IN	_	4	case	4:case	_
+4	Figure	Figure	PROPN	NNP	Number=Sing	2	nmod	2:nmod:in	Entity=(abstract-50-new-1-coref
+5	1	1	NUM	CD	NumForm=Digit|NumType=Card	4	dep	4:dep	Entity=50)49)|SpaceAfter=No
+6	,	,	PUNCT	,	_	7	punct	7:punct	_
+7	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	2:acl	Discourse=elaboration:22->21:0
+8	from	from	ADP	IN	_	9	case	9:case	_
+9	Ethnologue	Ethnologue	PROPN	NNP	Number=Sing	7	obl	7:obl:from	Entity=(organization-6-giv:inact-1-coref-Ethnologue)|SpaceAfter=No
+10	,	,	PUNCT	,	_	2	punct	2:punct	_
+11	presents	present	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit_m:23->21:1
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-51-new-2-sgl
+13	languages	language	NOUN	NNS	Number=Plur	11	obj	11:obj	_
+14	of	of	ADP	IN	_	15	case	15:case	_
+15	Senegal	Senegal	PROPN	NNP	Number=Sing	13	nmod	13:nmod:of	Entity=(place-52-new-1-coref-Senegal)51)|SpaceAfter=No
+16	.	.	PUNCT	.	_	11	punct	11:punct	_
+

@@ -1,0 +1,20 @@
+# sent_id = GUM_academic_census-18
+# s_type = decl
+# text = In some fields, yearly data on faculty numbers and composition are available in aggregate.
+1	In	in	ADP	IN	_	3	case	3:case	Discourse=joint_m:52->35:8
+2	some	some	DET	DT	_	3	det	3:det	Bridge=59<117|Entity=(abstract-117-acc:inf-2-sgl
+3	fields	field	NOUN	NNS	Number=Plur	13	obl	13:obl:in	Entity=117)|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	punct	3:punct	_
+5	yearly	yearly	ADJ	JJ	Degree=Pos	6	amod	6:amod	Entity=(abstract-118-new-2-sgl
+6	data	datum	NOUN	NNS	Number=Plur	13	nsubj	13:nsubj	_
+7	on	on	ADP	IN	_	9	case	9:case	_
+8	faculty	faculty	NOUN	NN	Number=Sing	9	compound	9:compound	Entity=(abstract-119-new-2-sgl(person-120-new-1-sgl)
+9	numbers	number	NOUN	NNS	Number=Plur	6	nmod	6:nmod:on	Entity=119)
+10	and	and	CCONJ	CC	_	11	cc	11:cc	_
+11	composition	composition	NOUN	NN	Number=Sing	9	conj	6:nmod:on|9:conj:and	Entity=(abstract-121-new-1-sgl)118)
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_
+13	available	available	ADJ	JJ	Degree=Pos	0	root	0:root	_
+14	in	in	ADP	IN	_	15	case	15:case	_
+15	aggregate	aggregate	NOUN	NN	Number=Sing	13	obl	13:obl:in	SpaceAfter=No
+16	.	.	PUNCT	.	_	13	punct	13:punct	_
+

@@ -1,0 +1,28 @@
+# sent_id = GUM_bio_marbles-38
+# text = She has also created items with some of her most memorable quotes printed on them (e.g. "what are this").
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Discourse=joint:108->104|Entity=(person-1)
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	created	create	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	items	item	NOUN	NNS	Number=Plur	4	obj	_	Entity=(object-159
+6	with	with	ADP	IN	_	7	case	_	_
+7	some	some	PRON	DT	_	4	obl	_	Entity=(abstract-160
+8	of	of	ADP	IN	_	12	case	_	_
+9	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	Entity=(abstract-161(person-1)
+10	most	most	ADV	RBS	_	11	advmod	_	_
+11	memorable	memorable	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	quotes	quote	NOUN	NNS	Number=Plur	7	nmod	_	Entity=object-159)abstract-160)abstract-161)
+13	printed	print	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	Discourse=elaboration:109->108
+14	on	on	ADP	IN	_	15	case	_	_
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obl	_	Entity=(object-159)
+16	(	(	PUNCT	-LRB-	_	21	punct	_	Discourse=elaboration:110->108|SpaceAfter=No
+17	e.g.	e.g.	X	FW	_	21	case	_	_
+18	"	''	PUNCT	``	_	21	punct	_	SpaceAfter=No
+19	what	what	PRON	WP	PronType=Int	21	nsubj	_	Entity=(abstract-162
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	this	this	PRON	DT	Number=Sing|PronType=Dem	12	obl	_	Entity=abstract-162)|SpaceAfter=No
+22	"	''	PUNCT	''	_	21	punct	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	4	punct	_	_
+

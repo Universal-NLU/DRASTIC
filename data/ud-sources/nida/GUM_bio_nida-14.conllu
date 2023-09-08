@@ -1,0 +1,13 @@
+# sent_id = GUM_bio_nida-14
+# text = He was ordained as a Baptist minister.
+# s_type = decl
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	3:nsubj:pass	Discourse=joint-sequence_m:28->8:0|Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	3:aux:pass	_
+3	ordained	ordain	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+4	as	as	ADP	IN	_	7	case	7:case	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(1-person-giv:act-cf1*-3-pred-Eugene_Nida
+6	Baptist	Baptist	PROPN	NNP	Number=Sing	7	compound	7:compound	_
+7	minister	minister	NOUN	NN	Number=Sing	3	obl	3:obl:as	Entity=1)|SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+

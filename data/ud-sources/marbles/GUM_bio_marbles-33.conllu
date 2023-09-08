@@ -1,0 +1,20 @@
+# sent_id = GUM_bio_marbles-33
+# text = Topics include stories of growing up, conspiracy theories, YouTubers and other general topics.
+# s_type = decl
+1	Topics	topic	NOUN	NNS	Number=Plur	2	nsubj	_	Discourse=elaboration:97->94|Entity=(abstract-142)
+2	include	include	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	stories	storey	NOUN	NNS	Number=Plur	2	obj	_	Entity=(abstract-143
+4	of	of	SCONJ	IN	_	5	mark	_	Discourse=elaboration:98->97
+5	growing	grow	VERB	VBG	VerbForm=Ger	3	acl	_	Entity=(event-144
+6	up	up	ADP	RP	_	5	compound:prt	_	Entity=abstract-143)event-144)|SpaceAfter=No
+7	,	,	PUNCT	,	_	9	punct	_	_
+8	conspiracy	conspiracy	NOUN	NN	Number=Sing	9	compound	_	Discourse=same-unit:99->97|Entity=(abstract-145(abstract-146)
+9	theories	theory	NOUN	NNS	Number=Plur	5	conj	_	Entity=abstract-145)|SpaceAfter=No
+10	,	,	PUNCT	,	_	11	punct	_	_
+11	YouTubers	YouTuber	PROPN	NNPS	Number=Plur	5	conj	_	Entity=(person-147)
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	other	other	ADJ	JJ	Degree=Pos	15	amod	_	Entity=(abstract-148
+14	general	general	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	topics	topic	NOUN	NNS	Number=Plur	5	conj	_	Entity=abstract-148)|SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	_	_
+

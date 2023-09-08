@@ -1,0 +1,18 @@
+# sent_id = GUM_bio_marbles-16
+# text = Marbles uploads a new video to her YouTube channel every Wednesday / Thursday.
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	_	Discourse=sequence:40->19|Entity=(person-1)
+2	uploads	upload	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(abstract-65
+4	new	new	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	video	video	NOUN	NN	Number=Sing	2	obj	_	Entity=abstract-65)
+6	to	to	ADP	IN	_	9	case	_	_
+7	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	Entity=(abstract-66(person-1)
+8	YouTube	YouTube	PROPN	NNP	Number=Sing	9	compound	_	Entity=(organization-7)
+9	channel	channel	NOUN	NN	Number=Sing	2	obl	_	Entity=abstract-66)
+10	every	every	DET	DT	_	11	det	_	Entity=(time-67
+11	Wednesday	Wednesday	PROPN	NNP	Number=Sing	2	obl:tmod	_	_
+12	/	/	SYM	SYM	_	13	cc	_	_
+13	Thursday	Thursday	PROPN	NNP	Number=Sing	11	conj	_	Entity=time-67)|SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	_	_
+

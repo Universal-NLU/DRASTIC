@@ -1,0 +1,18 @@
+# sent_id = GUM_bio_marbles-37
+# text = The toys' appearances are based upon her real dogs. [7]
+# s_type = decl
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	Discourse=elaboration:106->104|Entity=(abstract-157(object-154
+2	toys	toy	NOUN	NNS	Number=Plur	4	nmod:poss	_	SpaceAfter=No
+3	'	's	PART	POS	_	2	case	_	Entity=object-154)
+4	appearances	appearance	NOUN	NNS	Number=Plur	6	nsubj:pass	_	Entity=abstract-157)
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	based	base	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	upon	upon	ADP	IN	_	10	case	_	_
+8	her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	Entity=(animal-158(person-1)
+9	real	real	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	dogs	dog	NOUN	NNS	Number=Plur	6	obl	_	Entity=animal-158)|SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	_
+12	[	[	PUNCT	-LSB-	_	13	punct	_	Discourse=evidence:107->106|SpaceAfter=No
+13	7	7	NUM	CD	NumType=Card	6	dep	_	Entity=(abstract-45)|SpaceAfter=No
+14	]	]	PUNCT	-RSB-	_	13	punct	_	_
+

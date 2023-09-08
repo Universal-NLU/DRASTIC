@@ -7,12 +7,18 @@ The repository has the following structure:
 
 ```
 ├── data
-│   ├── anaphora-resolution
-│   │   ├── dvorak
-│   │   ├── marbles
-│   │   ├── nida
-│   │   └── short-texts
-│   └── no-anaphora-resolution
+│   ├── drs-annotation
+│   │   ├── anaphora-resolution
+│   │   │   ├── dvorak
+│   │   │   ├── marbles
+│   │   │   ├── nida
+│   │   │   └── short-texts
+│   │   └── no-anaphora-resolution
+│   │       ├── dvorak
+│   │       ├── marbles
+│   │       ├── nida
+│   │       └── short-texts
+│   └── ud-sources
 │       ├── dvorak
 │       ├── marbles
 │       ├── nida
@@ -20,7 +26,7 @@ The repository has the following structure:
 └── scripts
 ```
 
-`data` contains two versions of the DRS-annotated texts: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each of these, the texts are divided by sub-corpus, and named for their corresponding GUM sent\_ids (for details, see Haug et al. 2023, referenced below).
+`data` contains the `drs-annotations`, in a clausal format, as well as the corresponding `ud-sources` from the [[https://github.com/UniversalDependencies/UD_English-GUM/tree/bc5b73d4a1c697a09368812575656328af323197][GUM]] corpus. The semantic annotations are given in two versions: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each directory, the texts are divided by sub-corpus, and named for their corresponding UD `sent\_id`s (for details, see Haug et al. 2023, referenced below).
 
 `scripts` contains a script (`flatten_clause_notation.py`) which will 'flatten' PMB-style DRSs into our simplified format. We also provide a shell script (`flatten_clause_notation_in_batch.sh`) to run this on multiple files at once.
 

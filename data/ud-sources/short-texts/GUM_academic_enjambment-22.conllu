@@ -1,0 +1,13 @@
+# sent_id = GUM_academic_enjambment-22
+# s_type = decl
+# text = First we provide the definition of enjambment adopted.
+1	First	first	ADV	RB	Degree=Pos|NumType=Ord	3	advmod	3:advmod	Discourse=elaboration:54->33:6
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-71-giv:inact-1-ana)
+3	provide	provide	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(abstract-105-new-2-sgl
+5	definition	definition	NOUN	NN	Number=Sing	3	obj	3:obj	_
+6	of	of	ADP	IN	_	7	case	7:case	_
+7	enjambment	enjambment	NOUN	NN	Number=Sing	5	nmod	5:nmod:of	Entity=(abstract-3-giv:inact-1-coref)
+8	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part	5	acl	5:acl	Discourse=elaboration:55->54:0|Entity=105)|SpaceAfter=No
+9	.	.	PUNCT	.	_	3	punct	3:punct	_
+

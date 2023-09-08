@@ -1,0 +1,16 @@
+# sent_id = GUM_bio_nida-15
+# text = He married Althea Lucille Sprague, who died in 1993.
+# s_type = decl
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=joint-sequence_m:29->8:0|Entity=(1-person-giv:act-cf1*-1-ana-Eugene_Nida)
+2	married	marry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	Althea	Althea	PROPN	NNP	Number=Sing	2	obj	2:obj|8:nsubj	Entity=(54-person-new-cf2-1,2,3-sgl
+4	Lucille	Lucille	PROPN	NNP	Number=Sing	3	flat	3:flat	_
+5	Sprague	Sprague	PROPN	NNP	Number=Sing	3	flat	3:flat	SpaceAfter=No
+6	,	,	PUNCT	,	_	8	punct	8:punct	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	3:ref	Discourse=elaboration-attribute:30->29:0
+8	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
+9	in	in	ADP	IN	_	10	case	10:case	_
+10	1993	1993	NUM	CD	NumForm=Digit|NumType=Card	8	obl	8:obl:in	Entity=(55-time-new-cf3-1-sgl)54)|SpaceAfter=No|XML=<date when:::"1993"></date>
+11	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+

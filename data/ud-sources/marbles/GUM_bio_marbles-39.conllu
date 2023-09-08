@@ -1,0 +1,27 @@
+# sent_id = GUM_bio_marbles-39
+# text = Marbles also hosts a weekly pop countdown on SiriusXM Hits 1 called "YouTube 15". [21] [22]
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	3	nsubj	_	Discourse=joint:111->104|Entity=(person-1)
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	hosts	host	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	Entity=(abstract-163
+5	weekly	weekly	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	pop	pop	NOUN	NN	Number=Sing	7	compound	_	_
+7	countdown	countdown	NOUN	NN	Number=Sing	3	obj	_	_
+8	on	on	ADP	IN	_	10	case	_	_
+9	SiriusXM	SiriusXM	PROPN	NNP	Number=Sing	10	compound	_	Entity=(abstract-164(organization-165)
+10	Hits	Hit	PROPN	NNPS	Number=Plur	7	nmod	_	_
+11	1	1	NUM	CD	NumType=Card	10	nummod	_	Entity=abstract-164)
+12	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	Discourse=elaboration:112->111
+13	"	''	PUNCT	``	_	14	punct	_	SpaceAfter=No
+14	YouTube	YouTube	PROPN	NNP	Number=Sing	12	xcomp	_	Entity=(abstract-166(organization-7)
+15	15	15	NUM	CD	NumType=Card	14	nummod	_	Entity=abstract-163)abstract-166)|SpaceAfter=No
+16	"	''	PUNCT	''	_	14	punct	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	_
+18	[	[	PUNCT	-LSB-	_	19	punct	_	Discourse=evidence:113->111|SpaceAfter=No
+19	21	21	NUM	CD	NumType=Card	3	dep	_	Entity=(abstract-167)|SpaceAfter=No
+20	]	]	PUNCT	-RSB-	_	19	punct	_	_
+21	[	[	PUNCT	-LSB-	_	22	punct	_	Discourse=joint:114->113|SpaceAfter=No
+22	22	22	NUM	CD	NumType=Card	3	dep	_	Entity=(abstract-168)|SpaceAfter=No
+23	]	]	PUNCT	-RSB-	_	22	punct	_	_
+

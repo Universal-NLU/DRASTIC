@@ -1,0 +1,6 @@
+# sent_id = GUM_bio_marbles-5
+# text = Early life
+# s_type = frag
+1	Early	early	ADJ	JJ	Degree=Pos	2	amod	_	Discourse=preparation:18->19|Entity=(time-24
+2	life	life	NOUN	NN	Number=Sing	0	root	_	Entity=time-24)
+

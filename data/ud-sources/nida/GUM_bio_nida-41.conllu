@@ -1,0 +1,44 @@
+# sent_id = GUM_bio_nida-41
+# text = Such a formal orientation that typifies this type of structural equivalence is called a "gloss translation" in which the translator aims at reproducing as literally and meaningfully as possible the form and content of the original.
+# s_type = decl
+1	Such	such	DET	PDT	PronType=Dem	4	det:predet	4:det:predet	Discourse=elaboration-additional:99->97:1|Entity=(163-abstract-new-cf7-4-sgl
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_
+3	formal	formal	ADJ	JJ	Degree=Pos	4	amod	4:amod	_
+4	orientation	orientation	NOUN	NN	Number=Sing	13	nsubj:pass	6:nsubj|13:nsubj:pass	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	4:ref	Discourse=elaboration-attribute:100->99:0
+6	typifies	typify	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	8:det	Entity=(156-abstract-giv:act-cf1*-2-coref
+8	type	type	NOUN	NN	Number=Sing	6	obj	6:obj	_
+9	of	of	ADP	IN	_	11	case	11:case	_
+10	structural	structural	ADJ	JJ	Degree=Pos	11	amod	11:amod	_
+11	equivalence	equivalence	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=156)163)
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	13:aux:pass	Discourse=same-unit_m:101->99:1
+13	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Entity=(164-abstract-new-cf8-4-coref
+15	"	''	PUNCT	``	_	17	punct	17:punct	SpaceAfter=No|XML=<q>
+16	gloss	gloss	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(165-abstract-new-cf9-1-sgl)
+17	translation	translation	NOUN	NN	Number=Sing	13	obj	13:obj|23:obl:in	SpaceAfter=No
+18	"	''	PUNCT	''	_	17	punct	17:punct	XML=</q>
+19	in	in	ADP	IN	_	20	case	20:case	Discourse=elaboration-attribute:102->101:0
+20	which	which	PRON	WDT	PronType=Rel	23	obl	17:ref	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	22:det	Entity=(132-person-giv:inact-cf2-2-coref
+22	translator	translator	NOUN	NN	Number=Sing	23	nsubj	23:nsubj	Entity=132)
+23	aims	aim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
+24	at	at	SCONJ	IN	_	25	mark	25:mark	_
+25	reproducing	reproduce	VERB	VBG	VerbForm=Ger	23	advcl	23:advcl:at	_
+26	as	as	ADV	RB	_	27	advmod	27:advmod	_
+27	literally	literally	ADV	RB	Degree=Pos	25	advmod	25:advmod	_
+28	and	and	CCONJ	CC	_	29	cc	29:cc	_
+29	meaningfully	meaningfully	ADV	RB	Degree=Pos	27	conj	25:advmod|27:conj:and	_
+30	as	as	SCONJ	IN	_	31	mark	31:mark	_
+31	possible	possible	ADJ	JJ	Degree=Pos	27	advcl	27:advcl:as	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	33:det	Entity=(134-abstract-giv:inact-cf3-2,4-coref(128-abstract-giv:inact-cf4-2-coref
+33	form	form	NOUN	NN	Number=Sing	25	obj	25:obj	Entity=128)
+34	and	and	CCONJ	CC	_	35	cc	35:cc	_
+35	content	content	NOUN	NN	Number=Sing	33	conj	25:obj|33:conj:and	Entity=(125-abstract-giv:inact-cf6-4-coref
+36	of	of	ADP	IN	_	38	case	38:case	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	38:det	Entity=(117-abstract-giv:inact-cf5-2-coref
+38	original	original	NOUN	NN	Number=Sing	33	nmod	33:nmod:of	Entity=117)125)134)164)|SpaceAfter=No
+39	.	.	PUNCT	.	_	13	punct	13:punct	_
+
+

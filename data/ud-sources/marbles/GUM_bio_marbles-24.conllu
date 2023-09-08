@@ -1,0 +1,29 @@
+# sent_id = GUM_bio_marbles-24
+# text = Marbles appeared as Eve in season 2 of Epic Rap Battles of History, episode 13, "Adam vs. Eve" [17]
+# s_type = decl
+1	Marbles	Marbles	PROPN	NNP	Number=Sing	2	nsubj	_	Discourse=joint:74->40|Entity=(person-1)
+2	appeared	appear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	as	as	ADP	IN	_	4	case	_	_
+4	Eve	Eve	PROPN	NNP	Number=Sing	2	obl	_	Entity=(person-110)
+5	in	in	ADP	IN	_	6	case	_	_
+6	season	season	NOUN	NN	Number=Sing	2	obl	_	Entity=(abstract-111
+7	2	2	NUM	CD	NumType=Card	6	nummod	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	Epic	Epic	PROPN	NNP	Number=Sing	11	amod	_	Entity=(abstract-112
+10	Rap	Rap	PROPN	NNP	Number=Sing	11	compound	_	Entity=(abstract-113)
+11	Battles	Battles	PROPN	NNP	Number=Sing	6	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	History	History	PROPN	NNP	Number=Sing	11	nmod	_	Entity=(abstract-114)abstract-111)abstract-112)|SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	episode	episode	NOUN	NN	Number=Sing	11	appos	_	Entity=(abstract-111
+16	13	13	NUM	CD	NumType=Card	15	nummod	_	Entity=abstract-111)|SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	"	''	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	Adam	Adam	PROPN	NNP	Number=Sing	15	appos	_	Entity=(abstract-111(person-115)
+20	vs.	vs.	ADP	IN	_	21	case	_	_
+21	Eve	Eve	PROPN	NNP	Number=Sing	19	nmod	_	Entity=(person-110)abstract-111)|SpaceAfter=No
+22	"	''	PUNCT	''	_	19	punct	_	_
+23	[	[	PUNCT	-LSB-	_	24	punct	_	Discourse=evidence:75->74|SpaceAfter=No
+24	17	17	NUM	CD	NumType=Card	2	dep	_	Entity=(abstract-116)|SpaceAfter=No
+25	]	]	PUNCT	-RSB-	_	24	punct	_	_
+

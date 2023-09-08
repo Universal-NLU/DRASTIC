@@ -1,0 +1,19 @@
+# sent_id = GUM_bio_marbles-25
+# text = She played a banana in The Annoying Orange episode "Fake n' Bacon".
+# s_type = decl
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Discourse=sequence:76->74|Entity=(person-1)
+2	played	play	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	Entity=(object-117
+4	banana	banana	NOUN	NN	Number=Sing	2	obj	_	Entity=object-117)
+5	in	in	ADP	IN	_	9	case	_	_
+6	The	the	DET	DT	Definite=Def|PronType=Art	9	det	_	Entity=(abstract-118
+7	Annoying	Annoying	PROPN	NNP	Number=Sing	8	amod	_	Entity=(object-119
+8	Orange	Orange	PROPN	NNP	Number=Sing	9	compound	_	Entity=object-119)
+9	episode	episode	NOUN	NN	Number=Sing	2	obl	_	Entity=abstract-118)
+10	"	''	PUNCT	``	_	11	punct	_	SpaceAfter=No
+11	Fake	Fake	PROPN	NNP	Number=Sing	9	appos	_	Entity=(abstract-118
+12	n'	and	CCONJ	CC	_	13	cc	_	_
+13	Bacon	Bacon	PROPN	NNP	Number=Sing	11	conj	_	Entity=abstract-118)|SpaceAfter=No
+14	"	''	PUNCT	''	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	_	_
+

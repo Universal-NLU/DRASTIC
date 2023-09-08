@@ -1,0 +1,14 @@
+# sent_id = GUM_academic_epistemic-34
+# s_type = decl
+# text = These institutions do not exist solely to credential experts.
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	2:det	Discourse=antithesis:118->120:1|Entity=(organization-158-giv:act-2-coref
+2	institutions	institution	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=158)
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
+4	not	not	PART	RB	Polarity=Neg	5	advmod	5:advmod	_
+5	exist	exist	VERB	VB	VerbForm=Inf	0	root	0:root	_
+6	solely	solely	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=purpose:119->118:0
+7	to	to	PART	TO	_	8	mark	8:mark	_
+8	credential	credential	VERB	VB	VerbForm=Inf	5	advcl	5:advcl:to	_
+9	experts	expert	NOUN	NNS	Number=Plur	8	obj	8:obj	Entity=(person-3-giv:inact-1-coref)|SpaceAfter=No
+10	.	.	PUNCT	.	_	5	punct	5:punct	_
+

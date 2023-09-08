@@ -1,0 +1,7 @@
+# newdoc id = GUM_bio_marbles
+# sent_id = GUM_bio_marbles-1
+# text = Jenna Marbles
+# s_type = frag
+1	Jenna	Jenna	PROPN	NNP	Number=Sing	0	root	_	Discourse=preparation:1->2|Entity=(person-1
+2	Marbles	Marbles	PROPN	NNP	Number=Sing	1	flat	_	Entity=person-1)
+

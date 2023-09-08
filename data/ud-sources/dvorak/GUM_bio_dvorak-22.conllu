@@ -1,0 +1,30 @@
+# sent_id = GUM_bio_dvorak-22
+# text = In 1892, Dvořák moved to the United States and became the director of the National Conservatory of Music of America in New York City.
+# s_type = decl
+1	In	in	ADP	IN	_	2	case	_	Discourse=sequence:55->17
+2	1892	1892	NUM	CD	NumType=Card	5	obl	_	Entity=(time-93)|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	Dvořák	Dvořák	PROPN	NNP	Number=Sing	5	nsubj	_	Entity=(person-1)
+5	moved	move	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	Entity=(place-74
+8	United	United	PROPN	NNP	Number=Sing	9	amod	_	_
+9	States	States	PROPN	NNPS	Number=Plur	5	obl	_	Entity=place-74)
+10	and	and	CCONJ	CC	_	11	cc	_	Discourse=sequence:56->55
+11	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	Entity=(person-1
+13	director	director	NOUN	NN	Number=Sing	11	xcomp	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	Entity=(organization-94
+16	National	National	PROPN	NNP	Number=Sing	17	amod	_	_
+17	Conservatory	Conservatory	PROPN	NNP	Number=Sing	13	nmod	_	_
+18	of	of	ADP	IN	_	19	case	_	_
+19	Music	Music	PROPN	NNP	Number=Sing	17	nmod	_	Entity=(abstract-95)
+20	of	of	ADP	IN	_	21	case	_	_
+21	America	America	PROPN	NNP	Number=Sing	17	nmod	_	Entity=(place-74)
+22	in	in	ADP	IN	_	25	case	_	_
+23	New	New	PROPN	NNP	Number=Sing	25	compound	_	Entity=(place-96
+24	York	York	PROPN	NNP	Number=Sing	23	flat	_	_
+25	City	City	PROPN	NNP	Number=Sing	17	nmod	_	Entity=person-1)organization-94)place-96)|SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	_
+

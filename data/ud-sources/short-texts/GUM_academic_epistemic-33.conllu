@@ -1,0 +1,23 @@
+# sent_id = GUM_academic_epistemic-33
+# s_type = imp
+# text = Consider institutions with a credentialing function, such as universities, bar associations, or peer review bodies.
+1	Consider	consider	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Discourse=preparation:117->124:2
+2	institutions	institution	NOUN	NNS	Number=Plur	1	obj	1:obj	Entity=(organization-158-new-1-coref
+3	with	with	ADP	IN	_	6	case	6:case	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(abstract-159-new-3-sgl
+5	credentialing	credential	VERB	VBG	VerbForm=Ger	6	amod	6:amod	_
+6	function	function	NOUN	NN	Number=Sing	2	nmod	2:nmod:with	Entity=159)|SpaceAfter=No
+7	,	,	PUNCT	,	_	10	punct	10:punct	_
+8	such	such	ADJ	JJ	Degree=Pos	10	case	10:case	_
+9	as	as	ADP	IN	_	8	fixed	8:fixed	_
+10	universities	university	NOUN	NNS	Number=Plur	2	nmod	2:nmod:such_as	Entity=(organization-160-new-1-coref)|SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	13:punct	_
+12	bar	bar	NOUN	NN	Number=Sing	13	compound	13:compound	Entity=(organization-161-new-2-sgl
+13	associations	association	NOUN	NNS	Number=Plur	10	conj	2:nmod:such_as|10:conj:or	Entity=161)|SpaceAfter=No
+14	,	,	PUNCT	,	_	18	punct	18:punct	_
+15	or	or	CCONJ	CC	_	18	cc	18:cc	_
+16	peer	peer	NOUN	NN	Number=Sing	17	compound	17:compound	Entity=(organization-162-new-3-sgl(abstract-163-new-2-sgl
+17	review	review	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=163)
+18	bodies	body	NOUN	NNS	Number=Plur	10	conj	2:nmod:such_as|10:conj:or	Entity=162)158)|SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	1:punct	_
+

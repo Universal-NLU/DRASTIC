@@ -1,0 +1,17 @@
+# sent_id = GUM_academic_census-33
+# s_type = decl
+# text = Next, we present the results of our work in two sections.
+1	Next	next	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=sequence_m:98->96:1|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	1:punct	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-161-giv:act-1-ana)
+4	present	present	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(abstract-200-new-2-sgl
+6	results	result	NOUN	NNS	Number=Plur	4	obj	4:obj	_
+7	of	of	ADP	IN	_	9	case	9:case	_
+8	our	our	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(abstract-201-new-2-sgl(person-161-giv:act-1-ana)
+9	work	work	NOUN	NN	Number=Sing	6	nmod	6:nmod:of	Entity=201)200)
+10	in	in	ADP	IN	_	12	case	12:case	_
+11	two	two	NUM	CD	NumForm=Word|NumType=Card	12	nummod	12:nummod	Entity=(abstract-202-new-2-coref
+12	sections	section	NOUN	NNS	Number=Plur	4	obl	4:obl:in	Entity=202)|SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+

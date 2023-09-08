@@ -1,0 +1,26 @@
+# sent_id = GUM_bio_nida-31
+# text = While the impact of a translation may be close to the original, there can be no identity in detail.
+# s_type = decl
+1	While	while	SCONJ	IN	_	9	mark	9:mark	Discourse=adversative-concession:70->71:0
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(115-abstract-new-cf1-2-sgl
+3	impact	impact	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	_
+4	of	of	ADP	IN	_	6	case	6:case	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(116-abstract-new-cf4-2-sgl
+6	translation	translation	NOUN	NN	Number=Sing	3	nmod	3:nmod:of	Entity=116)115)
+7	may	may	AUX	MD	VerbForm=Fin	9	aux	9:aux	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	9:cop	_
+9	close	close	ADV	RB	Degree=Pos	16	advcl	16:advcl:while	_
+10	to	to	ADP	IN	_	12	case	12:case	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(117-abstract-new-cf3-2-coref
+12	original	original	NOUN	NN	Number=Sing	9	obl	9:obl:to	Entity=117)|SpaceAfter=No
+13	,	,	PUNCT	,	_	9	punct	9:punct	_
+14	there	there	PRON	EX	PronType=Dem	16	expl	16:expl	Discourse=restatement-repetition_m:71->69:1
+15	can	can	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	16	aux	16:aux	_
+16	be	be	VERB	VB	VerbForm=Inf	0	root	0:root	_
+17	no	no	DET	DT	Polarity=Neg|PronType=Art	18	det	18:det	_
+18	identity	identity	NOUN	NN	Number=Sing	16	nsubj	16:nsubj	Entity=(118-abstract-new-cf2-1-sgl
+19	in	in	ADP	IN	_	20	case	20:case	_
+20	detail	detail	NOUN	NN	Number=Sing	18	nmod	18:nmod:in	Entity=(119-abstract-new-cf5-1-sgl)118)|SpaceAfter=No
+21	.	.	PUNCT	.	_	16	punct	16:punct	_
+
+

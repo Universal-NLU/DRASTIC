@@ -1,0 +1,37 @@
+# sent_id = GUM_bio_marbles-18
+# text = Her video "How To Avoid Talking To People You Don't Want To Talk To "was featured in articles by The New York Times and ABC News in August 2011.
+# s_type = decl
+1	Her	her	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	Discourse=joint:49->41|Entity=(abstract-76(person-1)
+2	video	video	NOUN	NN	Number=Sing	19	nsubj:pass	_	Entity=abstract-76)
+3	"	''	PUNCT	``	_	6	punct	_	SpaceAfter=No
+4	How	how	SCONJ	WRB	PronType=Int	6	mark	_	Entity=(abstract-76
+5	To	to	PART	TO	_	6	mark	_	_
+6	Avoid	avoid	VERB	VB	VerbForm=Inf	2	acl	_	_
+7	Talking	talk	VERB	VBG	VerbForm=Ger	6	xcomp	_	_
+8	To	to	ADP	IN	_	9	case	_	_
+9	People	people	NOUN	NNS	Number=Plur	7	obl	_	_
+10	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	Discourse=elaboration:50->49|Entity=(person-71)
+11	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+12	n't	not	PART	RB	Polarity=Neg	13	advmod	_	_
+13	Want	want	VERB	VB	VerbForm=Inf	9	acl:relcl	_	_
+14	To	to	PART	TO	_	15	mark	_	_
+15	Talk	talk	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	To	to	PART	TO	_	15	obl	_	Entity=abstract-76)
+17	"	''	PUNCT	``	_	6	punct	_	SpaceAfter=No
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux:pass	_	Discourse=same-unit:51->49
+19	featured	feature	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	articles	article	NOUN	NNS	Number=Plur	19	obl	_	Entity=(abstract-77
+22	by	by	ADP	IN	_	26	case	_	_
+23	The	the	DET	DT	Definite=Def|PronType=Art	26	det	_	Entity=(organization-78
+24	New	New	PROPN	NNP	Number=Sing	25	compound	_	Entity=(place-79
+25	York	York	PROPN	NNP	Number=Sing	26	compound	_	Entity=place-79)
+26	Times	Times	PROPN	NNP	Number=Sing	21	nmod	_	Entity=organization-78)
+27	and	and	CCONJ	CC	_	29	cc	_	_
+28	ABC	ABC	PROPN	NNP	Number=Sing	29	compound	_	Entity=(organization-80
+29	News	News	PROPN	NNP	Number=Sing	26	conj	_	Entity=abstract-77)organization-80)
+30	in	in	ADP	IN	_	31	case	_	_
+31	August	August	PROPN	NNP	Number=Sing	29	nmod	_	Entity=(time-81
+32	2011	2011	NUM	CD	NumType=Card	31	nmod:tmod	_	Entity=(time-82)time-81)|SpaceAfter=No
+33	.	.	PUNCT	.	_	19	punct	_	_
+
