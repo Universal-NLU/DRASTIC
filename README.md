@@ -26,13 +26,13 @@ The repository has the following structure:
 └── scripts
 ```
 
-`data` contains the `drs-annotations`, in a clausal format, as well as the corresponding `ud-sources` from the [GUM corpus](https://github.com/UniversalDependencies/UD_English-GUM/tree/bc5b73d4a1c697a09368812575656328af323197). The semantic annotations are given in two versions: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each directory, the texts are divided by sub-corpus, and named for their corresponding UD `sent\_id`s (for details, see Haug et al. 2023, referenced below).
+`data` contains the `drs-annotation`, in a clausal format, as well as the corresponding `ud-sources` from the [GUM corpus](https://github.com/UniversalDependencies/UD_English-GUM/tree/bc5b73d4a1c697a09368812575656328af323197). The semantic annotations are given in two versions: one with sentence-internal anaphora resolved (`anaphora-resolution`) and one without (`no-anaphora-resolution`). Within each directory, the texts are divided by sub-corpus, and named for their corresponding UD `sent_id`s (for details, see Haug et al. 2023, referenced below).
 
 `scripts` contains a script (`flatten_clause_notation.py`) which will 'flatten' PMB-style DRSs into our simplified format. We also provide a shell script (`flatten_clause_notation_in_batch.sh`) to run this on multiple files at once.
 
 If you use this data, please cite the following paper:
 
-Haug, Dag T. T., Jamie Y. Findlay and Ahmet Yıldırım. 2023. The long and the short of it: DRASTIC, a semantically annotated dataset containing sentences of more natural length. _Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)_. Association for Computational Linguistics.
+Haug, Dag T. T., Jamie Y. Findlay and Ahmet Yıldırım. 2023. The long and the short of it: DRASTIC, a semantically annotated dataset containing sentences of more natural length. In _Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)_, 89–98. Association for Computational Linguistics.
 
 ```
   @inproceedings{haug_etal:drastic,
@@ -40,9 +40,9 @@ Haug, Dag T. T., Jamie Y. Findlay and Ahmet Yıldırım. 2023. The long and the 
     year            = {2023},
     author          = {Dag T. T. Haug and Jamie Y. Findlay and Ahmet Y\i{}ld\i{}r\i{}m},
     booktitle       = {{Proceedings of the 4th International Workshop on Designing Meaning Representations (DMR 2023)}},
-    pages           = {},
+    pages           = {89--98},
     publisher       = {Association for Computational Linguistics},
-    url             = {}
+    url             = {https://aclanthology.org/2023.dmr-1.9}
   }
 ```
 
